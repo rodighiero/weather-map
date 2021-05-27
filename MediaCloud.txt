@@ -1,0 +1,9 @@
+
+For stories
+https://api.mediacloud.org/api/v2/stories_public/single/333682533?key=b2ef1a99a8fdbb84afafe742fd437c0942703072bb98242ba0eed9b8411e1735
+
+For media
+https://api.mediacloud.org/api/v2/media/single/1?key=b2ef1a99a8fdbb84afafe742fd437c0942703072bb98242ba0eed9b8411e1735
+
+GitHub
+https://github.com/mediacloud/backend/blob/master/doc/api_2_0_spec/api_2_0_spec.md#request-limits

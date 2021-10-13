@@ -1,658 +1,5563 @@
-White House,11,9
-United Nations,14,12
-World Bank,10,7
-Applebee,8,1
-Tony Blair Associates,21,1
-Astana International Financial Centre,37,1
-Lamoda,6,1
-silver globe,12,1
-marketing department of Kazakhtelecom,37,1
-New York Times,14,23
-Volkswagen,10,1
-Tupamaros,9,1
-CBS,3,1
-New York University,19,1
-Morgan,6,1
-Metropolitan Museum of Art,26,1
-IBM,3,1
-Adele,5,1
-Westinghouse,12,1
-Smithsonian Institution,23,1
-Whitney Museum of American Art,30,1
-MoMA,4,2
-Columbus Circle,15,1
-Brooklyn Museum,15,1
-Brooklyn Historical Society,27,1
-City College of New York,24,1
-Neue Galerie,12,1
-Korean army,11,1
-Cooper Hewitt,13,2
-brooklynhistory.org,19,1
-Dia Center for the Arts,23,1
-Morgan Library & Museum,23,1
-Garden Commission,17,1
-brooklynmuseum.org,18,1
-Cooper Hewitt Smithsonian Design Museum,39,1
-Adele Bloch-Bauer,17,1
-Gwendolyn Knight Lawrence Foundation,36,1
-Seattle/Artists Rights Society,30,1
-Museum & Gallery,16,1
-Ringl & Pit,11,1
-Mirror Labyrinth NY,19,1
-Associated Press,16,4
-Dominion University,19,2
-Pew Environment Group,21,2
-Atlantic bluefin,16,2
-I.U.C.N.,8,2
-western Atlantic bluefin,24,2
-U.S. National Coalition for Marine Conservation,47,2
-West Virginia University,24,1
-Architecture Research Office,28,1
-Harvard,7,3
-Institute of Medicine,21,1
-Carnegie Mellon,15,1
-Carnegie Mellon University,26,2
-National Academies,18,2
-National Academy of Science,27,1
-Green Design Institute,22,1
-Cambridge University,20,1
-Times,5,2
-Stanford University,19,3
-San Francisco State University,30,1
-Yale School of Forestry,23,1
-European Molecular Biology Laboratory,37,1
-University of California, Berkeley,34,5
-Vo Trong Nghia Architects,25,1
-University of California,24,4
-UCLA,4,2
-Energy Commission,17,1
-NRG Energy,10,2
-CPUC,4,1
-board of supervisors,20,1
-California Public Utilities,27,1
-Bloomberg New Energy Finance,28,2
-Across India,12,1
-Energy Resources Institute,26,1
-European Biomass Industry Association,37,1
-Bermaco Energy Systems,22,1
-Biomass Energy          Manpreet Romana,39,1
-Punjab Biomass,14,1
-Environmental Protection Agency,31,13
-E.P.A.,6,9
-Congress,8,21
-General Motors,14,3
-Boeing,6,3
-Keystone,8,3
-Alaska Airlines,15,1
-Energy Department,17,4
-Lufthansa,9,1
-Mascoma,7,1
-Valero Energy,13,1
-refiners association,20,1
-National Petrochemicals and Refiners Association,48,1
-Advanced Biofuels Association,29,2
-Kyocera,7,1
-Suntech Power Holdings,22,1
-KPMG,4,1
-Ministry of Economy,19,1
-International Energy Agency,27,5
-Toyota Motor,12,1
-RTS,3,1
-Goldman Sachs Group,19,1
-clean energy,12,1
-Nippon Steel,12,1
-Q-Cells,7,1
-Japan Photovoltaic Energy Association,37,1
-environmental policy bureau of Keidanren,40,1
-Defense Department,18,5
-Medicare,8,2
-Energy,6,2
-Advanced Research Project Agency,32,1
-Hydrogen Energy Association,27,1
-Office of management,20,1
-Institute for Advanced Study,28,1
-State,5,1
-European Commission,19,3
-HFCs,4,1
-Senate,6,13
-House,5,9
-Public Utilities Commission,27,1
-PUC,3,1
-U.S. EPA,8,1
-Castle & Cooke,14,1
-Hawaii Public Utilities Commission,34,1
-Hawaiian Electric Co,20,2
-HECO,4,1
-Castle & Cooke Inc.,19,1
-Hawaii Department of Business,29,1
-White House Office of Management and Budget,43,1
-Council of Industrial Boiler Owners,35,1
-Columbia University,19,3
-tropics,7,3
-University of Puerto Rico,25,2
-El Yunque National Forest,25,2
-digital imaging,15,2
-sierra,6,2
-El Yunque,9,2
-International Center for Tropical Agriculture,45,2
-New York Times RIO GRANDE,25,1
-New York Times Jazlynn Hall,27,2
-New York Times Henry Fountain,29,2
-Marine,6,1
-CSIRO,5,1
-State Oceanic Administration,28,1
-Chinese Academy of Fishery Sciences,35,1
-Reuters,7,7
-BBC,3,2
-YouTube,7,1
-Communist Party,15,2
-U.A.E.,6,2
-Fox News host,13,1
-Shanghai stock exchange,23,1
-Carlyle Group,13,1
-New York Herald,15,1
-National Geographic Society,27,1
-Facebook Messenger,18,1
-Netflix Australia,17,1
-Photo Credit Charles Krupa/ Associated Press,44,1
-University of Maine,19,1
-Clemson University,18,1
-Monmouth University,19,1
-Sierra Club,11,2
-Hawaiian Electric,17,1
-FWS,3,1
-HCP,3,1
-Sierra Club Maui Group,22,1
-Maui Electric Co. Ltd.,22,1
-shearwater burrows,18,1
-Colt Group,10,1
-B.I.Q. house,12,1
-Royal Institute of British Architects USA,41,1
-Facebook,8,5
-European Union,14,8
-Google,6,3
-Ford,4,1
-Amazon,6,1
-Hyundai,7,1
-JetBlue,7,1
-Nissan,6,1
-Renault,7,1
-Uber,4,1
-American tech giants,20,1
-Max fleet,9,1
-Stanford,8,1
-Princeton University,20,1
-National Cancer Institute,25,1
-Harvard School of Public Health,31,1
-J. Craig Venter Institute,25,2
-Goldman Sachs,13,1
-Goldman,7,1
-Treasury,8,3
-Finance Committee,17,1
-Capitol Hill,12,1
-Senate Energy and Natural Resources Committee,45,2
-American Wind Energy Association,32,1
-Nascar,6,1
-Congress’s Joint Committee on Taxation,38,1
-Robert D. Burch Center,22,1
-Roma,4,1
-Fidesz,6,1
-New York Times                                                                                                     HALMAJ,121,1
-Department of Energy,20,5
-DOE,3,1
-National Institutes of Health,29,1
-National Nuclear Security Administration,40,1
-Strategic Petroleum Reserve,27,1
-NNSA,4,1
-new budget authority,20,1
-basic energy sciences,21,1
-National Oceanic and Atmospheric Administration,47,2
-Southern Ocean Sanctuaries,26,1
-Antarctic Marine,16,1
-Antarctic conservation commission,33,1
-London Stock Exchange,21,2
-Exxon Mobil,11,4
-Gramercy Park Hotel,19,2
-BMC Public Health,17,1
-Energy Resource Institute,25,1
-Chelsea,7,1
-Skanska,7,1
-RMIT University,15,1
-Bovis,5,1
-environment committee,21,1
-London Assembly,15,1
-Olympics Save East London,25,1
-Stratford International train station,37,1
-smart energy metering,21,1
-O.D.A.,6,1
-West Ham United soccer,22,1
-National Academy of Sciences,28,4
-U.S. Department of Agriculture,30,1
-FAO,3,1
-Cornell University,18,1
-ARS,3,2
-U.N. Food and Agriculture Organization,38,1
-James Hutton Institute,22,1
-GreenWood Resources,19,1
-Tsinghua University,19,2
-University of British Columbia,30,2
-American Association for the Advancement of Science,51,2
-Indian Institute of Technology Bombay,37,1
-Credit  Institute for Health Metrics & Evaluation,49,1
-National Weather Service,24,1
-University of Exeter,20,1
-McKinsey & Company,18,1
-Israeli Ministry of National Infrastructures,44,1
-Energy Institute,16,2
-University of Texas at Austin,29,3
-Vox,3,2
-Newsweek,8,1
-lions,5,1
-AOC,3,1
-heartland of America,20,1
-Santa Barbara Independent,25,1
-Socialist Party,15,1
-Green Party,11,1
-Social Democracy,16,1
-Credit             Antonio Lacerda/European Pressphoto Agency,61,1
-Duke University,15,2
-North Atlantic,14,1
-Stellwagen Bank National Marine,31,1
-Smithsonian,11,1
-Lincoln Center,14,1
-Hunter College,14,1
-Diamond Schmitt Architects,26,1
-Philharmonic,12,1
-Geffen Hall,11,1
-Smithsonian Design Museum,25,1
-Diller Scofidio & Renfro,24,1
-Heatherwick Studio,18,1
-The New York Philharmonic,25,1
-Maison Symphonique de Montréal,30,1
-Credit             Emily Andrews for The New York Times,55,1
-Fisher Dachs,12,1
-EIA,3,1
-U.S. Energy Information Administration,38,1
-Environment America,19,1
-Pentagon,8,2
-Navy,4,4
-Natural Resources Defense Council,33,3
-Biotechnology Industry Organization,35,1
-nonprofit research group,24,1
-Solazyme,8,3
-Algal Biomass Organization,26,1
-Xcel Energy,11,1
-Xcel,4,1
-Minnesota Turkey Growers Association,36,1
-Pacific Forest Trust,20,1
-Biomass Power Association,25,1
-Pinchot Institute for Conservation,34,1
-University of Sussex,20,1
-Fukushima Daiichi,17,1
-Atomic Energy Commission,24,1
-Scottish Association for Marine Science,39,1
-Credit             Daniel Vogedes/The Arctic University of Norway,65,1
-Wuppertal Institute,19,1
-Freiburg University,19,1
-Fraunhofer Institute for Solar Energy Systems,45,1
-University of Colorado,22,1
-University of Maryland,22,2
-University of South Florida,27,1
-Credit Joseph Gamble,20,1
-Republican,10,1
-State Department,16,1
-Keystone XL pipeline,20,1
-Solyndra,8,2
-Dow,3,1
-Moody’s Investors Service,25,1
-Republican energy,17,1
-Center for International Energy,31,1
-international energy affairs,28,1
-New York Times  Mitt Romney,27,1
-World Health Organization,25,2
-Xinhua,6,1
-Ministry of Environmental Protection,36,1
-Wood Mackenzie,14,1
-Beijing Municipal Environmental Protection Bureau,49,1
-Boston University,17,2
-Harvard University,18,1
-Lux Research,12,2
-MIT,3,1
-Penn State,10,1
-Penn State University,21,1
-Massachusetts Institute of Technology,37,2
-Arizona State University,24,1
-Lawrence Berkeley National Laboratory,37,2
-Exxon Mobil Corp,16,1
-Joule,5,1
-Wageningen University,21,1
-Sapphire Energy,15,1
-Wyss Institute,14,1
-San Diego Center for Algae Biotechnology,40,1
-GreenFuel Technologies,22,1
-GreenFuel,9,1
-Harvard's Church,16,1
-Harvard's George Church,23,1
-Easel Biotechnologies,21,1
-Credit             Fred R. Conrad/The New York Times,52,1
-Wall Street Journal,19,1
-Army Corps of Engineers,23,1
-Bloomberg News,14,1
-NEW YORK TIMES     The Nuclear Regulatory Commission,52,1
-Supreme Court,13,1
-Treasury Department,19,1
-BLM,3,1
-Bureau of Land Management,25,1
-DEQ,3,1
-BPA,3,1
-National Wildlife Federation,28,1
-Forest Service,14,3
-state Department of Labor,25,1
-Sonoran Institute,17,1
-Montana Department of Fish,26,1
-NorthWestern Energy,19,1
-Montana DEQ,11,1
-Montana Wildlife Federation,27,1
-Montana Power Co.,17,1
-environmental center,20,1
-WECC,4,1
-Elkhorns Wildlife Management,28,1
-Craighead Foundation,20,1
-defense,7,1
-Army,4,1
-ASSOCIATED PRESS,16,2
-Pacific fleet,13,1
-Primus Green Energy,19,2
-S. NAVY,7,1
-U.N.,4,3
-NPR,3,1
-United Nations secretariat,26,1
-E.U.,4,2
-German Institute for International and Security Affairs,55,2
-SWP,3,1
-I.P.C.C.,8,1
-Duke,4,2
-Environmental Defense Fund,26,1
-federal Agriculture Department,30,1
-California Cattlemen’s Association,34,1
-California Beef Council,23,1
-New York Times Environmental Defense Fund,41,1
-Agriculture Department,22,2
-Purdue,6,2
-DuPont,6,3
-Royal DSM,9,2
-Abengoa,7,2
-University of Washington,24,1
-Rutgers University,18,1
-Dalhousie University,20,1
-University of Washington scientists,35,1
-U.W.’s  School of Aquatic and Fisheries Sciences,48,1
-Interior Department,19,1
-Energy Information Administration,33,1
-Rangers,7,1
-Independence Party,18,1
-Kentucky Derby,14,1
-lengths Dortmund,16,1
-El Niño,7,1
-Scripps Institution of Oceanography,35,1
-atmospheric CO,14,1
-Mauna Loa CO,12,1
-minima,6,1
-natural exchanges of CO,23,1
-Credit  Scripps Institution of Oceanography,43,1
-NOAA/ Scripps,13,1
-Credit  NOAA/ Scripps Institution,33,1
-Coca-Cola,9,1
-University of Michigan,22,2
-European Parliament,19,1
-EU,2,1
-Greenpeace EU,13,1
-Business Europe group,21,1
-ConocoPhillips,14,1
-Google Ventures,15,1
-GE Capital  and  NRG Energy,27,1
-IEA,3,1
-UNEP,4,1
-World Resources Institute,25,2
-United Nations Environment Program,34,1
-U.N.E.P.,8,1
-Rogers,6,1
-Justice Department,18,1
-CCS,3,1
-American Council,16,1
-Inc.,4,1
-Federal Energy Regulatory Commission,36,1
-Duke Energy,11,1
-Southern Alliance for Clean Energy,34,1
-Southern Co.,12,1
-Exelon Corp.,12,1
-Exelon,6,1
-American Electric Power,23,1
-FERC,4,1
-Duke Energy Corp.,17,1
-112th Congress,14,1
-SACE,4,1
-American Electric Power Co,26,1
-China Huaneng Group,19,1
-Progress Energy,15,1
-Progress Energy Inc.,20,1
-Southeastern utilities,22,1
-magic,5,1
-Chevrolet Cruze,15,1
-Bechtel  Hydrocarbon Technology Solutions,41,1
-Bechtel energy conglomerate,27,1
-Oxford University,17,1
-Yale University Press     A.,28,1
-Bloomberg administration,24,1
-Ernst & Young,13,2
-Asahi Shimbun,13,1
-Temple University,17,2
-Softbank,8,1
-Tokyo Electric Power Company,28,2
-Environment Ministry,20,1
-Chubu Electric Power,20,1
-Daiichi,7,2
-Sanyo,5,1
-Itochu,6,1
-Rikkyo University,17,1
-Institute of Energy Economics,29,1
-energy institute,16,1
-Institute for Sustainable Energy Policies,41,1
-energy economics institute,26,1
-Greenpeace U.K.,15,1
-London Museum of Water & Steam,30,1
-USDA,4,1
-Potsdam Institute for Climate Impact Research,45,1
-Horsham,7,1
-Department of Interior,22,1
-Energy and Natural Resources Committee,38,1
-U.S. Forest Service,19,1
-National Interagency Fire Center,32,1
-Secret Service,14,1
-New York,8,1
-United Airlines,15,1
-Shell,5,1
-Acciona,7,1
-Van Gogh Museum,15,1
-E-Werk’s co,11,1
-Intel Corporation,17,1
-NRG,3,1
-Green Mountain Energy,21,1
-REC,3,1
-Malkin Holdings,15,1
-Empire State Building,21,1
-the  Indianapolis Zoo,21,1
-Skype,5,1
-Shiva,5,1
-TCS,3,1
-Infosys,7,1
-Amul,4,1
-Welspun Energy,14,1
-T.E.R.I.,8,1
-Greenpeace,10,1
-Greenpeace India,16,1
-Rensselaer Polytechnic Institute,32,1
-University of Virginia’s Darden School of Business,50,1
-International Rectifier,23,1
-Shell Foundation,16,1
-Husk Power Systems,18,1
-dowser.org,10,1
-Husk Power,10,1
-rice husk char,14,1
-NASA,4,1
-Ames Research Center,20,1
-ReGen,5,1
-Silicon Valley center,21,1
-Unilever,8,1
-Procter & Gamble,16,1
-Hugoton,7,1
-Abengoa Bioenergy,17,1
-American Petroleum Institute,28,2
-Chattanooga Times,17,1
-Senate Environment and Public Works Committee,45,1
-R.F.S.,6,1
-GM,2,1
-Ministry of Agriculture,23,1
-Ecopetrol,9,1
-National Biofuels Federation,28,1
-Ingenio Providencia,19,1
-Colombian Sugarcane Research Center,35,1
-Mayagüez SA,11,1
-Catholic university,19,1
-Monterey Bay Aquarium Research Institute,40,1
-marine institute,16,1
-Pontifical Catholic University of Chile,39,1
-Nature magazine,15,1
-California marine institute,27,1
-WWF,3,1
-National Science Foundation,27,1
-Ohio State,10,1
-Kent State University,21,1
-Cleveland Museum of Natural History,35,1
-Cleveland Botanical Garden,26,1
-Green Corps,11,1
-Pennsylvania Horticultural Society,34,1
-Philadelphia Green,18,1
-University of Edinburgh,23,2
-OPEC,4,1
-Brent,5,1
-Petroleum Exporting Countries,29,1
-bank Australia New Zealand Group,32,1
-IPCC,4,1
-social sciences,15,1
-M.I.T.,6,1
-UCSD,4,1
-Romm,4,1
-MDG,3,1
-SPM,3,1
-Oppenheimer,11,1
-IPCC Working Group,18,1
-better canaries,15,1
-NOAA,4,1
-Center for Biological Diversity,31,1
-Ocean Foundation,16,1
-Roger Williams University,25,1
-Convention on International Trade in Endangered Species,55,1
-environmental group  Conservation International,47,1
-Indonesia Nature Foundation,27,1
-House of Representatives,24,1
-Federal Trade Commission,24,2
-Western Union,13,1
-House Budget Committee,22,1
-National Association for the Advancement of Colored People,58,1
-Holocaust Memorial Council,26,1
-Pennsylvania Avenue Development Corporation,43,1
-Economic Development Agency,27,1
-Tennessee Valley Authority and Appalachian Regional Commission,62,1
-San Antonio Junior Chamber of Commerce,38,1
-National Taxpayers Association,30,1
-National Taxpayer Limitation Committee,38,1
-taxpayer committee,18,1
-Wright brothers,15,1
-University of North Carolina,28,1
-Sanofi,6,1
-Celera,6,1
-N.I.H.,6,2
-Synthetic Genomics Inc.,23,1
-Celera Genomics,15,1
-human genome project,20,1
-GeneWatch,9,1
-S.G.I.,6,1
-S.G.I. office,13,1
-New York Times  Synthetic Genomics,34,1
-Lancet,6,1
-Organization for Economic Cooperation and Development,53,1
-United States Environmental Protection Agency,45,1
-Health Effects Institute,24,1
-Drax,4,1
-University of Oxford,20,1
-SSE,3,1
-Enel,4,1
-Drax power station,18,1
-Biofuelwatch,12,1
-New York Times                                                                 DRAX,83,1
-New York City Police Department,31,1
-Warwick farm,12,1
-Green Angel CBD,15,1
-Hudson Valley Biomass Processors,32,1
-Barclays,8,1
-U.S. Treasury Department,24,1
-Enel Green Power,16,1
-Barclays Capital,16,1
-Clean Energy,12,1
-European stock exchanges,24,1
-Heritage Foundation,19,1
-Center for Global Development,29,1
-hydro development,17,1
-Wheeler examined International Energy Agency,44,1
-sap,3,1
-American Legislative Exchange Council,37,1
-Heartland Institute,19,1
-American Council on Renewable Energy,36,1
-Ohio House of Representatives,29,1
-Energy and Policy Institute,27,1
-United States Energy Information Administration,47,1
-Credit             Laura J. Gardner/The Journal Gazette,55,1
-Oxfam,5,1
-International Finance Corporation,33,1
-bet,3,1
-African Development Bank,24,1
-Sinopec,7,1
-Oakland Institute,17,1
-Addax,5,1
-Addax Petroleum,15,1
-Philipp Brothers,16,1
-Addax Bioenergy,15,1
-German Investment Corporation,29,1
-social development group,24,1
-Addax & Oryx Group,18,1
-Princeton,9,1
-University of Groningen,23,1
-European Environmental Agency,29,1
-new power plant policy,22,1
-McDonald,8,1
-University of East Anglia,25,1
-Carnegie Institution,20,1
-National Center for Atmospheric Research,40,1
-Columbia University Earth Institute,35,1
-National Center for Atmospheric Research and the University of Adelaide,71,1
-EPA,3,2
-Sierra,6,1
-American Chemistry Council,26,2
-Robinson & Cole LLP,19,1
-Chrysler,8,1
-International Commission,24,1
-Wildlife Conservation Society,29,1
-hawks,5,1
-FDA,3,1
-House Energy and Commerce Committee,35,1
-U.S. Chamber of Commerce,24,1
-American Farm Bureau,20,1
-Independent Petroleum Association of America,44,1
-American Iron and Steel Institute,33,1
-House Office of Information and Regulatory Affairs,50,1
-State Council,13,1
-Development Research Center,27,1
-INEOS,5,1
-INEOS Bio,9,1
-Indian River BioEnergy Center,29,1
+nyt_labeller_v100,611
+politics and government,92
+oil (petroleum) and gasoline,62
+White House,41
+United Nations,31
+World Bank,24
+Nikita Khrushchev,1
+Stalin,1
+Sacha Baron Cohen,1
+Nursultan Nazarbayev,1
+Domino,1
+Aleksandr Solzhenitsyn,1
+Applebee,1
+Fyodor Dostoyevsky,1
+Tony Blair Associates,1
+patty,1
+Nur Alem,1
+Astana International Financial Centre,1
+Kairat Kelimbetov,1
+Vera Kobalia,1
+Lamoda,1
+silver globe,1
+Livia Paggi,1
+Talgat Ermegiyayev,1
+marketing department of Kazakhtelecom,1
+Bekarys Nurumbetov,1
+Alexios Shaw,1
+medicine and health,53
+environment,238
+editorials,9
+diseases and conditions,19
+air pollution,111
+water,19
+Obama,65
+Senate,50
+EPA,53
+OECD,2
+James Inhofe,3
+ED JONES/AFP,2
+New York Times,36
+Hugo Chávez,1
+Volkswagen,2
+Tupamaros,1
+José Mujica,1
+Pepe,1
+José Batlle y Ordóñez,1
+Tabaré Vázquez,1
+Lucía Topolansky,1
+Constantin Costa-Gavras,1
+Matilde Campodonico,1
+Henry Engler,1
+Daniel Mitrione,1
+Luz Díaz,1
+food,57
+research,73
+genetics and heredity,19
+dna (deoxyribonucleic acid),3
+biology and biochemistry,7
+genetic engineering,2
+FDA,7
+DSM,2
+Monsanto,1
+Syngenta,1
+wilt,1
+Paul J Richards/AFP/Getty,1
+Wageningen University,2
+Dominic Basulto,1
+BioAg Alliance,1
+labor,29
+energy and power,204
+electric light and power,156
+light,158
+recycling of waste materials,6
+weather,73
+snow and snowstorms,5
+waste materials and disposal,7
+chemistry,36
+Congress,107
+Environmental Protection Agency,42
+Gina McCarthy,6
+boiler owners council,1
+fish and other marine life,38
+animals,58
+fishing sport,11
+fishing commercial,11
+House,32
+DNR,8
+Red Lake,1
+Mille Lacs,7
+Don Pereira,2
+Red Lake walleye fishery,1
+law and legislation,46
+finances,119
+budgets and budgeting,19
+taxation,12
+insurance,2
+housing,9
+mortgages,2
+Trump,28
+FHA,1
+IRS,9
+VA,1
+SHAWN,1
+ATTOM Data Solutions,1
+Ken Harney,1
+suits and litigation,5
+factories and industrial plants,9
+Xcel Energy,16
+Mark Dayton,6
+Public Utilities Commission,6
+PUC,4
+Benson,4
+Steve Olson,2
+Xcel,17
+Minnesota DNR,3
+Superior National Forest,1
+Scott Dane,2
+Minnesota Turkey Growers Association,2
+Gregg Mast,4
+Northern States Power Co,1
+forest management,1
+Laurentian Energy Authority,2
+endangered and extinct species,11
+Marine Stewardship Council,2
+Pew Charitable Trust,1
+Central Pacific Fisheries Commission,2
+Pacific bluefin,2
+Atlantic bluefin,4
+MITO,1
+Grantly Galland,2
+Pew Charitable Trusts' international fisheries,1
+no index terms from nytimes,7
+art,2
+reviews,3
+CBS,5
+Yoko Ono,1
+Benjamin Franklin Parkway,1
+Anna Wintour,1
+Martin Luther King Jr,2
+Judy Collins,1
+Robert E Lee,3
+New York University,3
+Thomas,3
+Morgan,1
+Metropolitan Museum of Art,1
+Theo,1
+IBM,1
+Adele,1
+Van Gogh,1
+Westinghouse,1
+Smithsonian Institution,1
+Chris Doyle,1
+Andrew Carnegie,1
+Whitney Museum of American Art,1
+Ulysses S Grant,1
+Michael Smith,1
+Andy Warhol,1
+Jasper Johns,1
+Richard Brautigan,1
+John Singer Sargent,1
+Romare Bearden,1
+Jean-Michel Basquiat,1
+MoMA,2
+Columbus Circle,1
+Brooklyn Museum,1
+Ronald S Lauder,1
+Camille,1
+Peter Stuyvesant,1
+George Caleb Bingham,1
+Brooklyn Historical Society,1
+David Zwirner,1
+Gustav Klimt,1
+Gustave Caillebotte,1
+City College of New York,1
+William H Cosby Jr,1
+Edward Hopper,1
+Ben Shahn,1
+Roger Brown,1
+Roberta Smith,1
+Charles White,1
+Ken Johnson,1
+Robert Irwin,1
+Odetta,1
+Shannon Ebner,1
+Kenneth Price,1
+Richard Estes,1
+Hans Hofmann,1
+Neue Galerie,1
+Korean army,1
+Jacob Lawrence,1
+Simon Denny,1
+Paul Durand-Ruel,1
+Zanele Muholi,1
+Albert Oehlen,1
+Maccarone,1
+Holland Cotter,1
+Jon Pareles,1
+Cooper Hewitt,2
+Doris Salcedo,1
+Lynda Benglis,1
+Pierre Huyghe,1
+Kevin Sampson,1
+Paul Rand,1
+Mike Hale,1
+George Adams,1
+Sarah Charlesworth,1
+Jason Farago,1
+brooklynhistoryorg,1
+Charles Sheeler,1
+Carol Bove,1
+Zoe Leonard,1
+Dayanita Singh,1
+Samara Golden,1
+Dia Center for the Arts,1
+Morgan Library & Museum,1
+Andrew Kreps,1
+Frederic Leighton,1
+Peter Halley,1
+Greene Naftali,1
+Garden Commission,1
+brooklynmuseumorg,1
+Martha Schwendener,1
+Albert Pinkham Ryder,1
+Cooper Hewitt Smithsonian Design Museum,1
+James Cohan,1
+Stephen Somerstein,1
+Atul Dodiya,1
+Bruce Museum,1
+Brenna Murphy,1
+Adele Bloch-Bauer,1
+Piotr Uklanski,1
+Wael Shawky,1
+Stanley Whitney,1
+Nikhil Chopra,1
+Gwendolyn Knight Lawrence Foundation,1
+Seattle/Artists Rights Society,1
+Diana Simpson,1
+Merrill C Berman,1
+Elmer Bischoff,1
+Jeppe Hein,1
+Ruth Root,1
+Yasuo Kuniyoshi,1
+Lee Mullican,1
+Grete Stern,1
+Ferdinand Bloch-Bauer,1
+Joachim Wtewael,1
+Andrew Edlin,1
+Nonggirrnga Marawili,1
+Museum & Gallery,1
+Bob Dylan lyrics,1
+Alex da Corte,1
+Marguerite Zorach,1
+Elie Nadelman,1
+Ferdinand Kriwet,1
+Ebecho Muslimova,1
+Emmet Gowin,1
+Horacio Coppola,1
+Ellen Auerbach,1
+Ringl & Pit,1
+Mirror Labyrinth NY,1
+Sreshta Rit Premnath,1
+★ Clark Art Institute,1
+James ‘Son Ford,1
+★ De Wain Valentine,1
+Associated Press,31
+World Health Organization,8
+University of California,10
+Stanford University,12
+San Diego,1
+Makerere University School of Public Health,1
+Sam Heft-Neal,1
+Denis Akankunda Bwesigye,1
+Dominion University,2
+Pew Environment Group,2
+Susan Lieberman,2
+white marlin,2
+IUCN,3
+Kent Carpenter,2
+bonitos,2
+Jean-Christophe Vié,2
+western Atlantic bluefin,2
+T albacares,2
+T alalunga,2
+T obesus,2
+Kajikia albida,2
+US National Coalition for Marine Conservation,2
+global warming,93
+Greenpeace,5
+economic conditions and trends,37
+travel and vacations,29
+Facebook,64
+Davan Maharaj,33
+Steve Tsang,15
+University of Nottingham,15
+NYE,29
+Nicole Liu,15
+Xi Jinping administration,15
+Alexandra Li,15
+School of Contemporary Chinese Studies,15
+Times' Beijing bureau,15
+Dongsheng,15
+woody waste,29
+Zhang Yixin,15
+Fan Xin,15
+jonathankaiman@latimescom     Yingzhi Yang,15
+Zhu Yansen,15
+]  Xi Jinping,15
+Yin Wenfang,15
+fires and firefighters,24
+fires and firemen,17
+forests and forestry,18
+University of Wyoming,4
+US Forest Service,13
+Phil Duffy,2
+Erica Belmont,2
+Emily Beagle,2
+privatization,2
+wages and salaries,4
+social security (us),2
+government employees,2
+Supreme Court,7
+George W Bush,16
+House of Representatives,4
+Paul Ryan,5
+Ron Paul,3
+Ben Cardin,2
+Federal Reserve,2
+Social Security Administration,2
+Ezra,2
+John Sununu,2
+Center for Budget,2
+Center for Budget and Policy Priorities,2
+Ryan archives,2
+Social Security   Ryan,1
+dairy products,3
+USDA,8
+US Department of Agriculture,10
+University of Minnesota,22
+Star Tribune,5
+Mitch Davis,1
+Sun Country Airlines,1
+Innovation Center for US Dairy,1
+Sam Rikkers,1
+Fritz Ebinger,1
+Chad Frahm,1
+Dennis Haubenschild,1
+Northern Plains Dairy,1
+Commerce,1
+John Carroll,1
+Paul Wellstone,1
+St Paul,8
+National Conference of State Legislatures,1
+Michael Dukakis,1
+National Steel,1
+Jim Oberstar,1
+Mike Rothman,1
+Mark Phillips,1
+Bill Grant,1
+Pat Garofalo,1
+Rob Scott,1
+state Commerce Department,2
+Tom Rukavina,1
+David Tomassoni,1
+Gary Shaver,1
+Jon Kramer,1
+Glen Andersen,1
+Gary Cerkvenik,1
+Newport Partners,1
+Mountain Iron,1
+St Louis County Board of Commissioners,1
+Silicon Energy,1
+Mountain Iron Economic Development Authority,1
+Craig Wainio,1
+Seth Abate,1
+Crane Lake Sewer & Water District,1
+National Steel Pellet Co,1
+Mountain Iron authority,1
+Mountain Iron EDA,1
+Richard Nixon,4
+Chicago Tribune,6
+brown,7
+Marshall,4
+Wilma,2
+Anne,2
+Stanley,2
+Tribune,3
+Fred,3
+Cessna,2
+Dino,2
+Chris Walker,2
+Brookfield Zoo,2
+Kenneth C,2
+Shedd Aquarium,2
+Carl Akeley,2
+Maximo,2
+rex skeleton,2
+Jaap Hoogstraten,2
+hurricanes and tropical storms,9
+floods,4
+Alan Feuer,1
+Sandy,1
+West Virginia University,1
+Andrew M Cuomo,1
+Kate Orff,1
+Andrew C Revkin,1
+prophet Moses,1
+David W Chen,1
+Mireya Navarro,1
+Stephen Cassell,1
+Architecture Research Office,1
+UN,23
+Weizmann Institute of Science,4
+Ron Milo,4
+Emily Elhacham,2
+Harvard,10
+Institute of Medicine,1
+Carnegie Mellon,2
+Carnegie Mellon University,2
+National Academies,3
+National Academy of Science,1
+David Keith,1
+Lester Lave,1
+Jay Apt,2
+Green Design Institute,1
+Chris Hendrickson,1
+Gil Omenn,1
+Eugene Seskin,1
+Lester B Lave,1
+Joule Bergerson,1
+Francis McMichael,1
+trees and shrubs,14
+parks and other recreation areas,4
+leisure,4
+monuments and memorials,2
+Sergio,2
+Rio,2
+Pedra Bonita,2
+Barra da Tijuca,2
+Bico,2
+Afonso Pena,2
+Pedra da Gávea,2
+Sao Conrado,2
+Anna Atz Asen,2
+Praias Selvagens,2
+Julián Espinosa,2
+coatis,1
+gas (fuel),21
+Washington Post,35
+Shell,8
+MIT,3
+General Electric,3
+Syracuse University,1
+National Bureau of Economic Research,1
+Center for Energy,1
+Rochester Institute of Technology,1
+Brett Carlsen,2
+Enrico Mattei,1
+Christopher Knittel,1
+French Economic Observatory,1
+Elena Verdolini,1
+Eric Hittinger,1
+Charles Darwin,2
+Rafael Correa,2
+Wolf,1
+University of York,3
+Elizabeth Wilson,1
+Callum Roberts,1
+Galápagos Marine Reserve,1
+Pelayo Salinas de León,1
+Galápagos National Park Directorate,1
+Enric Sala/National,1
+international trade and world market,21
+Democratic Party,5
+Treasury,9
+Boeing,6
+Heritage Foundation,4
+Elizabeth Warren,1
+House Ways and Means Committee,2
+Caterpillar,4
+Delta Air Lines,2
+Sherrod Brown,2
+computers and the internet,10
+Cambridge University,1
+Times,5
+San Francisco State University,1
+Steve Palmer,1
+Christian Dior,1
+Emmanuel,1
+Marie Antoinette,1
+Narasimha Rao,1
+Edith,1
+Iris van Herpen,1
+Yale School of Forestry,1
+European Molecular Biology Laboratory,1
+University of California Berkeley,8
+Heard,1
+Shirin Neshat,1
+Jeff Duncan-Andrade,1
+Nghia,1
+Jeri Ellsworth,1
+Jay Coen Gilbert,1
+Bart Houlahan,1
+Andrew Kassoy,1
+Charles Frederick Worth,1
+Vo Trong Nghia Architects,1
+Rich Luker,1
+Thomas Njeru,1
+eGen,1
+james ehrlich,1
+Carson,1
+Trung Nguyen,1
+Duluth News Tribune,2
+David Vang,1
+Long Lee,1
+Pheng Lee,1
+Mark Syvoraphane,1
+Xang Her,1
+Shloop,1
+Brown,2
+UCLA,2
+Arnold Schwarzenegger,4
+Energy Commission,2
+NRG Energy,4
+David Crane,3
+CPUC,20
+board of supervisors,1
+California Public Utilities,1
+Mark Ferron,1
+Sheila Bowers,1
+Ethan Sprague,1
+agriculture,33
+Jimmy Carter,2
+University of Nevada,1
+US Energy Department,4
+RENO,1
+Glenn Miller,1
+Bill Payne,1
+UNR,1
+Hongfei Lin,1
+Darrell Lemaire,1
+UNR's College of Agriculture,1
+New York State Energy Research and Development Authority,1
+cooking and cookbooks,2
+Al Gore,7
+Renmin University of China,2
+Huang Ming,2
+Himin,2
+suns,2
+Sam McNeil,1
+Global Alliance for Clean Cookstoves,2
+Frank Haugwitz,2
+National Academy of Development,2
+Himin Solar Energy Group,2
+China Association of Rural Energy Industry,2
+Xu Qinhua,2
+Asia Europe Clean Energy Solar Advisory Company,2
+archer Houyi,2
+Yu Liqiu,2
+Sun Penglong,2
+Ren Yanbo,2
+Koda,3
+Rahr,4
+Stacy Cook,3
+Ralph Sievert,1
+prices (fares fees and rates),17
+farmers,6
+flowers and plants,11
+Harvard University,4
+bush,2
+Wisconsin State Journal,1
+state Department of Agriculture,3
+Phillip Scott,1
+Peter Grinspoon,1
+US Forest Products Laboratory,1
+Wisconsin Hemp Farmers & Manufacturers Association,1
+Simon Liegel,1
+Sam Liegel,1
+Ed Liegel Sr,1
+Ed Liegel Jr,1
+National Academy of Sciences,16
+Bernie Sanders,3
+Trump administration,18
+Stanford,24
+Rick Perry,11
+Mark Ruffalo,1
+David Victor,1
+National Oceanic and Atmospheric Administration,8
+Carnegie Institution,3
+Energy,10
+Mark Jacobson,2
+Ken Caldeira,4
+Dan Kammen,2
+University of California-San Diego,1
+Earth System Research Laboratory,1
+Christopher Clack,1
+EPA Science Advisory Board chair Granger Morgan,1
+Mark Delucci,1
+Mary Cameron,1
+Bethany Frew,1
+Manmohan Singh,1
+Bloomberg New Energy Finance,6
+David Hostert,1
+TERI,2
+Across India,1
+Energy Resources Institute,1
+European Biomass Industry Association,1
+Murad Ali Baig,1
+Sunil Dhingra,1
+Bermaco Energy Systems,1
+Bermaco,1
+Biomass Energy          Manpreet Romana,1
+Punjab Biomass,1
+regulation and deregulation of industry,8
+PSC,1
+North Dakota Public Service Commission,1
+NSP,2
+Minnesota Public Utilities Commission,3
+Brian Kroshus,1
+North Dakota Public Service,1
+North Dakota PSC,1
+Aakash Chandarana,1
+James Heidell,1
+Richmond Times-Dispatch,2
+HOPEWELL,1
+Heather Scott,1
+Osage,1
+Va ethanol plant,1
+EO Wilson,1
+James Hanken,2
+awards decorations and honors,3
+football,2
+super bowl,1
+NFL,4
+Harvey,3
+University of Chicago Press,1
+University of Kansas,1
+NOAA,17
+Eric McDonald,1
+European Space Agency,4
+JJ Watt,1
+Helen Zille,1
+Walter Payton,1
+Snelling,2
+Esa,1
+chemicals,15
+Lisa P Jackson,1
+JOHN M BRODER      Michael Stravato,1
+Marquette,1
+Sawyer,1
+KI Sawyer Air Force,1
+MVC Capital Inc,1
+Jim Mennell,1
+General Motors,4
+Keystone,7
+Alaska Airlines,3
+Energy Department,17
+Lufthansa,1
+Mascoma,1
+Valero Energy,1
+Charles T Drevna,1
+refiners association,1
+National Petrochemicals and Refiners Association,1
+Advanced Biofuels Association,2
+Dennis V McGinn,1
+Michael J McAdams,1
+Matthew Hargarten,1
+computer software,1
+Google,9
+Justice Department,6
+Center for Strategic and International Studies,1
+Foreign Ministry,1
+Amazon,5
+Alibaba,1
+Liberation Army,1
+People’s Liberation Army,1
+Chinese Academy of Sciences,1
+FireEye,2
+University of Western Ontario,1
+Qin Gang,1
+Aliyun,1
+general staff,1
+Jen Weedon,1
+Paul Woods,1
+James Andrew Lewis,1
+Algenol,1
+James R Wilkinson,1
+Solutionary,1
+second bureau,1
+Jack Voth,1
+Alibaba security,1
+Kyocera,1
+Suntech Power Holdings,1
+KPMG,1
+Yukio Edano,1
+Fukushima,7
+Ministry of Economy,1
+Yoshihiko Noda,2
+International Energy Agency,16
+Toyota Motor,1
+RTS,1
+Goldman Sachs Group,1
+clean energy,2
+Nippon Steel,1
+Arthur Mitchell,1
+Scott Reynolds,1
+Q-Cells,1
+Yingli,1
+Takashi Watanabe,1
+Japan Photovoltaic Energy Association,1
+Travis Woodward,1
+Izumi Kaizuka,1
+Daiki Takayama,1
+Masami Hasegawa,1
+Mikio Katayama,1
+Jesse Pichel,1
+Mina Sekiguchi,1
+Masaki Mizuta,1
+Sanae Iwasaki,1
+environmental policy bureau of Keidanren,1
+drought,2
+Joe,1
+Jones,3
+Henry,1
+Almond Board of California,1
+Richard Waycott,1
+Jenny Holtermann,1
+Greg Wegis,1
+medicare,2
+Defense Department,6
+Medicare,4
+Jack Lew,1
+Steven Chu,3
+Advanced Research Project Agency,1
+Hydrogen Energy Association,1
+Ruth Cox,1
+Office of management,1
+General Assembly,4
+Marine Corps,2
+Ralph Northam,5
+Mark Herring,1
+Food and Drug Administration,4
+United States Department of Agriculture,1
+Hurd,1
+NORML,1
+Steve Heretick,1
+Capital News Service,1
+Christopher Brown,1
+Virginia Department of Agriculture,1
+Erin Williams,1
+Jacob Williamson,1
+VDACS,1
+Tyson Daniel,1
+Mike Betts,1
+Jenn Michelle Pedini,1
+state agriculture departments,1
+Virginia National Organization,1
+Rebecca Caffrey,1
+University of Mary Washington study,1
+East Coast Cannalytics,1
+Rebecca Hobden,1
+Institute for Advanced Study,1
+Hillary Rodham Clinton,3
+State,2
+European Commission,4
+HFCs,1
+Veerabhadran Ramanathan,1
+Durwood J Zaelke,1
+Anderson,2
+Tom Landwehr,1
+Chippewa nets,1
+Chevron,6
+Princeton,4
+GE,2
+ConocoPhillips,3
+giants,1
+Exxon Mobil Corp,2
+NRG,2
+GE Energy Financial Services,1
+GE Energy Financial Service,1
+Richard Germain,1
+Jim Mulva,1
+Energy Technology Ventures,1
+Kevin Skillern,1
+GE Capital Equity,1
+atomic energy,21
+Barack Obama,12
+World Coal Association,2
+Benjamin Sporton,2
+IEA,6
+Jake Schmidt,1
+ocean energy,2
+Natural Resource Defense Council,1
+Paolo Frankl,1
+Christine Lins,1
+Nordstrom,1
+birch,2
+J Drake Hamilton,2
+Mark Seeley,4
+Bill McAuliffe,2
+Rolf Nordstrom,1
+Minneapolis-based Great Plains Institute,1
+Cooke,1
+US EPA,2
+pono,1
+Castle & Cooke,1
+Cynthia Thielen,1
+Hawaii Public Utilities Commission,1
+HECO,2
+Henry Curtis,1
+Robin Kaye,1
+Hawaiian Electric Co,2
+Robbie Alm,1
+Peter Rosegg,1
+Allen Kam,1
+Castle & Cooke Inc,1
+Hawaii Department of Business,1
+Josh Strickler,1
+united states politics and government,30
+Yale,7
+AP,26
+Jeff Bingaman,6
+Energy Information Administration,9
+EIA,12
+Paul Sakuma,2
+Anthony Leiserowitz,3
+Joseph Aldy,2
+Matthew Kotchen,2
+Brookings Institution,3
+Martin Luther King,1
+Robert Litan,1
+Mark Muro,1
+Devashree Saha,1
+Capital Journal Daybreak Newsletter,1
+Jim Alders,2
+Blake Nixon,1
+Steve Alexander •,1
+lobbying and lobbyists,6
+Republican,7
+Rex Tillerson,2
+ExxonMobil,4
+GOP,13
+Mitch McConnell,6
+Lindsey O Graham,1
+Clinton,3
+NBC News,4
+Bloomberg,10
+Post,13
+Lindsey Graham,2
+Sierra Club,13
+John Coequyt,1
+Politico,7
+Jim DeMint,1
+Interior Department,6
+FEMA,3
+Susan Collins,4
+Atlantic Council,2
+Brock Long,1
+Scott Pruitt,8
+House Natural Resources Committee,5
+Brady Dennis,4
+Don Beyer,1
+David Shulkin,1
+Trey Gowdy,1
+Edwin Meese III,1
+John F Kelly,2
+American Legislative Exchange Council,2
+House Oversight Committee,1
+Vicki,1
+Houston Chronicle,1
+S&P Global Platts,1
+Royal Dutch Shell,2
+Rick Snyder,1
+Moody,2
+the New York Times,2
+David Cicilline,1
+Mike Rounds,1
+World Resources Institute,7
+David Hayes,2
+Public Service,1
+Tom Pyle,1
+Jim Inhofe,1
+Max Stier,1
+Baker Hostetler,1
+FirstEnergy,1
+Steve Hart,1
+Harts,1
+David Rivkin,1
+Independent Petroleum Association of America,2
+Jelmer Mommers,1
+John Neely Kennedy,1
+House Energy and Commerce,2
+Andrew Wheeler,5
+— Donald J Trump,1
+Simon Dawson/Bloomberg,2
+Photo/Carolyn Kaster,1
+Matthew Leopold,1
+Columbia Center on Global Energy,1
+Georgetown University Walsh School of Foreign Service,1
+United Nations Environment Program,2
+Shannon Millard/The Flint Journal-MLive,1
+AG Jeff,1
+Baker Electric,2
+Justin Merriman/Bloomberg,1
+Juliet Eilerin,1
+energy advocacy group American Energy Alliance,1
+Beaver Valley nuclear power station,1
+National Geographic Society host,1
+— Flint fiasco,1
+FBI,21
+Steve Carell,18
+Los Angeles Times,22
+Robin,18
+Michael Caine,18
+Elle,18
+Orange County Register,19
+Bryan Cranston,18
+Bill Cosby,18
+Samuel L Jackson,18
+-- Bob Dylan,18
+Wayne Rogers,18
+John James Audubon,18
+-- Adolf Hitler,18
+US tuna fishing fleet,18
+-- Dubai,18
+-- Laurie Becklund,18
+--  George Lucas,18
+-- The J Paul Getty Museum,18
+–   Davan,18
+White House Office of Management and Budget,1
+Council of Industrial Boiler Owners,1
+Bob Bessette,1
+Ann Coulter,1
+Chris Mooney,8
+US Coast Guard,1
+Bloomberg News,7
+Sarah,1
+NSF,2
+David Bernhardt,3
+AFP,3
+Toni L Sandys/The,1
+ALFREDO ESTRELLA,1
+Reuters/Henry Romero,1
+Mike Lucibella,1
+Kentrianakis,1
+-- Golf,1
+Wayne State University,1
+Michigan State University,1
+Ford Motor Co,2
+MSU,2
+University of Detroit-Mercy,1
+Bryan Ritchie,1
+Jim Padilla,1
+Charles Salley,1
+National Biofuels Energy Laboratory,1
+M Lisa Weatherford,1
+US Department if Agriculture,1
+Columbia University,7
+Maria,3
+tropics,3
+University of Puerto Rico,2
+El Yunque National Forest,2
+Erika P Rodriguez,2
+digital imaging,2
+sierra,2
+El Yunque,3
+International Center for Tropical Agriculture,2
+Louis Verchot,2
+María Uriarte,2
+New York Times RIO GRANDE,1
+New York Times Jazlynn Hall,2
+New York Times Henry Fountain,2
+Jeffrey Q Chambers,2
+Andrew Quebbeman,2
+EU,11
+Kings College London,1
+department of environmental health sciences,1
+Mark Nieuwenhuijsen,1
+Andrew Grieve,1
+Michael Jerrett,2
+Nick Harrison,1
+Kasia Molga,1
+beaches,2
+Marine,1
+CSIRO,4
+State Oceanic Administration,1
+John Keesing,1
+Chinese Academy of Fishery Sciences,1
+insects,21
+Reuters,16
+Salman Khan,1
+Tiger Woods,1
+BBC,7
+YouTube,6
+Communist Party,2
+UAE,2
+Fox News host,1
+CAMILLA SCHICK,1
+Shanghai stock exchange,1
+Carlyle Group,1
+New York Herald,1
+National Geographic Society,1
+Letizia,1
+Facebook Messenger,1
+Craig Lee,1
+stockman,1
+Robert Peary,1
+David J Phillip/Associated,1
+Sofía,1
+Netflix Australia,1
+Arthur Murray,1
+Frederick Cook,1
+Nguyen Van Dai,1
+Franziska Barczyk,1
+THOMAS ERDBRINK,1
+Francesca Donner,1
+Anna Schaverien,1
+Nasim Najafi Aghdam,1
+Photo Credit Charles Krupa/ Associated Press,1
+Donald Trump,13
+Lincoln,2
+US Supreme Court,3
+Bob Dylan,3
+Chamber of Commerce,3
+Stephen Colbert,4
+George Zimmerman,2
+John Lennon,2
+Indianapolis Colts,2
+Cardinals,2
+University of Louisville,2
+Steve Sisolak,2
+Jackson,5
+Anthony Brown,2
+Helena,3
+Harry Truman,2
+Roy Cooper,2
+Ivy League school,2
+Legislature,3
+Lawrence Journal-World,2
+Census Bureau,2
+National Weather Service,11
+Monroe,2
+public university,2
+Providence Journal,2
+Georgia Public Service Commission,2
+Raleigh News & Observer,2
+Delaware State University,2
+Courier,2
+Montgomery,3
+Jefferson Davis,2
+Alfred P Murrah,2
+Dolly Parton,2
+Karen Spilka,2
+US Census Bureau,2
+state Senate,3
+Madison,2
+Transportation Security Administration,2
+Aretha Franklin,2
+Jim Justice,3
+Southwest Airlines,2
+Steve Bullock,3
+Columbine High School,2
+Olympia,2
+US Centers for Disease Control and Prevention,2
+Minnie,2
+University of Nebraska-Lincoln,2
+Hopkins,2
+Jay Inslee,3
+Jim Irsay,2
+Pepper,2
+Brown University,2
+Welch,2
+Missouri Senate,2
+McCormick,2
+Phil Scott,2
+Port Authority,3
+Ogden,2
+Lamb Weston,2
+Boyd Brown,2
+Rutherford B Hayes,2
+Assembly,2
+Lincoln Journal Star,2
+Iowa Department of Natural Resources,2
+Jerry Garcia,2
+Bradshaw,2
+Bismarck,2
+Iowa State University,3
+Peter Shumlin,2
+Thomas Hart Benton,2
+Honolulu City Council,2
+Glenda,2
+United Daughters of the Confederacy,2
+WUSA-TV,2
+Muslim Student Association,2
+Fred Astaire,2
+Robert Little,2
+US Fish & Wildlife Service,2
+Kevin Gross,2
+Judy Garland,2
+Jim Wheeler,2
+Wisconsin Public Radio,2
+Interfraternity Council,2
+Beckley,2
+Scott Hardin,2
+athletic department,2
+Department of Cultural Affairs,2
+Don Siegelman,2
+Francis Preston Blair,2
+Vince Tyra,2
+non-Hodgkin,2
+state Revenue Department,2
+Lauren Townsend,2
+Crystal Martin,2
+Hezekiah Walker,2
+Belleau,2
+Wyoming Tribune Eagle,2
+Justin Henry,2
+Joanne Moriarty,2
+L&N,2
+American Eagle Foundation,2
+Brian McInerney,2
+Dawn Anna,2
+Orlando Bravo,2
+Thoma Bravo,2
+Cass Technical High School,2
+Michael Conway,2
+Greg Albritton,2
+Tom Corbin,2
+Iowa Arts Council,2
+Nevada Department of Agriculture,2
+Jacob Hale,2
+Ron Peterson,2
+Brett Wiedmann,2
+Dennis Steinman,2
+Laramie County School District,2
+New Hampshire Preservation Alliance,2
+Tasha Page Lockhart,2
+Rudi Riet,2
+Senate Tourism and Marketing Committee,2
+Timothy Andrews,2
+State Parks Bureau,2
+Todd Coffelt,2
+Greg Bussler,2
+Heidi Moline,2
+Truman Library Institute,2
+Hartley Powell,2
+L&N Federal Credit Union,2
+R-Gardnerville,2
+Rebecca Kovac Elliott,2
+McCormick Junior High School,2
+Fort Monroe Authority Board of Trustees,2
+Donna Steinman,2
+Eagle Mountain Sanctuary,2
+Michelle Belleau,2
+West Carroll Chamber of Commerce,2
+Mohammad Muntakim,2
+Bravo Center for Economic Research,2
+L&N Federal Credit Union Arena,2
+Thompson Mayes,2
+David Salovesh,2
+Toby Schwoerer,2
+Comerford Zoo,2
+Tampa weekly,2
+EDF,3
+George Osborne,1
+Ed Davey,1
+Electricite de France,1
+China National Nuclear Corp,1
+China General Nuclear Corp,1
+Audrey,1
+University of Maine,1
+Clemson University,2
+Monmouth University,1
+Robert Baldwin,1
+Samantha Grimaldi,1
+Sean Sterrett,1
+Greg LeClair,1
+CHRISTOPHER F SCHUETZE,1
+Pramod Chaudhari,1
+Kishor Khoje,1
+E coli,3
+Ecolab,1
+Minnesota High Technology Association,1
+Rod Greder,1
+NEAL ST ANTHONY,1
+Tekne Awards                                                                                                            										                    																															 													 								 								  Awear Technologies,1
+SPS Commerce Universal Network,1
+Calabrio Analytics,1
+motion pictures,4
+recordings (audio),1
+Matt Damon,1
+George Miller,1
+Brad Pitt,1
+Bill,1
+Gloria,1
+Williams,2
+Erik,1
+Elijah Wood,1
+Sven,1
+Penguin,1
+Michael Phillips,1
+Hank Azaria,1
+Alecia Moore,1
+birds,8
+Newell,1
+Hawaiian Electric,1
+FWS,1
+HCP,1
+Kelly Fuller,1
+Dave Cowan,1
+Lance Holter,1
+Sierra Club Maui Group,1
+Scott Fretz,1
+Dawn Greenlee,1
+Maui Electric Co Ltd,1
+shearwater burrows,1
+US Navy,2
+Nissan,4
+Southern California Edison,4
+Denise Bode,1
+California Energy Commission,2
+San Diego Gas & Electric Co,20
+Independent Petroleum Assn of America,1
+Jim Boyd,1
+Mark Griffith,1
+Black & Veatch,1
+PG&E Co,1
+Gold & Energy,1
+James DiGeorgia,1
+Lefteris Padavos,1
+young Department of Energy,1
+Jerry Brown,26
+US Postal Service,19
+PG&E,19
+Pacific Gas & Electric Co,38
+National Renewable Energy Laboratory,20
+San Diego Gas & Electric,19
+California Biomass Energy Alliance,19
+Frank Sanchez,19
+Stephanie Donovan,19
+Denny Boyles,19
+Covanta,19
+Seyed Sadredin,19
+Christopher Capra,19
+Dennis Serpa,19
+Trey Irwin,19
+IHI Power Services Corp,19
+Lung Assn,19
+Rick Spurlock,21
+Paul Parreira,19
+Julee Malinowski-Ball,19
+Buena Vista biomass,19
+Arup,1
+Rainer Müller,1
+Jan Wurm,1
+Colt Group,1
+Lukas Verlage,1
+Jonathan B Wimpenny,1
+BIQ house,1
+Royal Institute of British Architects USA,1
+European Union,22
+Boris Johnson,2
+Ford,4
+Hyundai,1
+Brexit,1
+JetBlue,1
+Tesla,1
+Renault,1
+Elon Musk,2
+Uber,1
+Carlos Ghosn,1
+American tech giants,1
+Ken Friedman,1
+Max fleet,1
+Giacomo Bagnara,1
+KBR,1
+Babcock & Wilcox Co,2
+BE&K Construction Co,1
+Tropical Tuna Commission,1
+Pew’s international fisheries,1
+education and schools,24
+colleges and universities,19
+Al Franken,4
+Morris,7
+Middlebury College,1
+Evergreen State College,2
+Michael Kinsley,1
+Rocky Mountain Institute,1
+University of Minnesota Morris,3
+Jenna Ross,1
+Annie Olson,1
+Troy Goodnough,1
+Lowell Rasmussen,2
+reality     MORRIS,1
+viruses,2
+University of Colorado,3
+David Nakamura,1
+Ed Royce,1
+Eliot Engel,1
+Tom Hart,1
+Roger Pielke Jr,1
+Overseas Private Investment Corporation,2
+OPIC,3
+Center for Global Development,2
+Todd Moss,1
+apparel,2
+Prince Charles,2
+William,4
+Meghan Markle,2
+Prince Harry,2
+Edward Enninful,2
+Saville,2
+Anderson & Sheppard,2
+Vogue House,2
+Dennis Anderson,1
+Mike Roll,1
+Mike Pankey,1
+Matt Spaniol,1
+federal taxes (us),3
+Chuck Schumer,2
+NASCAR,4
+PNAS,2
+Potsdam Institute for Climate Impact Research,5
+Hans Joachim Schellnhuber,1
+livestock,5
+supermarkets,1
+Christopher,1
+Culinary Institute of America,1
+Bloomberg Television,1
+Matthew Wadiak,1
+David McInerney,1
+regenerative ag,1
+Princeton University,1
+National Cancer Institute,1
+Harvard School of Public Health,1
+J Craig Venter Institute,2
+David Relman,1
+Bonnie Bassler,1
+Curtis Huttenhower,1
+Barnett Kramer,1
+Lita Proctor,1
+Barbara B Methé,1
+Wein,1
+Heritage Council,1
+Carp Solutions,1
+Eric Fieldseth,1
+ethics,1
+frauds and swindling,3
+tax evasion,2
+RTC,2
+Ray Lewis,2
+Gary Stern,2
+Jevon Kearse,1
+Chuhak & Tecson,1
+Chris Gair,1
+Konicek & Dillon,1
+Gary J Stern,1
+Resource Technology Corp,2
+Leon Greenblatt,2
+Daniel F Konicek,1
+Goldman Sachs,2
+Goldman,2
+Finance Committee,1
+Charles E Grassley,1
+Capitol Hill,2
+Senate Energy and Natural Resources Committee,4
+Max Baucus,1
+American Wind Energy Association,5
+Nascar,1
+Alan Auerbach,1
+Lloyd C Blankfein,1
+Eric Toder,1
+Congress’s Joint Committee on Taxation,1
+Robert D Burch Center,1
+Mary Sestric,1
+Philip D Tingle,1
+Inbar Hundimo Dedere,1
+Pat Curran,1
+Northern Forest Center,1
+Jerry Delaney,1
+New York Energy Research and Development Authority,1
+Saranac councilman,1
+Eric Besenfelder,1
+Maura Adams,1
+Larry Farrelly,1
+tests and testing,4
+television,1
+Kamala Harris,2
+Fox News,1
+NAFTA,1
+Sean Hannity,1
+John Oliver,3
+Donald,1
+Frederick Douglass,1
+Senate Committee on Veterans' Affairs,1
+Ronny Jackson,1
+layoffs and job reductions,3
+Roma,1
+Viktor Orban,1
+Fidesz,1
+Akos Stiller,2
+Lajos Kosa,1
+Jozef Toth,1
+Baba Jeno,1
+Halmaj,1
+Janos Orsos,1
+New York Times                                                                                                     HALMAJ,1
+Tom Jones,1
+Brighton Community Center,1
+McNamara,1
+Carlson,1
+US Energy Information Administration,7
+Minnesota Department of Commerce,2
+Minnesota Council,1
+PEN,1
+Normandale Community College,1
+MEDA,1
+Paul Batz,1
+Southern Minnesota Initiative Foundation,1
+Melissa Kjolsing,1
+Brian Lassiter,1
+Bill Clinton,4
+Department of Energy,11
+DOE,7
+National Institutes of Health,2
+National Nuclear Security Administration,1
+Strategic Petroleum Reserve,1
+NNSA,1
+new budget authority,1
+basic energy sciences,1
+hockey ice,2
+NCAA,1
+Coca-Cola,2
+NHL,2
+Darryl,3
+New York Rangers,1
+Ohio State University,1
+Natural Resources Defense Council,8
+Robert Redford,2
+National Hockey League,1
+National Football League,1
+National Basketball Association,1
+Chicago Blackhawks,1
+Ohio State,2
+Verizon Center,1
+Gary Bettman,1
+Coors,1
+RECS,1
+Joe Nigro,1
+National Association for Stock Car Auto Racing,1
+Allen Hershkowitz,2
+American sports league,1
+Green Sports Alliance,2
+Jay Kasey,1
+International Association of Sports Economists,1
+North American Association of Sports,1
+Michael Thomas Richter,1
+drug abuse and traffic,5
+marijuana,4
+Carter,1
+ACLU,1
+BMW,2
+big corporation,1
+Stephen Downing,1
+Tom Allman,1
+University of California at Berkeley study,1
+Emerald Growers Association,1
+New Mexico Department of Agriculture,1
+Jack Noel,1
+Tomas Balogh,1
+elections,16
+primaries,1
+governors (us),2
+biographical information,2
+Hillary Clinton,8
+CIA,1
+John Brennan,1
+Sean Spicer,1
+Sally Yates,1
+CNN,5
+Marco Rubio,3
+Pentagon,6
+Donald Trump Jr,1
+Paul Manafort,1
+ISIS,1
+NBC,3
+Mike Rogers,1
+Mark Warner,1
+Putin,2
+David Friedman,1
+Trump Organization,2
+Republican National Committee,1
+Christian,1
+Jesus,2
+Zervos,1
+Bob Casey,1
+Samantha Schmidt,1
+Damian Paletta,1
+Shane Goldmacher,1
+Rick Maese,2
+Richard Shelby,1
+Tom Perriello,1
+Lyndon Johnson,1
+Comey,1
+Michael Flynn,1
+Karen DeYoung,1
+Corey Stewart,1
+Amy B Wang,1
+HR McMaster,1
+Kelsey Snell,1
+Karoun Demirjian,1
+Dave Weigel,1
+Yahoo,5
+Devin Nunes,1
+Bill O'Reilly,1
+Ed O'Keefe,2
+Adam Schiff,1
+Eric Swalwell,1
+USA Today,2
+RNC,1
+Rosalind S Helderman,1
+Juliet Eilperin,7
+Ed Gillespie,1
+NSC,1
+John Whitbeck,1
+James Foley,1
+Christopher Newport University,1
+Terry McAuliffe,4
+Xavier Becerra,1
+Greg Jaffe,1
+Bianna Golodryga,1
+Chuck,1
+James Brown,1
+Tim Barrow,1
+Jesse Ventura,1
+Laura Vozzella,1
+Frank Wagner,1
+Aaron Schock,1
+WNYC,1
+Paula Jones,1
+Ron Kind,1
+NIH,3
+Jim Webb,1
+Washington Times,1
+National Intelligence Council,1
+US Naval Academy,1
+James Clapper Jr,1
+Cronin,1
+Robert Casey,1
+Trump SoHo Hotel,1
+American Urban Radio Networks,1
+Pence,1
+Dolly Lenz,1
+Michael Anderson,1
+Oren Dorell,1
+April Ryan,1
+Prince William County Board of Supervisors,1
+Sandra Merritt,1
+Glenn R Davis Jr,1
+[Trump,1
+Hilary Knight,1
+Rollins College,1
+Peter Rusthoven,1
+David Robert Daleiden,1
+USA Hockey,1
+Portes,1
+McEnany,1
+Marshall Polston,1
+attack Democratic,1
+Scott Reagan,1
+Kelly E Magsamen,1
+MSNBC,1
+State Department,3
+Erica Werner,3
+Maria Cantwell,3
+US Senate,2
+NASA,23
+University of Pennsylvania,1
+Martin Heinrich,1
+Sonny Perdue,2
+Hugh Hewitt,1
+Tufts University,1
+Steven Mufson,5
+OPEC,3
+House Science Committee,1
+Enterprise Institute,1
+John Hoeven,1
+Marc Short,1
+Andrew Harrer/Bloomberg,1
+Federal Energy Regulatory Commission,4
+William Happer,2
+AAAS,1
+Jim Bridenstine,1
+National Mining Association,1
+E&E News,1
+J Scott Armstrong,1
+Steven Koonin,1
+Mitch Bainwol,1
+Association of American Railroads,1
+Oren Cass,1
+Monica Ulmanu,1
+George Pell,1
+Saudi news agency,1
+Kelly Sims Gallagher,1
+Reuters/Mike Blake,1
+Ryan Jackson,1
+Kevin J McIntyre,1
+Hewitt,1
+American Association for the Advancement of Science,3
+Office of Research and Development,1
+— Trump,3
+— Pruitt,1
+Rupert Darwall,1
+Hill Senate,1
+Eric Hanson,1
+United States Energy Association,1
+Manhattan Institute think tank,1
+House Energy and Commerce Energy Subcommittee,1
+the Los Angeles Times,1
+— Juliet Eilperin,1
+Elizabeth “Tate” Bennett,1
+Orange County Water District,1
+Lauren Tierney,2
+— Umair Irfan,1
+Samantha Linkins,1
+Joanne Padrón Carney,1
+NASA carbon research,1
+Wanda Barrs,1
+Savage,1
+John Schmitt,1
+EAB,1
+Scott County Association for Leadership,1
+Joy Powell,1
+Barry Stock,1
+Bill "Rudy" Rudnicki,1
+Gerald,1
+Southern Ocean Sanctuaries,1
+Andrea Kavanagh,1
+rob,1
+Kawaguchi,1
+Antarctic Marine,1
+Christian Reiss,1
+Nathaniel B Palmer,1
+Antarctic conservation commission,1
+Xcel Energy Inc,2
+David Shaffer,7
+Shakopee Mdewakanton Sioux Community,1
+Shakopee Fire Department,1
+Rahr Malting Co,2
+Koda Energy,4
+Koda Energy power plant uncertain    																																																																							  Koda Energy,1
+Huffington Post,3
+Penn State University,3
+Carolyn G Goodman,1
+London Stock Exchange,2
+Exxon Mobil,6
+Christiana Figueres,2
+Gramercy Park Hotel,2
+Walmart,1
+green power,1
+US  Environmental Protection Agency,1
+diet and nutrition,2
+weight,2
+Ian Roberts,1
+Phil Edwards,1
+John Cleland,1
+BMC Public Health,2
+Malthus,1
+David Prieto-Merino,1
+Gretchen Stevens,1
+Sarah C Walpole,1
+University of Hawaii,1
+Cooper Union,1
+Claus,1
+Kraul,1
+Chris Blackwell,1
+Pierre Frey,1
+Ximena Londono,1
+Simon Velez,1
+Darrel DeBoer,1
+Bamboo Assn,1
+correction stories,1
+Michael R Bloomberg,2
+Deloitte,2
+Mulligan,1
+Cory A Booker,1
+Scritti Politti,1
+Chris Burden,1
+Andrew Milligan,1
+Green Gartside,1
+Energy Resource Institute,1
+Margaret Shryer,1
+Katherine Loscalzo,1
+Minnesota Department of Natural Resources,2
+Rick Bruesewitz,1
+Mille Lacs advisory group,1
+Mille Lacs sport anglers,1
+Mille Lacs Input Group,1
+Mille Lacs fishery,1
+Mille Lacs walleye abundance,1
+DNR Aitkin area fisheries,1
+Gordon,1
+Julia,1
+Koch,1
+Parker,1
+Kennedys,1
+Rachel Lambert Mellon,1
+Georgia Institute of Technology,3
+American Geophysical Union,5
+US Department of Energy,5
+Journal of Geophysical Research,2
+GSFC,2
+Greg Huey,2
+Jeff Schmaltz LANCE/EOSDIS MODIS,2
+Kari Greer/USFS Gila,2
+North Carolina State University,2
+Environmental Defense Fund,3
+David Crouse,1
+NCSU,1
+Portland General Electric,1
+eastern North Carolina,1
+Allen G Breed,1
+state agriculture,1
+Chemtex,2
+Mark Conlon,1
+Mark Newhouser,1
+Native Plant Society of Oregon,1
+Elizabeth Byers,1
+Chemtex International,1
+Sonoma Creek,1
+Biofuels Center of North Carolina,1
+Ron Gehl,1
+Jane Preyer,1
+W Steven Burke,1
+Sam Brake,1
+Johnny donax-seed,1
+Paolo Carollo,1
+Oregon state agriculture,1
+reed for biofuels         OXFORD,1
+American Academy of Pediatrics,1
+GAO,2
+AEP,1
+US Government Accountability Office,1
+Lisa Jackson,2
+URS Corp,1
+William Daley,1
+Electric Reliability Coordinating Council,1
+bank Credit Suisse,1
+Stephen Power,1
+Constellation Energy Group Inc,1
+Marian Burton,1
+American Electic Power Co,1
+olympic games,1
+games,1
+summer games (olympics),1
+Chelsea,1
+Hackney,1
+Balfour Beatty,1
+Skanska,1
+RMIT University,1
+Bovis,1
+environment committee,1
+London Assembly,1
+Paul James,1
+Shaun McCarthy,1
+Jerome Frost,1
+Olympics Save East London,1
+Stratford International train station,1
+smart energy metering,1
+ODA,1
+West Ham United soccer,1
+Anthony Charlton/Oda,1
+Ian Crockford,1
+Sierra,7
+Areva SA,1
+Department of Natural Resources,1
+Joel Millman,1
+Nippon,2
+Olympic Forest Coalition,1
+Nippon Paper,1
+Center for Environmental Law,1
+Olympic Environmental Council,1
+Harold Norlund,1
+Olympic Region Clean Air Agency,1
+Nippon Paper Industries USA,1
+Darlene Schanfeld,1
+Port Townsend Paper Co,1
+Nippon Paper Group Inc,1
+Duke Energy  Corp,1
+Lisa Murkowski,6
+Dartmouth,1
+FERC,2
+University of Alaska Fairbanks,1
+Ben Hopkins,1
+Curtis Thayer,1
+John Ferland,1
+Nathan Hill,1
+Alaska Energy Authority,1
+Dan Salmon,1
+Gwen Holdmann,1
+Alaska Center for Energy and Power,1
+Igiugig,1
+Kokhanok,1
+Ocean Renewable Power Co,1
+Kvichak,2
+AlexAnna Salmon,1
+Steve Drouilhet,1
+Democratic National Committee,2
+Ken Cuccinelli,1
+Robert F McDonnell,2
+Electro-Mechanical Corp,1
+DAVID CRIGGER/BRISTOL,1
+moss,1
+Bob Fashingbauer,1
+Liz Rolfsmeier,1
+FAO,1
+baker,1
+Cornell University,2
+ARS,2
+UN Food and Agriculture Organization,2
+Adrian Newton,1
+Brian Stanton,1
+James Hutton Institute,1
+Ronnie Coffman,1
+Les Szabo,1
+Melampsora larici-populina,1
+GreenWood Resources,1
+University of Michigan,3
+Smithsonian Tropical Research Institute,1
+Stefan Schnitzer,1
+Barro Colorado Island,1
+Robyn Burnham,1
+Frans Bongers of Wageningen University,1
+space,7
+Bill & Melinda Gates Foundation,1
+University of Leeds,4
+Natural History Museum,1
+University of New England,1
+Kent State University,2
+Natural Environment Research Council,1
+JOEL SAGET/AFP/Getty,1
+Cappucci,1
+Christopher Hassall,1
+Manu Saunders,1
+Thomas Dally,1
+Ryan Neely III,1
+Christie Bahlai,1
+Bug derecho,1
+Freya Addison,1
+Tsinghua University,2
+University of British Columbia,8
+Indian Institute of Technology Bombay,1
+Qiao Ma,1
+Chandra Venkataraman,1
+Credit  Institute for Health Metrics & Evaluation,1
+Eric Schmidt,1
+Arianna Huffington,1
+Jackson Diehl,1
+Wadah Khanfar,1
+Pierre Omidyar,1
+Siegfried Hecker,1
+Yoichi Funabashi,1
+Patrick Soon-Shiong,1
+Parag Khanna,1
+Walter Isaacson,1
+Nicolas Berggruen,1
+John Elkann,1
+Jared Cohen,1
+Moises Naim,1
+Juan Luis Cebrian,1
+Nathan Gardels,1
+Bruce Mau,1
+Kathleen Miles,1
+Alex Gardels,1
+Peter Mellgard,1
+Dawn Nakagawa,1
+Nayan Chanda,1
+Katherine Keating,1
+Sergio Munoz Bata,1
+Seung-yoon Lee,1
+Lu Liu,1
+Clarissa Pharr,1
+Rosa O’Hara,1
+Eric Toensmeier,1
+Gregory Nemet,2
+Andrew Newhouse,1
+Jan Christoph Minx,2
+women,3
+Jacqueline Johnson,1
+Maureen McCarthy,1
+Buena Vista University,1
+European Parliament,4
+Gabriel,2
+Jose Manuel Barroso,2
+Guenther Oettinger,2
+Greenpeace EU,2
+Mahi Sideridou,2
+advertising and marketing,4
+Federal Trade Commission,6
+Michael Green,3
+FTC,4
+Meadows,3
+Kumi Naidoo,3
+Ogilvy & Mather,3
+CBS Corp,3
+Shelton Group,3
+Suzanne Shelton,3
+Center for Environmental Health,3
+Paul Polizzotto,3
+TerraChoice,3
+Scott McDougall,3
+Biodegradable Products Institute,3
+EcoMedia,3
+Steven Mojo,3
+Claire Scarisbrick,3
+Greenpeace   International,3
+armament defense and military forces,5
+Mike Pence,2
+MICHAEL E MAHLER,1
+VAUGHN A CARNEY Stowe,1
+JENNIFER MOON,1
+GREG BALLARD GRAHAM RICHARD Indianapolis,1
+Duke University,4
+Portland State University,1
+Oregon State,1
+Andrew Rice,1
+Oregon Health & Science University,1
+Daniel Jacob,1
+Shindell,1
+Picasa,2
+Texas Parks and Wildlife Commission,2
+Texas Parks and Wildlife Department,3
+TPWD,2
+creel,1
+TPW Commission,1
+Robin Riechers,1
+coastal fisheries,1
+University of Exeter,2
+Jason Chapman,2
+Park Board,1
+Russ Henry,1
+McKinsey & Company,2
+Matt Rogers,1
+Dolf Gielen,1
+David Ebener/DPA Picture-Alliance,1
+palestinians,1
+Dina,1
+Luna,3
+Natalie,1
+Zine al-Abidine Ben Ali,1
+Muhammad Salem,1
+Israeli Ministry of National Infrastructures,1
+Yanir Avital,1
+hunting and trapping,1
+Gavin Newsom,4
+mountain lions,1
+Lisa Levinson,1
+CBS News,1
+Exxon,4
+Columbia,2
+Ileana Ros-Lehtinen,1
+Wall Street Journal,7
+George Bush,1
+Dan,1
+CBC News,1
+Emily Michot,1
+Andrew Cuomo,2
+Carlos Curbelo,1
+Esquire,1
+Colorado State University,1
+Alison,1
+Kathleen Wynne,1
+Ted Deutch,1
+Chicago Sun Times,1
+Meister,1
+Christy Clark,1
+MSP,6
+Ed Hawkins,1
+MIT Technology,1
+Ars Technica,2
+Sabin Center for Climate Change Law,1
+Charlotte Observer,1
+Jon Erdman,1
+AccuWeather,2
+University of Reading,1
+Energy Review,1
+Michael B Gerrard,1
+Radio-Canada,1
+University of Waikato,1
+Ken Pimlott,1
+Marion O’Neill,1
+Warren Faidley,1
+CBC Edmonton,1
+James Whitlow Delano,1
+Glen MacDonald,1
+Sarah Lorraine Thomson,1
+Agora Energiewende,1
+Matt Dryden,1
+Fairfax Media NZ,1
+Thomas M Coffin,1
+Kevin Busch,1
+California Department of Forestry and Fire Prevention (CalFire,1
+Les Coulisses du Pouvoir,1
+WXShift,1
+Credit  Mike Scott/Waikato Times,1
+FuelCell Energy technology,1
+National Science Foundation,5
+Bill Snyder,1
+US Agriculture Department,1
+Amanda Meier,1
+Michael Scott Crossley,1
+US Geological Survey,3
+David Irons,1
+USGS Alaska Science Center,1
+John Piatt,1
+Commerce Department,1
+Ramsey,1
+Kevin Lee,1
+American Gas Association,1
+CenterPoint Energy,1
+Margaret Cherne-Hendrick,1
+RECs,1
+CenterPoint,1
+Minnesota Center for Environmental Advocacy,1
+Institute for Nonprofit News,1
+Brendan Jordan,1
+Great Plains Institute,2
+Energy News Network,1
+Nick Mark,1
+Kim Havey,1
+National Security Agency,1
+Scripps Translational Science Institute,1
+Dawn Barry,1
+Lisa Madlensky,1
+Dennis Grishin,1
+Michael S Williamson/The,1
+Valero,2
+Brent Erickson,1
+Roger Sedjo,2
+Franklin D Roosevelt,2
+DST,1
+Department of Transportation,1
+Benjamin Franklin,2
+nd,1
+DJ Kayser,3
+St,4
+Paul Douglas,2
+Gaylord,1
+Minnesota Historical Society,1
+KUSA-TV,1
+Praedictix,2
+Purdue,4
+DuPont,4
+Procter & Gamble,2
+Hugoton,4
+Abengoa,5
+Wallace Tyner,1
+Abengoa Bioenergy,2
+Chris Standlee,2
+Fiat Chrysler Automobiles NV,1
+Fiat,1
+CNH Industrial NV,1
+Fiat Panda,1
+Holland Agriculture,1
+Carlo Lambro,1
+Luca Remmert,1
+La Bellotta farm,1
+Michael McAdams,1
+Energy Institute,3
+University of Texas at Austin,3
+Michael E Webber,3
+Vox,3
+Newsweek,2
+lions,1
+Kevin de León,1
+Ed Markey,1
+AOC,1
+heartland of America,1
+Andy Karsner,1
+David Roberts,1
+Ernie Moniz,1
+Glenn Prickett,1
+Greg Carr,1
+Santa Barbara Independent,1
+Alexandria Ocasio-Cortez,2
+Cyclone Idai,1
+banks and banking,1
+credit,5
+Ernst & Young,4
+Prudential,1
+John Morrison,1
+Wells Fargo,1
+Central Bank,1
+Allianz,1
+JA,1
+Kan,1
+John Colasanti,1
+Jim Campbell,1
+Autoweek,1
+Bank of Naples,1
+Gary Fink,1
+Ken Murray,1
+Lifeworks,1
+Rodney Schutt,1
+Davidson Ward,1
+Carmichael Lynch,1
+Larry Albert,1
+Unitron,1
+Lifeworks Services,1
+Elliot Kaplan,1
+Bill Reiling,1
+CliftonAllenLarson,1
+Gene Frey,1
+Unitron of  Plymouth,1
+mergers acquisitions and divestitures,7
+bankruptcies,4
+Peet,3
+Edison International,5
+Edison Mission Energy,4
+Pedro Pizarro,4
+US Environmental Protection Agency,6
+Miami University of Ohio,3
+Jessica McCarty,3
+European Center for Medium-Range,2
+Mark Parrington,2
+personal finances,14
+Liz Weston,13
+Red Inc,13
+Dear Liz,13
+Fred Upton,2
+REUTERS,3
+House Energy and Commerce Committee,4
+Breakthrough Institute,1
+Shikha Dalmia,1
+Uncle Sam,1
+Chevy Volt,2
+Socialist Party,1
+Dilma Rousseff,3
+Green Party,3
+Darwin,1
+Luiz Inácio Lula da Silva,1
+Marina Silva,1
+Rio Branco,1
+Social Democracy,1
+Eduardo Campos,1
+Chico Mendes,1
+Mariana Simões,1
+Valnice Milhomens,1
+William Souza,1
+Sonia Regina Gonçalo,1
+Marília de Camargo César,1
+Credit             Antonio Lacerda/European Pressphoto Agency,1
+grain,4
+Daniel Acker/Bloomberg,1
+journal Nature Communications,1
+Bernhard Schauberger,1
+Trump Cabinet,1
+Netflix,2
+Nicolás Maduro,1
+US Court of Appeals,1
+Seth Meyers,1
+John,2
+Anthony Scaramucci,1
+DC Circuit,1
+US District Court,2
+American Association,1
+Priebus,1
+Leonardo DiCaprio,1
+Martinez Monsivais,1
+Rex Arbogast,1
+Dan Sullivan,2
+Vanity Fair,2
+Bracewell,1
+Bonni Cohen,1
+Jon Shenk,1
+Alaska,1
+WOTUS,1
+American Petroleum Institute,7
+Veterans Affairs post,1
+Zinke,2
+Jack Gerard,1
+Alaska Daily News,1
+Oklahoma Bar Association,1
+AV Club,1
+Three Gorges Dam,1
+Plott,1
+Gavin Isaacs,1
+t Jeff Holmstead,1
+China Renewable Energy Society,1
+Lu Fang,1
+Tami Heilemann/Department,1
+Tian Min,1
+-- Pruitt,1
+North Atlantic,1
+Stellwagen Bank National Marine,1
+Dave Wiley,1
+Touché,1
+Alison Stimpert,1
+Peter Stevick,1
+Ari Friedlaender/NOAA,1
+Allison Simpoert,1
+house,1
+Comcast,1
+Sarah Halzack,1
+FAFSA,1
+MMI,1
+Michelle Singletary,1
+Roth IRA,1
+James Dupree,1
+Pepco,2
+eletter,1
+Jim Dupree,1
+Alex Gallardo,1
+Ben Geman,2
+state,4
+National Security Council,1
+Coast Guard,2
+John Kerry,5
+NPR,5
+Biden,1
+Center for American Progress,2
+Justin,1
+Fed,2
+Bureau of Land Management,4
+National Geographic,3
+Heather Zichal,3
+Scott Wilson,1
+Andrew deLaski,1
+Andrew Freedman,3
+Jerome H Powell,1
+Matt Lee-Ashley,1
+Randal Quarles,1
+Appliance Standards Awareness Project,1
+New York parks department,1
+Anna Marino,1
+Jessica Wolfrom,1
+Blue Prosperity Coalition,1
+Mason & Greens,1
+American Clean Power Association,1
+architecture,1
+Smithsonian,1
+Norman Foster,1
+Lincoln Center,1
+Barry Diller,1
+Hunter College,1
+Alan Gilbert,1
+David Geffen Hall,1
+Avery Fisher Hall,1
+Zeitz MOCAA,1
+Thomas Heatherwick,1
+Brian Harkin,1
+Diamond Schmitt Architects,1
+Philharmonic,1
+Jed Bernstein,1
+Matthew VanBesien,1
+Max Abramovitz,1
+Geffen Hall,1
+Emily Andrews,1
+Smithsonian Design Museum,1
+Diller Scofidio & Renfro,1
+Diamond Schmitt,1
+Heatherwick Studio,1
+The New York Philharmonic,1
+Maison Symphonique de Montréal,1
+Credit             Emily Andrews for The New York Times,1
+Fisher Dachs,1
+Wellcome Trust Sanger Institute,1
+Alan Walker,1
+University of Aberdeen,2
+BMC Biology,1
+Carl Icahn,1
+JP Morgan,1
+Tesoro,2
+Stephen H Brown,2
+Brian Skoloff,1
+National Transportation Safety Board,1
+Forest Service,11
+Tom Tidwell,2
+Bob Moen,1
+Mead Gruver,1
+Corbin Newman,1
+Ben Neary,1
+Tonto National Forest northwest,1
+David Gregorio,1
+Gina Raimondo,1
+Environment America,1
+Scott DiSavino,1
+Geothermal Energy Association,2
+Bill Johnson,4
+Espinoza,2
+KPMG LLP,2
+Nat Kreamer,2
+John Gimigliano,2
+Wall Street Journal Europe,2
+Clean Power Finance,2
+Karl Gawell,2
+Tom Yoke,2
+Navy,8
+Biotechnology Industry Organization,1
+Philip Cullom,1
+nonprofit research group,1
+Paul Winters,1
+Solazyme,5
+Algal Biomass Organization,2
+Mary Rosenthal,1
+Thomas W Hicks,1
+Brian Siu,1
+James T Bartis,1
+Gregory N Juday/US,1
+Gregory N Juday/United,1
+land use policies,4
+Winston Churchill,2
+National Environment Management Authority,2
+Martin Mapenduzi,2
+Edwin Muhumuza,2
+Ben Garvin,1
+Holland & Knight,1
+Pew,1
+Clean Air Watch,1
+Frank O’Donnell,1
+James Pew,1
+Greg Scott,1
+Portland Cement Association,1
+American Forest and Paper Association,3
+Donna Harman,1
+Kevin Wolf/AP,1
+Richard Gold,1
+cement plants              Environmental Protection Agency,1
+Cornell,1
+Stevens,1
+Cooper,1
+University of Wisconsin-Madison,2
+robins,1
+University of Wisconsin-Stevens,1
+Carrol Henderson,1
+Benjamin Zuckerberg,1
+CB Bylander,1
+Julia Ponder,1
+Jennifer McCabe,1
+Lori Naumann,1
+Robert Rosenfield,1
+Minnesota Department of Natural Resources nongame wildlife division,1
+Eduardo Porter,1
+Pacific Forest Trust,1
+woody biomass,1
+Biomass Power Association,1
+Pinchot Institute for Conservation,1
+BOB CLEAVES,1
+LLC,1
+Novus,1
+Dan Browning,1
+Novus Energy,1
+John Offerman,1
+William Sabarese,1
+Charles Tuchfarber,1
+Jeff Lighthart,1
+Republic Bank of Duluth,1
+Novus Buffalo,1
+University of Sussex,2
+Dave Goulson,2
+Muradov,1
+earthquakes,1
+Fukushima Daiichi,2
+Atomic Energy Commission,1
+Anil Kakodkar,1
+Adwait Pednekar,1
+Alan Lowenthal,2
+Steve Holmer,1
+National Economic Council,1
+healthcare,1
+CBO,1
+Valerie Jarrett,1
+Intel,3
+GM,6
+God,1
+Ray LaHood,1
+Eisenhower,1
+American Bar Association,1
+Fox News Channel,2
+FDR,1
+Roosevelt,2
+Jeff Immelt,1
+Johnny,1
+Henry Ford,2
+Tom Donohue,1
+JFK,1
+Carolyn Kaster,1
+Fred Hochberg,1
+Whirlpool,1
+Paul Volcker,1
+Richard Trumka,1
+Gene Sperling,1
+Ron Kirk,1
+Tom Bell,1
+Andrew Malcolm,1
+Steve Case,1
+American workers,1
+Bill Daley,1
+Economic Recovery Advisory Board,1
+Elizabeth Littlefield,3
+Karen Mills,1
+Steve Chu,1
+Brian Kersey,1
+Andrew Harper,1
+Chamber of Commerce and the AFL-CIO,1
+Chamber of Commerce crowd,1
+Mark Allen,1
+DLA Piper,1
+Gary Klein,1
+Solyndra,4
+Michael Martin,1
+Todd Taylor,1
+Sapphire Energy,2
+Tom Zenk,1
+Fredrikson & Byron,1
+Braemar Energy Ventures,1
+Harrison Dillon,2
+Accelergy Corp,1
+united states economy,2
+IPCC,4
+Tom Heneghan,1
+Alister Doyle,1
+Rajendra Pachauri,1
+Ottmar Edenhofer,1
+Connie Hedegaard,1
+Carlos Barria  Reuters,1
+Commonwealth,1
+Kevin Anderson,3
+University of Manchester,3
+Bill Gates,5
+German Institute for International and Security Affairs,4
+Oliver Geden,4
+Rob Jackson,4
+University of California at Berkeley,3
+Tyndall Center for Climate Change Research,2
+Adrian Corless,1
+Stanford University earth,1
+Pep Canadell,2
+Social Security,1
+hotels and motels,1
+Sam Brownback,1
+Tesla Motors,1
+Pat Roberts,1
+Ernest Moniz,2
+Peter Davidson,1
+Nancy Pfund,1
+Eileen Hawley,1
+Colo,1
+Mike Garland,1
+Cogentrix,1
+Pattern Energy Group,1
+Jan Leonard,1
+PRI,1
+Public Radio International,1
+Christopher James,1
+Nick Kirkpatrick,2
+Ricardo Arduengo/AP,1
+Tobago Hotel and Tourism Association,1
+Victor Ruiz Garcia/Reuters,1
+Brian    Lapointe,1
+Shashank Mohan,1
+Trevor Houser,1
+coke,2
+Washington Post analysis of Energy Information Administration,1
+Sun power,1
+Dillon,1
+Barnard,1
+Heloise,1
+Norma M,1
+Dear Heloise,1
+Ellen K,1
+Barb G,1
+US Department of Veterans Affairs,1
+Federal Housing Administration,1
+Attom Data Solutions,1
+Air Force,1
+Stifel Nicolaus,1
+William Loomis,1
+Michael Lewis,1
+Roman Schweizer,1
+Guggenheim Partners,1
+Science Applications International Corp,1
+SAIC,2
+John P Jumper,1
+Leidos,1
+Roger Krone,1
+Stuart Shea,1
+Silverline Group,1
+Lawrence Nussdorf,1
+Nazzic Keene,1
+Anthony J Moraco,1
+MaxIT Healthcare Holdings,1
+St Louis-based financial services,1
+Reno,3
+Mike Smith,1
+Chris Scott,1
+Cliff,1
+Suomi NPP,1
+Accuweather,1
+Karen L Nyberg,1
+MODIS,1
+Jesse Ferrell,1
+Darren Peck,1
+Cooperative Institute for Meteorological Satellite Studies,1
+Doug Ellison,1
+Tom Yulsman,1
+Lyatt Jaegle,1
+University of Washington  atmospheric science,1
+US State Department,2
+Perry,1
+Stephen Harper,1
+John Cornyn,1
+Ron Wyden,3
+Thomas Jefferson,1
+DEA,2
+Drug Enforcement Administration,2
+Doug,1
+Thomas Massie,1
+Hu Jintao,1
+Michele Leonhart,1
+agriculture department,1
+Roger Ford,1
+Loflin,1
+Financial Times,1
+BP,3
+Park,1
+Saudi Aramco,1
+Manoj Sinha,2
+BP Ventures,1
+Solidia Technologies,1
+Solidia,2
+Rob West,1
+Tom Schuler,1
+Husk Power Systems,2
+Meghan Sharp,1
+peers Royal Dutch Shell,1
+Shell Ventures,1
+Kim,1
+Scottish Association for Marine Science,1
+Credit             Daniel Vogedes/The Arctic University of Norway,1
+Agriculture Department,4
+Willie Nelson,1
+Bronner,1
+Michael Bowman,1
+Rusty Payne,1
+Justin DeJong,1
+Chris Plunkett,1
+Leech Lake,1
+DNR regional fisheries,1
+Henry Drewes,1
+third world and developing countries,1
+UNEP,3
+gigatons,1
+Tim Searchinger,1
+DOMINIQUE,1
+Jacqueline McGlade,1
+Commonwealth Scientific and Industrial Organisation,1
+Wuppertal Institute,1
+Manfred Fischedick,1
+Freiburg University,1
+Hans-Martin Henning,1
+Eicke Weber,1
+Fraunhofer Institute for Solar Energy Systems,1
+Andreas Palzer,1
+Ashley Cooper/Corbis,1
+Theodore Roosevelt,3
+Fordham University,1
+University of Connecticut,4
+grasshoppers,1
+Ben Guarino,1
+Louisiana State University,1
+Garcia,1
+National Autonomous University of Mexico,1
+University of Vermont,1
+David Wagner,1
+Xerces Society,1
+Rensselaer Polytechnic Institute,2
+Scott Merrill,1
+Alfonso XII,1
+Andrés García,1
+interior forest,1
+European biomass studies,1
+Brad Lister/PNAS,1
+Bradford Lister,1
+Timothy Schowalter,1
+telephones and telecommunications,2
+cellular telephones,2
+Harvard Law School,1
+AT&T,3
+Emory University,1
+Koch brothers,2
+Duke,4
+McKinsey,1
+Singularity University,1
+Peter Diamandis,1
+Vivek Wadhwa,1
+Futurist Ray Kurzweil,3
+Center for Entrepreneurship,1
+Jim,1
+USA TODAY,4
+Southwest,1
+Gannett,1
+Green Mountain Power,2
+Ray Anderson,1
+John Hollar,1
+Gary Hall,1
+Peter Erickson,1
+Mosier,1
+Richard Hallman,1
+Chris Clements,1
+Imago,1
+Diana Yazzie Devine,1
+Ann C Logue,1
+Steve Nygren,1
+Enright Ridge Urban Ecovillage,1
+Eileen Schenk,1
+Fatih Birol,1
+Peabody Energy,1
+Julia Roberts,1
+Michael Johnson,1
+José Andrés,1
+Stockholm Environment Institute,3
+Kirk Smith,1
+UN Foundation,1
+Radha Muthiah,2
+Berkeley,1
+Kevin Starr,1
+Eric Reynolds,1
+Jacob Moss,1
+Meera Subramanian,1
+Mulago Foundation,1
+Rema Hanna,1
+Inyenyeri,1
+Berkeley Air Monitoring Group,1
+Rural Technology Institute,1
+Jim Jetter,1
+Ranyee Chiang,1
+cook roti,1
+legislature,2
+Tim Walz,3
+Justin Fay,1
+St Paul renewable energy research and advocacy group,1
+University of Washington,3
+Kevin Trenberth,3
+National Center for Atmospheric Research,3
+James Hansen,6
+Martin Meissner/AP,1
+Cristian Proistosescu,1
+SABIC,2
+William Doherty,1
+Royal DSM,4
+Khosla Ventures,2
+Saudi Basic Industries Corp,2
+Jim Lane,1
+Cargill Inc,1
+forest industries,1
+Neal St Anthony,1
+Georgia Gulf,1
+Atul Thakrar,2
+Georgia Gulf Corp,1
+Segetis,2
+Malaysia Life Science Capital Fund,2
+SABIC Ventures,1
+Hans Kolnaar,1
+City Council,2
+Alondra Cano,1
+Karen Clark,1
+Edwin Gonzalez,1
+Steve Brandt,1
+East Phillips,1
+Carlos Parra Olivera,1
+East Philips,1
+drugs (pharmaceuticals),2
+vaccination and immunization,3
+blood,2
+anatomy and physiology,2
+commission,2
+Atlantic States Marine Fisheries Commission,2
+National Audubon Society,3
+Fauci,2
+Jack Levin,2
+Marine Fisheries,2
+Doug Fraser,2
+Stanley Watson,2
+Derek Perry,2
+Frederik Bang,2
+Brett Hoffmeister,2
+limulous amebocyte lysate,2
+Agriculture,2
+University of Montana,2
+Wyoming Stock Growers Association,1
+Jim Magagna,1
+Gila National Forest,1
+Andrew Larson,1
+Melissa Martin,1
+Vicki Christiansen,2
+Andy Stahl,1
+Chris Topik,1
+Marla Fox,1
+Daniel B Tinker,1
+Forest Service truncated scientific review,1
+University of Maryland,2
+James Cook,1
+University of South Florida,1
+Jason R Rohr,1
+Karen R Lips,1
+Credit Joseph Gamble,1
+Doug Woodhams,1
+Lee F Skerratt,1
+Dr Lips,1
+Los Angeles Times Science & Health on  Facebook,1
+Davis,4
+Zika,2
+sap,2
+Cobb,1
+Richard Cobb,1
+Dan Stark,1
+Brendan Twieg,1
+presidents and presidency (us),4
+presidential elections (us),3
+election issues,2
+presidential election of 2008,2
+John McCain,4
+Bush,2
+Mitt Romney,6
+Doug Mills/The,1
+Truman,1
+Keystone XL pipeline,1
+Daniel Yergin,1
+Dow,1
+Moody’s Investors Service,1
+William K Reilly,1
+Michael Webber,1
+David Goldwyn,1
+Jim Wilson/The,1
+Republican energy,1
+Center for International Energy,1
+international energy affairs,1
+New York Times  Mitt Romney,1
+Xinhua,2
+Ministry of Environmental Protection,1
+Wood Mackenzie,3
+Beijing Municipal Environmental Protection Bureau,1
+Yunfu,1
+Rohan Kendall,1
+USC,3
+Baylor University,1
+Jane Goodall,2
+UC Berkeley,1
+Caltech,2
+Edward O Wilson,1
+Genaro Molina,1
+Kirk R Smith,3
+Alice Tyler,1
+John H Seinfeld,1
+Owen T Lind,1
+Chesapeake Climate Action Network,2
+Mike Tidwell,2
+USW,1
+Greg Harvey,1
+NewPage,2
+Luke mill,3
+Antonin Scalia,1
+Honda,2
+Rutgers University,2
+Bill Nye,1
+Grantham Institute,1
+Jim Lenahan,1
+Harold Brooks,1
+Stern,1
+Peter Gleick,1
+John Poindexter,1
+Ali al-Naimi,1
+Boston Dynamics,1
+Pacific Institute,1
+Mother Nature,3
+UC-Davis,1
+USA TODAY Network,2
+B Morton,1
+Richard Rowe,1
+Frank Pompa,1
+Jae C Hong,1
+Takahiro Hachigo,1
+journal Nature,1
+Honda Motor Co Ltd,1
+St Paul City Council,1
+WeatherBell,1
+Dan Anderson,2
+Supreme Court of the United,1
+Jill Nance,1
+Justin Peebles,1
+Jonas de Ro,1
+Minnesota State Board,1
+Reuters/James Fassinger,1
+Dino Kordopitoulas,1
+Kentra Roedl,1
+California Methane,1
+St Paul to Bar,1
+St Cloud Weather Office,1
+social network,1
+Kate Spade,1
+Boston Globe,2
+Peter,1
+Quartz,3
+Starbucks,1
+Oakland,1
+McDonald,5
+American Red Cross,1
+iStock,1
+US Army,1
+Zeynep Tufekci,1
+MetLife,1
+WSJ,1
+Luke Sharrett/Bloomberg,1
+Cambridge Analytica,1
+Simon & Schuster,1
+William Alsup,1
+John Abraham,2
+Wilfrid Laurier,1
+POLITICO,1
+John Stuart Mill,1
+Ars,2
+Colin Robertson,1
+Bloomberg Markets,1
+University of St,1
+Gustavus Adolphus,1
+Russel Honoré,1
+Eric Risberg,1
+Tim Samaras,1
+Marcus Yam,1
+Burger King,1
+Wendy,1
+journal Energy,1
+Dylan McKay,1
+Jamie Margolin,1
+hillier,1
+Andrew Arnold,1
+Mankato Free Press,1
+FEMA records,1
+Brantley Hargrove,1
+BP PLC,1
+Morten Hansen,1
+Ryan McGinnis,1
+McLeman,1
+Aaron Vincent Elkaim/The,1
+Brent Parton,1
+Corey Brickley,1
+Katherine Bindley,1
+Freddy Brewster,1
+Dustin Schneider,1
+Gabrielle Canon,1
+Tom Collin,1
+Maura Olivos,1
+Louis Mosenden,1
+NOAA NOHRSC,1
+Baclays,1
+Amy Klobuchar,1
+ENVIRONMENTAL Protection Agency,1
+Charles E Schumer,2
+Joe Biden,2
+Democratic party,1
+Angus King,3
+Kevin McCarthy,1
+Salinas,1
+Kaiser,1
+Chris Coons,1
+Sarah Kaplan,1
+Braun,1
+HUD,3
+Jared Huffman,2
+California Air Resources Board,1
+Shirley Sherrod,1
+Laura Reiley,1
+Mary Nichols,1
+Vilsack,1
+bottlenose dolphins,1
+Elizabeth Gore,1
+Nichols,1
+Greta Thunberg,1
+news of two calfs USA Today,1
+Clark,1
+Superman,1
+Bruce Wayne,1
+Batman,1
+Barbara Gordon,1
+canon,1
+Jessica Jones,1
+AGU,1
+Robin Madel,1
+Martin Truffer,1
+food foundation,1
+DC Comics associates,1
+Sim Jones,1
+Ryan Haupt,1
+World Bank Group,1
+James Steele,2
+Robert Mosbacher Jr,2
+—Buchanan,1
+US government's Overseas Private Investment Corporation,1
+Bloomberg LP,1
+Center for Strategic & International Studies,1
+BP Plc,1
+Liam Denning,1
+Mark Gongloff,1
+Harry Benham,1
+universal energy,1
+Nikos Tsafos,1
+foreign investments,2
+George HW Bush,1
+commerce,1
+Donald H Rumsfeld,1
+BUCHANAN,1
+Sarah Monopoloh,1
+global Consultative Group,1
+CSP,1
+Kathleen Schuler,1
+Marc Hillmyer,1
+William Tolman,1
+John Podesta,1
+Boston University,2
+Lux Research,2
+Penn State,1
+Massachusetts Institute of Technology,3
+Arizona State University,4
+David Berry,1
+Lawrence Berkeley National Laboratory,3
+Steve Koonin,1
+Joule,1
+James Collins,1
+Andrew Soare,2
+Craig Venter,2
+Wyss Institute,1
+Bill Sims,1
+Stephen Mayfield,1
+Donald Bryant,1
+Dan Robertson,1
+San Diego Center for Algae Biotechnology,1
+Yusuf Chisti,1
+Isaac Berzin,1
+Nigel Quinn,1
+Jeff Way,1
+Greg Stephanopoulos,1
+Wim Vermaas,1
+GreenFuel Technologies,1
+GreenFuel,2
+Jim Liao,1
+Harvard's Church,1
+Harvard's George Church,1
+Rene Wijffels,1
+Easel Biotechnologies,1
+Credit             Fred R Conrad/The New York Times,1
+Liana Vines,1
+united states international relations,1
+international relations,1
+Mark Williams,1
+Greg Keller,1
+Christophe de Margerie,2
+Eric Besson,1
+Hussain al-Shahristani,2
+Nordine Ait-Laoussine,1
+Didier Houssin,1
+Dutch oil giant Shell,1
+Russell,1
+Riley,2
+Rice University,2
+James Nielsen,2
+William Marsh Rice,2
+Kathleen S Matthews,1
+Ethician Foundation,1
+Army Corps of Engineers,2
+NEW YORK TIMES     The Nuclear Regulatory Commission,1
+John F Kennedy,2
+black,1
+American Civil Liberties Union,1
+Yellowstone,2
+Ridley Scott,2
+LBJ,1
+Morehouse,1
+Arkansas,1
+Bozeman,1
+University of Virginia,1
+Metro,1
+US House,1
+Reds,1
+Muhammad Ali,1
+Spike Lee,1
+Omaha World-Herald,1
+Gillette,1
+Cate Blanchett,1
+Arkansas Democrat-Gazette,1
+boxer,1
+Tony Hawk,1
+Union Army,1
+Parks & Recreation,1
+TCF Bank,1
+Morehouse College,1
+University of Toledo,1
+Dartmouth College,1
+Wildlife Service,2
+Sigourney Weaver,1
+Warwick,1
+Lyndon Baines Johnson,1
+Ted Wheeler,1
+New Mexico,1
+Zenith,1
+Laura Kelly,1
+Pharrell Williams,1
+GMP,1
+Center for Coastal Studies,1
+Pineapple Express,1
+Hilary Franz,1
+Kristy,1
+Stetson University,1
+David Holt,1
+Phoenix Law Enforcement Association,1
+Stillman College,1
+Nancy Harhut,1
+John Brooks,1
+Arkansas Department of Health,1
+Mike Phillips,1
+US Public Interest Research Group,1
+Burlington Electric Department,1
+Franklin Institute,1
+Maynard Jackson,1
+Tuscaloosa News,1
+Felix Ortiz,1
+Dominion Post,1
+NC Department of Transportation,1
+Nicole King,1
+Standing Rock Sioux Tribal Council,1
+Nathanael Greene,1
+Adam Monroe,2
+Thomas McGuire,1
+Rob Rice,1
+Colin Johnson,1
+Armando Hinojosa,1
+Luci Baines Johnson,1
+Gillette News,1
+Ruth E Carter,1
+Bryde,1
+Javier Garcia,1
+Vermont electric,1
+Northeast Mississippi Daily Journal,1
+Scott Larsen,1
+Zenith Energy,1
+Muskegon Chronicle,1
+hill,1
+Clint Walker,1
+Stronach Group,1
+Joseph Solomon,1
+Galen Green,1
+Maine Technology Institute,1
+Grand Haven Tribune,1
+Muhammad Ali Center,1
+state Department of Environmental Management,1
+Amur tigers,1
+Henry Doorly Zoo & Aquarium,1
+Cedar High School,1
+Pat McGinnis,1
+CD Davidsmeyer,1
+Dee Dee Blanchard,1
+Jennifer Head,1
+Iron County School Board,1
+men’s college,1
+Anchorage television station KTVA,1
+South Carolina Council,1
+Hawaii Volcano Observatory,1
+Meg Mirivel,1
+China Railway Rolling Stock Corp,1
+US Department of Energy grant,1
+Gypsy Blanchard,1
+George Sears Greene,1
+Vicki Veltri,1
+state parks,1
+Shannon Delaney,1
+Scott Weldy,1
+Kaitlyn Vitez,1
+SC Logistics,1
+University of South Carolinas Moore School of Business,1
+Joey Von Nessen,1
+Erin Turrell,1
+Department of Environment Protection,1
+Charlottesville college,1
+Laura Engleby,1
+new US Department of Agriculture,1
+Providence Journal reports Warwick,1
+Dave Smolensky,1
+New Hampshire Travel Council,1
+Stuart Leidner,1
+Whitney Kemp,1
+Tony Borglum,1
+Rick Gehrke,1
+Wellhausen School,1
+Connecticut Office of Health Strategy,1
+HBT Marketing,1
+Franchesca Macelli,1
+Terri Wiltse,1
+Maryvale Estrella Mountain Precinct,1
+University of Toledo research,1
+Minnesota Daily that University of Minnesota,1
+Matthew DiGuglielmo,1
+Stars & Stripes Park on Lake Hefner,1
+John Hopkins University,2
+Johns Hopkins,1
+Jack Thomas,2
+Hickerson,2
+Edurant Hopkins University,2
+Minnesota Clean Energy,1
+automobiles,4
+Supervalu,1
+Michael Noble,1
+Charles Hernick,1
+Lori Sturdevant,1
+David Senjem,1
+Blaine Hill,1
+Morris Transit,1
+federal energy,2
+Bloomberg analysis,2
+Clean Energy Economy Minnesota,2
+Toyota,2
+Chrysler,3
+National Research Council,1
+Dan Becker,1
+Research Council,1
+MPR Associates,1
+Energy Department’s Energy Information Administration,1
+Douglas M Chapin,1
+company reports,2
+Standard & Poor,1
+zenith,1
+Citigroup,2
+John Rowe,2
+UBS,1
+Exelon Corp,2
+Exelon,2
+Christopher Crane,1
+Commonwealth Edison,1
+ComEd,2
+Commonwealth Edison Co,1
+PECO Energy Co,1
+Chung,2
+Dalhousie University,3
+Julia Baum,2
+Samantha Joye,2
+William Cheung,2
+Boris Worm,2
+Derek Tittensor,2
+University of Georgia marine,2
+United Nations World Conservation,2
+University of Victoria biology,2
+Jeff Merkley,1
+Mark Harmon,1
+Senate appropriations committee,1
+Oregon State University,2
+Beverly Law,1
+forest carbon bank,1
+Bois,1
+du Lac,2
+muskie,1
+Bob Benson,1
+Kevin Leecy,1
+Edie Evarts,1
+Ed Tausk,1
+Vermilion Dam Lodge,1
+Lancet,3
+Keck School of Medicine,1
+Samuel Gandy,1
+Jiu-Chiuan Chen,1
+Los Angeles Times Science & Health on Facebook,1
+Treasury Department,1
+BLM,3
+Jefferson,1
+DEQ,1
+BPA,2
+National Wildlife Federation,2
+willy nilly,1
+Bill Pullman,1
+Townsend,1
+Brian Schweitzer,1
+state Department of Labor,1
+Dan Foley,1
+Sonoran Institute,1
+Montana Department of Fish,1
+NorthWestern Energy,1
+Jim Jenson,1
+Montana DEQ,1
+Montana Wildlife Federation,1
+Montana Power Co,1
+Claudia Rapkoch,1
+environmental center,1
+WECC,1
+Monique DiGiorgio,1
+Leonard Wortman,1
+Marie Garrison,1
+Greg Tollefson,1
+Mark Mackiewicz,1
+Elkhorns Wildlife Management,1
+Craighead Foundation,1
+Brad Parsons,1
+Gretchen Hansen,1
+Jim Justesen,1
+Citizen Walleye Advisory Committee,1
+Tyler Ahrenstorff,1
+Alex Ovechkin,1
+Mercedes-Benz,1
+Wilfrid Laurier University,1
+Connor McDavid,1
+Kim Davis,1
+Gallup,1
+Scott Jenkins,1
+Omar Mitchell,1
+Bonneville Environmental Foundation,1
+Board of Sport and Sustainability International,1
+culture,1
+indians american,1
+hazardous and toxic substances,2
+Mission Indians,1
+AQMD,1
+Darryl Adams,1
+Barry Wallerstein,1
+Coachella Valley School District,1
+Western Environmental Inc,1
+David Roosevelt,1
+Colmac Energy Inc,1
+Cabazon Tribal Court,1
+Tom Hicks,1
+Solar Energy Industries Association,1
+SunPower,2
+Tom Kiernan,2
+Abigail Ross Hopper,1
+John Berger,1
+Matthew Davis,1
+Barry Cinnamon,1
+Thomas Werner,1
+Paul Gaynor,1
+Gulf of Maine Research Institute,1
+Andrew Pershing,1
+Bernadette Del Chiaro,1
+Jeanine Cotter,1
+California Solar and Storage Association,1
+Luminalt,1
+Cinnamon Energy Systems,1
+Sunnova Energy International,1
+Helen Northcutt White,1
+Edward,1
+Paul,6
+Porter,1
+Jason Marshall,1
+Matthews,1
+Hansen,1
+Halliburton Co,1
+Southern California Gas Co,1
+Playa del Rey,1
+Asger,1
+SoCal Gas,1
+California Department of Conservation,1
+Coots Services,1
+Rodger  Schwecke,1
+Pavel Molchanov,1
+Raymond James,1
+David Cameron,1
+Angela Merkel,3
+Oxford University,2
+Donald Tusk,1
+Chatham House,1
+Michael Fallon,1
+Karla Adam,1
+Gazprom,1
+CDU party,1
+Wintershall,1
+Heinrich Böll Foundation,1
+Michael Fuchs,1
+Faiola,1
+Ralf Fücks,1
+Dieter Helm,2
+Francis Egan,1
+Rebecca Lawson,1
+Fernhurst,1
+Martyn Knights,1
+Stephen Stromberg,1
+Scott Sklar,1
+University of Kang Ning,1
+US Department of Commerce Renewable Energy and Energy Efficiency Advisory Committee,1
+Army,3
+Jodie Foster,1
+Solon,1
+USAMRIID,1
+US Army Medical Research Institute,1
+Richard Preston,1
+Chuck Dasey,1
+Krissa,1
+Cheryl Parrott,1
+united states armament and defense,1
+defense,3
+Donald Rumsfeld,1
+ASSOCIATED PRESS,2
+Ray Mabus,1
+Pacific fleet,1
+Jonathan Greenert,1
+Randy Forbes,1
+Primus Green Energy,2
+S NAVY,1
+Bob Johnsen,1
+Sharon E Burke,1
+Jonathan Wolfson,1
+RYAN MAYES/U,1
+SAM SHAVERS/U,1
+Joshua Palomares,1
+Ahmed Djoghlaf,1
+Daniel Reifsnyder,1
+Nell Greenfieldboyce,1
+United Nations secretariat,1
+Ronald Reagan,3
+Western States Petroleum Association,1
+Gerber,1
+Jim Nielsen,1
+Alex Jackson,1
+Catherine Reheis-Boyd,1
+hilltop Griffith Observatory,1
+SWP,1
+Nicholas,1
+Cormac McCarthy,1
+federal Agriculture Department,1
+Rebecca Shaw,1
+California Cattlemen’s Association,1
+Linwood Pendleton,1
+Jennifer Witherspoon,1
+California Beef Council,1
+New York Times Environmental Defense Fund,1
+Dominion,1
+Akio Kon/Bloomberg,1
+Dominion Energy,1
+Virginia Department of Environmental Quality,1
+MeadWestvaco,2
+Seth Heald,1
+Mary S Booth,2
+lien,1
+Lufkin News,1
+Aspen Power biomass,1
+Aspen Power plant,1
+Paula Bontempi,1
+Heidi Sosik,1
+corps,1
+Corps of Engineers,1
+Randy Clark,1
+Jim Weber/The,1
+Bobby Wilson,1
+Tom Charlier,1
+Joe Gillas,1
+Riverine Fisheries International,1
+Augusta Fisheries,1
+Xi Jinping,2
+Michel Temer,1
+Peter Prengaman,1
+David Waskow,1
+Laura Bush,1
+John F Kerry,1
+Eric Reid,1
+Tommy,1
+Judith,1
+Jane Lubchenco,1
+Susan Middleton,1
+Ali Bongo Ondimba,1
+James L Connaughton,1
+Enric Sala,1
+Aulani Wilhelm,1
+Janis Jones,1
+Matt Rand,1
+David Liittschwager,1
+Thomas Esang,1
+Minnesota Farmers Union,1
+computer and video games,1
+Christopher Byrd,1
+Carrion,1
+New York Times Book Review,1
+National Catholic,1
+Kansas,1
+Edmund Burke,1
+Paul Krugman,2
+Kentucky,1
+CBC,2
+Rolling Stone,3
+NWS,3
+McDonalds,2
+Wikipedia,1
+Kansas State University,1
+David Attenborough,1
+Bill McKibben,2
+John Hickenlooper,1
+WCCO,1
+Joe Romm,4
+USA Network,1
+NORMAN,1
+Jim Hansen,2
+Valentine,1
+NCAR,1
+Jason Weingart,1
+Scott Mandia,1
+Jeff Morris,1
+WCCO-TV,1
+Physical Sciences,1
+Jonathan Overpeck,1
+Eindhoven University of Technology,1
+Scott Walton,1
+Suny,1
+Johnny Kelly,1
+Baylor Hospital,1
+MSP metro,2
+USA National Center for Atmospheric Research,1
+Bill Blakemore,1
+Matt McGee,1
+Don Shelby,1
+Bill McKibbin,1
+Jackson Examiner,1
+Tom Oszman,1
+Janet Davison/CBC,1
+Climate Analysis Section,1
+NOAA HPC,1
+Associated  Press,1
+Debbie Ely,1
+Brock  University,1
+Pan Anjun,1
+NOAA  SPC,1
+MSP metro,1
+Tricia Frostad,1
+Greg Cooney        Greg - you,1
+Kathleen Olona        Kathleen,1
+Jan Tuve Johanson,1
+Ecology and Agriculture Spatial Analysis Laboratory,1
+ABC News  environmental,1
+International Institute for Applied Systems Analysis,1
+Joeri Rogelj,1
+Willem-Alexander,1
+Tom Vilsack,2
+Jan Koninckx,1
+Jeff Broin,1
+stover,2
+John Pieper,1
+Charlie Kollasch,1
+Wallace E Tyner,2
+United Nations Foundation,1
+Kamlesh,1
+Bebeto Matthews,1
+Manish Swarup,1
+cor pulmonale,1
+Kip Patrick,1
+Reid Detchon,1
+Sivaramakrishna Iyer Padmavati,1
+global partnerships and communications,1
+crime and criminals,2
+sentences (criminal),1
+Internal Revenue Service,2
+Terrell Owens,1
+Duane Starks,1
+Leinenweber,1
+Jeffrey Steinback,1
+Daniel Pauly,1
+Trevor Branch,1
+Dirk Zeller,1
+Ray Hilborn,1
+University of Washington scientists,1
+Thomas McDonald/The,1
+UW’s  School of Aquatic and Fisheries Sciences,1
+Sami Yassa,1
+Rangers,1
+Tom,1
+Derek Stepan,1
+Diana Richardson,1
+Independence Party,1
+Kentucky Derby,1
+Thomas L Friedman,1
+Pharoah,1
+Henrik Lundqvist,1
+Shirley Patterson,1
+Ian Crozier,1
+Karim Camara,1
+Steven Yeh,1
+Tim Nickerson,1
+lengths Dortmund,1
+New Scientist,1
+University of Wisconsin Madison,1
+jack pine,1
+Nikiforuk,1
+University of Northern British Columbia,1
+Ken Raffa,1
+David Mattson,1
+Diana Six,1
+Allan Carroll,1
+Jesse Logan,1
+Ed Berg,1
+Staffan Lindgren,1
+Johann Gmelin,1
+Johnston,1
+Jarvis,1
+Redmond,1
+Elliott,1
+UGC,1
+Jul,1
+Howland,1
+PostTV,1
+Lance Morgan,1
+Marine Conservation Institute,1
+Emily Woglom,1
+trump  George W Bush,1
+James Maragos,1
+health insurance and managed care,1
+Matthew Daly,1
+Steve,1
+House Budget Committee,3
+Ken Thomas,1
+Seamus,1
+Julie Pace,1
+Lis Smith,1
+Kasie Hunt,1
+Philip Elliott,1
+El Niño,5
+Spencer Weart,1
+Ralph Keeling,1
+Scripps Institution of Oceanography,1
+atmospheric CO,1
+Charles David Keeling,1
+Mauna Loa CO,1
+minima,1
+natural exchanges of CO,1
+Credit  Scripps Institution of Oceanography,1
+NOAA/ Scripps,1
+Credit  NOAA/ Scripps Institution,1
+Watson,1
+Cato Institute,1
+Washington University,1
+Boston Consulting Group,1
+Craig Pirrong,1
+Michael Levi,1
+BCG,1
+Todd Myers,1
+Oklahoma State University,1
+David M Rubenstein,1
+MIT Press,1
+Vaclav Smil,2
+Ariel Cohen,1
+Global Energy Management Institute,1
+Jerry Taylor,1
+Robert Rapier,1
+Ed Begley Jr,1
+Kate Gordon,1
+Kateri Callahan,2
+Margaret Walls,1
+Mark Thurber,1
+Jeffrey Ball,1
+University of Michigan University of Chicago,1
+Merica International,1
+state Salmon Recovery Council,1
+Iván Martén,1
+Bauer College of Business at University of Houston,1
+Mazen Skaf,1
+Joe Harris,1
+Department of Economic Development,1
+Ken Cuccinelli II,1
+FRANKLIN,1
+International Paper,1
+Virginia Port Authority,1
+Franklin Pellets,1
+Portsmouth Marine,1
+Lisa T Perry,1
+Peter M O’Keefe,1
+Wight County budget,1
+Interior,3
+Senate Appropriations Committee,1
+Kevin,3
+Rick Scott,2
+Raúl Grijalva,2
+Joshua,1
+Scott Applewhite,1
+Steve King,1
+House Appropriations Committee,1
+Bayer,1
+Jody Hice,1
+Melina Mara/The Washington Post,3
+Portland Press Herald,1
+Davenport,1
+Tom Cole,1
+Beto O’Rourke,1
+Richard C Shelby,2
+Sioux City Journal,1
+College of William and Mary,1
+Matthew Cappucci,2
+Beto O'Rourke,1
+Ian Livingston,2
+Janet Mills,2
+Mark Lennihan/AP,1
+Reuters/Lucy Nicholson,1
+hydro,1
+Brandon Clement,1
+House Natural Resources,1
+Youngrae Kim,1
+Varshini Prakash,1
+— Beto,1
+National Park Service maintenance,1
+Mark Lee Greenblatt,1
+Randy DeBaillie,1
+Daniel Habib Jorjani,1
+those Bureau of Ocean Energy Management,1
+USGS,1
+Northern Arizona University,2
+Max Holmes,1
+Newtok,1
+Andrew Burton/Getty,1
+David McGuire,1
+Ted Schuur,1
+Matt Snyder/Alaska,1
+Zhiliang Zhu,1
+Baillie Gifford,1
+Adidas,1
+Stella McCartney,1
+Bolt,1
+Museum of Modern Art,1
+David Breslauer,1
+Jonathan Schilling,1
+Philip Ross,1
+Dan Widmaier,1
+Sophia Wang,1
+Chester Wallace,1
+Ethan Mirsky,1
+Stephen Sothmann,1
+Matt Scullin,1
+Beatrice Amblard,1
+MycoWorks,1
+Hide Council of America,1
+MycoWorks Scientific Advisory Board,1
+Heidi Heitkamp,1
+CCS,3
+John Thompson,1
+Sheldon Whitehouse,1
+Bob Inglis,1
+Southern Co,2
+Lukas Ross,1
+Jeff Erikson,1
+Global CCS Institute,1
+Americas of the Global CCS Institute,1
+Statoil,1
+Vidar Helgesen,1
+Lars Haltbrekken,1
+Ellen Viseth,1
+Bellona environmental group,1
+Glen Peters,1
+Daniel Kammen,1
+University of California in Berkeley,1
+Howard Herzog,1
+Energy Laboratory,1
+Colstrip Steam Electric Station,1
+Matthew Brown/Associated,1
+Richard Hill,1
+James Fatherree,1
+Jack Williams,1
+Neal Vanderbosch,1
+Geir Moulson,1
+Edward Davey,1
+Markus Beyrer,1
+Jon Fahey,1
+Business Europe group,1
+Dianne Feinstein,1
+Steve Daines,1
+Wilderness Society,1
+Western Environmental Law Center,1
+Craig Thomas,1
+D-San Rafael,1
+American Forest Resource Council,1
+Susan Jane Brown,1
+Forest Service emergency legal authority,1
+Steven Clarke,1
+Esty,1
+Christopher Recchia,1
+Conservation Law Foundation,1
+Seth Kaplan,1
+Marcia Blomberg,1
+Dan Esty,1
+Patrick Woodcock,1
+Marion Gold,1
+Barbara Kates-Garnick,1
+metals and minerals,2
+water pollution,2
+Larry Hogan,1
+Campbell,1
+Verso,1
+Apperson,1
+methyl mercury,1
+Kathi Rowzie,1
+Ron Paugh,1
+National Biodiesel Board,1
+US trade association,1
+Joe Jobe,1
+federal  Energy Information Administration,1
+fines (penalties),1
+Moorhead,1
+Northstar,1
+Perham,2
+USPS,1
+McGregor,1
+MPCA,2
+Minnesota Department of Transportation,1
+Eagan,1
+Lunda,1
+American Crystal Sugar Co,1
+Darlow,1
+Northshore Mining Co,1
+Farmers Cooperative Inc,1
+Lunda Construction Co,1
+Craig Benedix,1
+Northstar Materials Inc,1
+Knife River Materials Inc,1
+Acuity Brands Lighting Corp,1
+Superior Industries LLC,1
+ST PAUL,1
+Mary Robinson,1
+metro,1
+Department of Commerce,1
+Olympia Snowe,1
+Huffington,1
+Press Association,1
+Rasmussen,1
+Alex Salmond,1
+Hilton,1
+Yahoo News,2
+Mora,1
+Beryl,1
+NRDC,1
+Rainn Wilson,1
+Hayward,1
+Peterborough Examiner,1
+Christopher Monckton,1
+El Nino,4
+Brett,1
+Alberto,1
+James Lovelock,1
+NHC,1
+Chris Landsea,1
+tom costello,1
+Olympia J Snowe,1
+Environment Canada,1
+Joanne Nova,1
+Dan Kahan,1
+MSNBCcom,1
+Casey Anthony,1
+TPI,1
+Environmental Law Institute,1
+UCAR,1
+James Hanson,1
+Wayne Jackson,1
+Jack Hayes,1
+Verisk Analytics,1
+Todd Nelson,1
+CLIFFORD,1
+Alyson Hurt,1
+MONSON,1
+TIM WIMBORNE,1
+the Insurance Institute for Business & Home Safety,1
+Julie Rochman,1
+Steven Pfaff,1
+Aaron Shaffer,1
+Science & Public Policy Institute,1
+Andrew Casey,1
+Melissa C Lott,1
+Addison Green,1
+Scott McNally,1
+Louise Mair,1
+Larry Kalkstein,1
+Pascal Robidas/Radio-Canada,1
+Ishmael Israel,1
+National Weather Service,1
+brown argus,1
+Pia Rogers,1
+Department  of Commerce,1
+Curt Lentner,1
+Wayne Angelo,1
+Miranda Hilger,1
+EL  Nino,1
+Sunlight Foundation analysis,1
+Lot's of warm sun,1
+Advanced Energy Manufacturing  Tax Credit,1
+Science  & Public Policy Institute,1
+Blue Lake Power LLC,1
+Microsoft,4
+Hertz,3
+Paul Allen,2
+rice,3
+SpaceShipOne,2
+Burt Rutan,2
+David Hertz,3
+Richard Groden,3
+Matthew Stuber,3
+Laura Doss-Hertz,2
+char,1
+David Hoskins,1
+Karen Lips,1
+Chris Mattison/Minden,1
+Ted Cruz,2
+Bob Corker,2
+Jeff Sessions,2
+treasury,2
+Jon Tester,2
+Betsy DeVos,2
+Roberts,2
+Neil Gorsuch,2
+Judiciary Committee,2
+Julie Tate,2
+United States Senate,2
+Senate Judiciary Committee,2
+Elena Kagan,2
+Andrew Puzder,2
+Hart Senate,2
+Jay Rockefeller,2
+Norman Ornstein,2
+Tamera Luzzatto,2
+grill Gorsuch,2
+Alex Moffat,2
+Perry Mason,2
+Jayne Orenstein/The,1
+Kathryn L Pearson,2
+Gordon Moore,1
+Jack Andraka,1
+Johns Hopkins interstate,1
+photography,1
+LACMA,1
+Alex Rivera,1
+Joni Mitchell,1
+Santa Monica,1
+Wilshire Blvd,1
+Josh Kun,1
+Ken Ehrlich,1
+Mitchell,1
+Robert Smithson,1
+Bruce Conner,1
+Camilo Ontiveros,1
+Samuel Levi Jones,1
+Larry Sultan,1
+Alicia Schmidt-Camacho,1
+Kohn Gallery,1
+Los Jornaleros del Norte,1
+N Alvarado St,1
+Joyce Alexander Wein,1
+Javier Tapia,1
+Dave Naz,1
+Janet Sarbanes,1
+Gianni Pettena,1
+Megan Daalder,1
+Bruce Davidson/Paul Caponigro,1
+Inglewood Open Studios,1
+Liberal Democratic Party,1
+Shinzo Abe,1
+LDP,1
+Pew Research Center,2
+Democratic Party of Japan,1
+Tepco,1
+Tokyo Electric Power Co,2
+Naoto Kan,3
+Ohi,1
+Google Ventures,1
+Bill Maris,1
+Mike Cheiky,1
+GE Capital  and  NRG Energy,1
+Brad Plumer,1
+Guido Schmit-Traub,1
+University of California Los Angeles,1
+George Thurston,1
+Andy Wong/AP,1
+Max Planck Institute for Chemistry,1
+Jos Lelieveld,1
+Fielding School of Public Health,1
+New York University’s School of Medicine,1
+Rogers,1
+Harry Reid,1
+American Council,1
+Inc,1
+Mike McKenna,1
+Duke Energy,1
+Southern Alliance for Clean Energy,1
+American Electric Power,1
+Jim Rogers,1
+Duke Energy Corp,1
+112th Congress,2
+SACE,1
+American Electric Power Co,1
+China Huaneng Group,1
+Progress Energy,1
+Steven Nadel,1
+Progress Energy Inc,1
+Bill [Johnson,1
+Southeastern utilities,1
+Bartlett,1
+Como Park Zoo,1
+Tom Smiley,1
+Jonathan Heaton,1
+Kestrel Design Group,1
+Peter MacDonagh,1
+Kenosha News,1
+Koerner,1
+park operations,1
+Jonathan Rudie,1
+Terry Easter,1
+science and technology,1
+Université Laval,1
+Energy & Environmental Sciences,1
+Marcel Babin,1
+Kevin Arrigo,1
+music,1
+rock music,1
+Cyndi Lauper,1
+Boston,1
+MTV,1
+Mississippi State University,1
+Department of Biological Sciences,1
+Malcolm Young,1
+biological sciences,1
+Brandon Barton,1
+Marcus Lashley,1
+Malcom Young,1
+Northwest Shoals Community College,1
+Vincent Klink,1
+Department of Biological Sciences and Department of Wildlife,1
+MSU biological sciences,1
+Mariah Hodge,1
+Cori J Speights,1
+Anna M Autrey,1
+PBL Netherlands Environmental Assessment Agency,1
+Moore,2
+UC Santa Barbara,3
+University of California-Santa Barbara,1
+James Kennett,1
+Hastings,1
+Jim Adams,1
+Paul Hicks,1
+St Paul company,1
+Mark Peine,1
+Jeff Guillemette,1
+Char Stark,1
+Northland Securities,1
+Mike Burns,1
+state Agriculture Department,1
+William Lee,1
+Dan O'Neill,1
+Evergreen Energy,1
+Xcel Energy Renewable Development Fund,1
+Doug Tiffany,1
+U's St Paul campus,1
+Center for Integrated Natural Resources,1
+Kelsey Dahlen,1
+Michael Vangstad,1
+Frontline BioEnergy,1
+Xcel fund,1
+District Energy  St Paul,1
+Don Emmert,1
+Richard Connor,1
+Catia Bastioli,1
+Novamont,2
+Francois Hollande,1
+Laurent Fabius,1
+John Schellnhuber,1
+REUTERS/Stephane Mahe,1
+Stephanie Pfeifer,1
+IIGCC,1
+property taxes,1
+Patricia Sullivan,1
+Justin Wilson,1
+Alexandria City Council,1
+Alexandria council,1
+Mark Jinks,1
+Mo Seifeldein,1
+Canek Aguirre,1
+Elizabeth Bennett-Parker,1
+Lisa,1
+F Bukaty,1
+Matthew,1
+interior,1
+Josh Dawsey,2
+woods,2
+Dean Heller,1
+Republican Party,1
+GOP House,1
+Halliburton,1
+Mark Harris,1
+Jacky Rosen,1
+Bill Schuette,1
+Gretchen Andersen,1
+Washington Post-Schar School,1
+Elon University,1
+Shawn Moody,1
+Photo/John Locher,1
+Alyssa Roberts,1
+David J Lesar,1
+Murray Brothers,1
+Christine Loman,1
+Energy and Agriculture departments,1
+Ravi Swamy,1
+Canadian pipeline operator TransCanada Corp,1
+Spike,1
+European Geosciences Union journal Atmospheric Chemistry,1
+Drew Gentner,1
+Primus,1
+Mike Allen,1
+magic,1
+Chevrolet Cruze,1
+Johnsen,1
+Robert A Heinlein,1
+George E Boyajian,1
+Bechtel  Hydrocarbon Technology Solutions,1
+Bechtel energy conglomerate,1
+St Paul central business district,1
+District Energy St Paul,1
+District Energy St Paul going coal-free,1
+continental,1
+LSU,1
+Louisiana State Universit,1
+Ryan Zinke,2
+Elijah Nouvelage,1
+US Interior,1
+Erin Ailworth,1
+Nature Conservancy,1
+Edward Smith,1
+National Interagency Fire Center,2
+Jim Carlton,1
+Marie Davis,1
+California Conservation Corps,1
+California Forestry Association,1
+Tahoe National Forest,1
+Brian Chamberlain,1
+Rich Gordon,1
+Placer County Water Agency,1
+Dylan Moriarty,1
+Eli Ilano,1
+Jim Branham,1
+David Edelson,1
+Sierra Nevada Conservancy,1
+Native Forest Council,1
+Tim Hermach,1
+—Alejandro Lazo,1
+Sierra initiative,1
+homeless persons,1
+Richard,1
+League of Minnesota Cities Insurance Trust,1
+Mara Klecker,1
+Diehls,1
+Sarah Cotton,1
+Bloomington Port Authority,1
+George Floyd,2
+KEVIN DUCHSCHERE,1
+MATT MCKINNEY,1
+LINO LAKES,1
+Lino Lakes City Council,1
+Peggy Diehl,1
+KIM HYATT,1
+Gabrielle Clowdus,1
+Dieter Helm   Dr Helm,1
+Yale University Press     A,1
+Theodore,1
+Gerhard Schröder,1
+Jill Stein,1
+Joschka Fischer,1
+Social Democratic Party,1
+Winfried Kretschmann,1
+Ralph Nader,1
+new European Union,1
+Winona LaDuke,1
+US Green Party,1
+Centers for Disease Control and Prevention,2
+World Meteorological Organization,1
+National Oceanographic and Atmospheric Administration,1
+Goddard Space Flight Center,1
+NASA Goddard Space,1
+Bernadette Woods Placky,1
+gigatons of CO,1
+NOAA Earth System Research,1
+Bloomberg administration,1
+EILEEN BRETTLER BERENYI,1
+SHARON H KNEISS,1
+FAIRFID M CAUDLE,1
+accidents and safety,5
+Asahi Shimbun,1
+Temple University,2
+Softbank,1
+Tokyo Electric Power Company,2
+Environment Ministry,1
+Chubu Electric Power,1
+Daiichi,2
+Andrew DeWit,1
+Masayoshi Son,1
+Sanyo,1
+Itochu,1
+Rikkyo University,1
+Institute of Energy Economics,1
+energy institute,1
+Tetsunari Iida,1
+Masakazu Toyoda,1
+Paul J Scalise,2
+Institute for Sustainable Energy Policies,1
+energy economics institute,1
+Harry Potter,2
+TJ,1
+Marines,3
+Shakespeare,3
+TNT,2
+Bubba,2
+Caltrans,2
+Congressional,2
+Stihl,4
+Brian van der Brug,2
+Compton,2
+Craig Erickson,2
+California Transportation Commission,2
+Keith Davis,2
+Stephanie Gomes,2
+Cressman,2
+Sierra National Forest,2
+Steve Gillette,2
+duff,2
+Brock Kant,1
+Tami Myers,2
+Garrett McGee,2
+Kent Duysen,2
+Niles Kant,2
+Huntington Lake Tree Service,2
+Phil MacAskill,2
+Fred Storey,2
+John Schwartz,1
+Hannah Martin,1
+Edward Fagan,1
+Greenpeace UK,1
+London Museum of Water & Steam,1
+Sean Kemp,1
+Chris J Ratcliffe/Getty,1
+Carlos Fernández Alvarez,1
+NGO,1
+Nasa,1
+Jair Bolsonaro,2
+Amazon rainforest,3
+Amazon Conservation,1
+National Institute for Space Research,2
+Amazon Environmental Research Institute,2
+Matt Finer,1
+Ane Alencar,2
+Inpe,1
+Greenpeace Brasil,1
+Christian Braga/Greenpeace Bolsonaro,1
+SCE,1
+Douglas McFarlan,1
+Edison International of Rosemead,1
+Edison Mission Energy of Santa Ana,1
+referendums,1
+Jamey Keaten,1
+Didier Burkhalter,1
+executive Federal Council,1
+Beznau,1
+Ilias Panchard,1
+Goesgen,1
+WWF,3
+World Wildlife Federation,2
+Peter Winsor,2
+Will Martin,1
+Horsham,1
+Jeffrey White,1
+Bruce Kimball,1
+Walpeup,1
+Glenn Fitzgerald,1
+Christoph Müller,1
+consumer protection,1
+food contamination and poisoning,2
+meat,1
+Hector Amezcua,1
+GMO,1
+Perdue,1
+Jonathan Kaplan,1
+Erik S Lesser,1
+Kena Betancur,1
+Allen J Schaben,1
+Center for Food Safety,1
+Andrew Kimbrell,1
+Frank Hilliker,1
+Ken Klippen,1
+Glenn Hickman,1
+National Alliance of Egg Farmers,1
+ENVIRONMENTAL PROTECTION AGENCY,1
+Pablo Martinez Monsivais/AP,1
+Mary Rice,1
+Montgomery County Council,2
+Roger Berliner,2
+US Green Building Council,3
+Dickerson,1
+Phil Andrews,1
+Isiah Leggett,1
+Patrick Lacefield,1
+Robert Hoyt,1
+Nancy Navarro,2
+Marc Elrich,1
+Nancy Floreen,1
+George L Leventhal,1
+Montgomery Council,1
+Office Building Association of Metropolitan Washington,1
+Shaun Pharr,1
+Department of Interior,1
+James Risch,1
+Energy and Natural Resources Committee,1
+energy ministry,1
+Belo Monte,1
+Domingues,1
+Jose Gomes,1
+Nova Mutum,1
+Gil Maranhão,1
+Milwaukee Journal Sentinel,1
+Domtar Corp,1
+Gale Klappa,1
+terrorism,1
+airlines and airplanes,1
+world trade center (nyc),1
+office buildings and commercial properties,1
+hijacking,1
+Secret Service,1
+New York,1
+sally,1
+United Airlines,1
+Juliet Macur,1
+Rich Roth,1
+Ozier,1
+Mark Scherzer,1
+Mary Perillo,1
+International Atomic Energy Agency,1
+Eric Talmadge,1
+TEPCO,1
+Hidehiko Nishiyama,1
+Kawauchi,1
+Chubu Electric Power Co,1
+Mandel,1
+Aaron,1
+independent Congressional Budget Office,1
+Mike Lee,1
+Scott Clement,1
+Lenny,1
+Jason Samenow,2
+Raúl M Grijalva,1
+REM,1
+Nanette Diaz Barragán,1
+Edward Maibach,1
+environmental justice,1
+E&E,1
+Werner,1
+Bonnie Jo Mount/The,1
+Winston Group,1
+Interior’s Bureau of Land Management,1
+Senate Energy and Natural Resources committee,1
+Terrence McCoy/The,1
+Karl Ammann,2
+Glenn Asakawa/University,1
+Harbor Maintenance Trust fund,1
+— Bernhardt,1
+moose Interior,1
+Robb Hill for The Washington Post,1
+George Mason-Yale,1
+University of Glasgow,1
+Scott Barrett,1
+Patrick Bayer,1
+Johannes Urpelainen,1
+German economic research institute,1
+Mercator Research Institute,1
+Berggruen Institute,1
+William Lamb,1
+Branden Camp/AP,1
+applied sustainability science working group,1
+Stuart Pimm,1
+Greg Hayes,1
+Bill Rudnicki,1
+Shakopee  Mdewakanton Sioux Community,1
+Shakopee Mdewakanton Sioux Community Center,1
+University of Illinois,3
+Melissa Harris,1
+Illinois Institute of Technology,1
+Will Allen,1
+Dickson Despommier,1
+Erika Allen,1
+John Edel,1
+Nick Santillan,1
+Narendra Modi,1
+Solidarity,1
+Jonathan Mingle,1
+men,1
+BMC,1
+Christopher Ingraham,1
+Tate,1
+Acciona,1
+Van Gogh Museum,1
+Lucy Joyce,1
+Helen Turner,1
+Pablo Wendel,1
+Nicolas Deshayes,1
+Bernd Schmidl,1
+E-Werk’s co,1
+Intel Corporation,1
+Matthew Freedman,1
+Green Mountain Energy,1
+REC,1
+Malkin Holdings,1
+Anthony E Malkin,1
+Empire State Building,1
+the  Indianapolis Zoo,1
+explosions,2
+David Peterson,1
+OSHA,1
+Occupational Safety and Health Administration,1
+Minnesota OSHA,1
+David Dill,1
+state Legislature,1
+Tony Sertich,2
+Tom Anzelc,2
+Excelsior Energy,2
+Mesaba Energy Project,1
+IRRRB,2
+Tom Micheletti,2
+Charlotte Neigh,1
+Mesaba Project,1
+retirement,1
+executives and management,1
+boards of directors,1
+Securities and Exchange Commission,2
+Regis,2
+Patrick Kennedy,2
+Proto Labs,1
+Minnesota Chamber of Commerce,2
+Cincinnati Bell,1
+Regis Corp,1
+Equilar,1
+Darlene Miller,1
+Stanley Black & Decker Inc,1
+Janus Capital Group Inc,1
+Fingerhut,1
+Talbots Inc,1
+Hewlett Packard Co,1
+Permac Industries,1
+Permac,1
+Bluestem Brands,1
+Paul Finkelstein,1
+BioBusiness Alliance of Minnesota,1
+national Manufacturing Institute,1
+Dunwoody Institute and South Central Technical College,1
+Chelsea Harvey,1
+University of Arizona,1
+Mario Tama/Getty,1
+Scott Saleska,1
+Paul Moorcroft,1
+Rosie Fisher,1
+Brock,1
+legislatures and parliaments,1
+Martin McGuinness,1
+Sinn Féin,1
+DUP,1
+Arlene Foster,1
+Sinn Fein,1
+Democratic Unionist Party,1
+British Parliament,1
+Simon Coveney,1
+Mary Lou McDonald,1
+Irish republican party Sinn Fein,1
+Irish republican party Sinn Féin,1
+Arizona State,1
+Earth sciences,1
+Archer Daniels Midland,1
+Illinois State Geological,1
+Geoff Holmes,1
+Klaus Lackner,1
+Noah Deich,1
+Sallie Greenberg,1
+Kemper Plant,1
+blackouts and brownouts (electrical),2
+Skype,2
+Shiva,1
+hardy,1
+TCS,1
+Infosys,1
+Rajendra K Pachauri,1
+Amul,1
+Sam White,1
+Heather Timmons,1
+Welspun Energy,1
+Vineet Mittal,1
+Chitale,1
+Angela Fritz,1
+Rick Stumpf,1
+Tim Wynne,1
+Eric Albrecht/Blade,1
+green algal bloom,1
+airports,1
+Minnesota Twins,1
+Ikea,1
+MAC,1
+Pentair,1
+Ameresco,1
+Paul Airport,1
+Mark Andrew,1
+Metropolitan Airports Commission,1
+Jeff Hamiel,1
+GreenMark,1
+St Paul International Airport,1
+Ameresco Inc,1
+Will Steger,1
+Xcel Energy  Inc,2
+Pete Smith,1
+Knutti,1
+Reto Knutti of ETH Zurich,1
+Greenpeace India,1
+University of Virginia’s Darden School of Business,1
+David Bornstein,1
+International Rectifier,1
+Gyanesh Pandey,1
+Shell Foundation,1
+Ratnesh Yadav,1
+dowserorg,1
+Ramapati Kumar,1
+Husk Power,1
+Charles W Ransler,1
+rice husk char,1
+wolf,1
+Louie,1
+Buckminster Fuller,1
+Rudolf Steiner,1
+Ames Research Center,1
+James Ehrlich,1
+ReGen,1
+Larry Leifer,1
+Silicon Valley center,1
+Bruce Brennan,1
+Aneel Chima,1
+Rob Liebeskind,1
+Lena Blanc,1
+Unilever,1
+John Kelly,1
+bald eagles,1
+Eastern Seaboard,1
+Dave McRuer,1
+Sarah Palin,1
+John A Boehner,1
+Kevin Smith,1
+Zach Wamp,1
+Chattanooga Times,1
+Benjamin A Gilman,1
+Clark Stevens,1
+University of Queensland,2
+amazon,2
+Food and Agriculture Organization of the United Nations,2
+journal Science,3
+Smithsonian Migratory Bird Center,2
+Peter Marra,2
+Claire Runge,2
+Kosuke Okahara,1
+Jason Lee/Reuters,1
+Getty,1
+Emma Pinchbeck,1
+RenewableUK,1
+Northeast,1
+Irma,1
+BIR,1
+Woodward,1
+NERC,1
+Tom Brennan,1
+SAB,1
+science advisory board,1
+EASAC,1
+Tofte,1
+Environmental Economics Advisory Committee,1
+Environmental Engineering Committee,1
+Science Advisory Board office,1
+European Academy of Sciences Advisory Council,1
+books and literature,3
+Aldo Leopold,1
+Canadian Rockies,1
+University of Minnesota’s Cedar Creek Ecosystem Science Reserve,1
+Chad Zirbel,1
+Cedar Creek Ecosystem Science Reserve Chad Zirbel,1
+Peter Wittig,1
+Anthony Kwan,1
+Senate Environment and Public Works Committee,2
+James M Inhofe,1
+Janet McCabe,1
+RFS,1
+Alvaro Uribe,1
+Ministry of Agriculture,1
+Mayagüez,1
+Ecopetrol,1
+Luis Fernando Londoño Capurro,1
+Asocaña,1
+National Biofuels Federation,1
+Carlos Eduardo Quintero Arizala,1
+Jorge Bendeck Olivella,1
+Alvaro Amaya Estevez,1
+Johan Martinez Ruiz,1
+Ingenio Providencia,1
+Colombian Sugarcane Research Center,1
+Mayagüez SA,1
+economic development agency,1
+Soane,1
+Rohm,1
+Cytec Industries,1
+University of Minnesota Extension Center,1
+Neal St Anthony •,1
+Soane Energy,1
+Morgan Stanley,1
+Dupont,1
+Vitol,1
+US Court of Appeals for the District of Columbia Circuit,1
+Platts,1
+John Shimkus,1
+NERA,1
+Danny Wilcox,1
+Bill Day,1
+Hugh Welsh,1
+Bob Greco,1
+Coordinating Research Council,1
+William R Klesse,1
+DSM North America,1
+Manuel Sánchez Ortega,1
+Rodney Hailey,1
+Ashley M Smith,1
+Myrna Heddinger,1
+Novozymes America,1
+Michael Brauer,2
+Jia Naqvi,2
+journal Environment International,2
+Johan Kuylenstierna,2
+Christopher Malley,2
+Jonathan,1
+Purdue University,1
+Matt Mead,1
+Earl Ray Tomblin,1
+Wyoming Mining Association,1
+Gary Whitt,1
+Doug Gotham,1
+Catholic university,1
+Monterey Bay Aquarium Research Institute,1
+marine institute,1
+Kakani Katija,1
+Pontifical Catholic University of Chile,1
+Nature magazine,1
+Kelly Lance,1
+Bruce H Robison,1
+Alana D Sherman,1
+Rob E Sherlock,1
+Joost Daniels,1
+California marine institute,1
+Giancarlo Troni,1
+beverages,1
+Canaccord Genuity,1
+Icahn School of Medicine,1
+Lincoln Hall,1
+Yasmin Hurd,1
+sherry,1
+HiFi,1
+Wade McElroy,1
+Jeff Donahue,1
+Paul McGee,1
+Journal of Physics,1
+Ben Witte,1
+Julia McKinley,1
+Keith Dolo,1
+California brewery Lagunitas,1
+Michelle Kanaar/for,1
+Katrina Zheleznyak,1
+Abengoa Bioenergy Biomass of Kansas LLC,1
+Walgreens,1
+Smucker,1
+Shedd,1
+Mark Schick,1
+Michael Mann,1
+Alaska Dispatch News,1
+Paul Miller,1
+Kathryn Schulz,1
+Amanda Erickson,1
+Keystone XL oil,1
+Katherine Frey/The,1
+Ronald Reagan International Trade Building,1
+Jeff Goodell,1
+Waste Management,1
+-- KO,1
+SNH,1
+Luca,1
+Eric Baran,1
+Guy Ziv,1
+WWF-Cambodia,1
+Gordon Congdon,1
+Jeff Opperman   Wren,1
+Jeff Opperman   Cantor,1
+David Murphy,1
+Rachel Feltman,1
+Limacina helicina,1
+Taliban,1
+Armstrong,1
+Woodbury,1
+American Museum of Natural History,1
+Concordia College,1
+Science Academy,1
+Anthony Lonetree,1
+Tom Berg,1
+Jennifer Holt,1
+Mason Vang,1
+Andrew Caflisch,1
+Woodbury charter school,1
+Padiyath,1
+Oceana Vang,1
+XeeNyia Vang,1
+Mercedes Heng,1
+Oakdale                                                                                                                                                                                                    BPA,1
+Olney,1
+Ashton,1
+Wheaton,1
+education committee,1
+Peterson Cos,1
+Sandy Spring,1
+Craig Rice,1
+Democratic District,1
+Michael Higgs,1
+John O’Malley,1
+Jim Kirkland,1
+Montgomery Board of Education,1
+Dick Jurgena,1
+new Maryland-National Capital Park and Planning Commission,1
+Democratic Montgomery County Council,1
+Aspen Hill,1
+Colesville,1
+Montgomery Republican Party,1
+corporations,1
+green energy,2
+Rentech,1
+Fulghum,1
+Rentech Inc,1
+James Bardowski,1
+D Hunt Ramsbottom,1
+Matthew Farwell,1
+Sidoti & Co,1
+Rentech Nitrogen Partners,1
+Dan Cohrs,1
+Illinois nitrogen plant,1
+army,1
+tigers,1
+US Treasury Department,2
+Taylor,1
+Kathy,1
+Terrence McCoy,1
+Panthera,1
+UN commission,1
+Vanda Felbab-Brown,1
+World Wildlife Fund,1
+cubs,1
+Jason Aldag,1
+Aaron Steckelberg,1
+Lek,1
+Flora,1
+Maasai Mara National Reserve,1
+Crawford Allan,1
+Environmental Investigation Agency,1
+Danielle Rindler,1
+Dale Peterson,1
+Lao,1
+Steve Galster,1
+tiger cubs,1
+Matthew Callahan,1
+Thomas LeGro,1
+Grace Chan,1
+Courtney Kan,1
+Mike Cirelli,1
+Vannaseng,1
+Phil Hattingh,1
+Laos customs,1
+Lao Department of Forest Resource Management,1
+regulatory authority of international wildlife trade,1
+Nikhom Keovised,1
+Sakhone Keosouvanh,1
+gardens and gardening,1
+John White,1
+Owens,1
+Chester,1
+Queen Anne,1
+Mary Gardiner,1
+Eddie Thomas,1
+Cleveland Museum of Natural History,1
+David Joseph,1
+Cleveland Botanical Garden,1
+Green Corps,1
+Pennsylvania Horticultural Society,1
+Terry Schwarz,1
+Joan Nassauer,1
+Caitlin Burkman,1
+Bob Grossmann,1
+James Trask,1
+Garrett Ormiston,1
+Geri Unger,1
+Loraine Ingram,1
+Philadelphia Green,1
+Alvesta McGriff,1
+Willie James Smedley,1
+Senate Finance Committee,1
+DC Council,1
+State Corporation Commission,2
+Phil Mendelson,1
+Maryland House,1
+Robert J Garagiola,1
+James McGarry,1
+Maryland records,1
+Jessica McFaul,1
+Baltimore Gas & Electric,1
+John A Olszewski,1
+Bill Pitcher,1
+Kathryn M Rowe,1
+Richard J Watro,1
+Covington Pulp,1
+retail stores and trade,1
+jewels and jewelry,1
+Doug Brown,1
+Chamilia,2
+Doug Ruth,1
+Jeff Julkowski,1
+Killian Rieder,1
+EarthClean,1
+Scott Bocklund,1
+Lund University,1
+University of Basel,1
+Martin Nyffeler,1
+Klaus Birkhofer,1
+Brandenburg University of Technology Cottbus-Senftenberg,1
+University of Edinburgh,2
+Hanna Landenmark,2
+production,1
+futures and options trading,1
+Saddam Hussein,3
+Brent,1
+Petroleum Exporting Countries,2
+Éric Besson,1
+Rilwanu Lukman,1
+Mark Pervan,1
+Mohamed bin Dhaen al-Hamli,1
+Serene Lim,1
+Didier Houssain,1
+bank Australia New Zealand Group,1
+Edison,2
+SunPower Corp,1
+Arvin,1
+Marc Ulrich,1
+Howard Wenger,1
+Vanessa McGrady,1
+alternative power for Southern California Edison,1
+Fotowatio Renewable Ventures Inc,1
+solar power plants                                                                                                                                                                                                                  Southern California Edison,1
+contests and prizes,1
+Charlie,1
+Victor,1
+Stefan,1
+social sciences,1
+Peters,1
+UCSD,1
+Michael Oppenheimer,1
+Romm,1
+MDG,1
+SPM,1
+Stefan Rahmstorf,1
+Peter Singer,1
+Oppenheimer,1
+Marc Levy,1
+IPCC Working Group,1
+better canaries,1
+du jour,1
+Prescott,1
+Dan Cohen,1
+Nancy Carpenter,1
+George Beck,1
+Daniel Field,1
+Kathleen M Breen,1
+Burke Hilden,1
+Center for Biological Diversity,1
+Shaye Wolf,1
+Ocean Foundation,1
+Roger Williams University,1
+Convention on International Trade in Endangered Species,1
+Andrew Rhyne,1
+Michael Tlusty,1
+environmental group  Conservation International,1
+Indonesia Nature Foundation,1
+carte blanche,1
+Daniel P Moynihan,1
+Reagan,2
+Bill Nelson,1
+Western Union,1
+Howard H Baker Jr,1
+Leon E Panetta,1
+Robert C Byrd,1
+National Association for the Advancement of Colored People,1
+James A Baker,1
+James R Thompson,1
+David R Gergen,1
+Holocaust Memorial Council,1
+Pennsylvania Avenue Development Corporation,1
+Economic Development Agency,1
+Tennessee Valley Authority and Appalachian Regional Commission,1
+San Antonio Junior Chamber of Commerce,1
+National Taxpayers Association,1
+National Taxpayer Limitation Committee,1
+taxpayer committee,1
+International Monetary Fund,2
+HHS,1
+Newt Gingrich,1
+Obama administration,1
+Jeff Buckley,1
+Kochs,1
+Matt Yglesias,1
+IMF,1
+Monica Davey,1
+Macy’s,1
+Lockheed,1
+Ted Kennedy,1
+United States Navy,1
+Rick Santorum,1
+Sarah Kliff,1
+Robert Barnes,1
+Labor Department,2
+Julia Preston,1
+Christine Lagarde,1
+Ben Bernanke,1
+Patrick McGroarty,1
+Jon Huntsman,1
+Nick Timiraos,1
+Friedrich Hayek,1
+Nicholas Kristof,1
+Binyamin Appelbaum,1
+healthcare reform law,1
+Ben Casselman,1
+George Romney,1
+Health and Human Services Department,1
+Daniel Sarewitz,1
+Murray Rothbard,1
+John Avlon,1
+SEC,1
+Howard Schneider,1
+Steven Pearlstein,1
+Charles Krupa,1
+Damien LaVera,1
+Carl Weinberg,1
+Ludwig Von Mises,1
+Sam Baker,1
+Edward Wyatt,1
+Floyd Norris,1
+educ,1
+OAO Severstal,1
+Severstal Dearborn LLC,1
+Mises Institute Lew Rockwell,1
+premier association of pediatricians,1
+Santorum John Brabender,1
+Shalia Dewan,1
+Luca Di Leo,1
+Democratic,1
+Becker,2
+Republican House,1
+John Boehner,1
+Tim Pawlenty,1
+Ellen Anderson,1
+Hitler,1
+James Joyce,1
+Clyde,1
+Wright brothers,1
+University of North Carolina,1
+Sanofi,1
+Francis S Collins,1
+J Robert Oppenheimer,1
+Arthur Caplan,1
+Freeman Dyson,1
+HAL,1
+Celera,1
+David Baltimore,1
+Frederick Sanger,1
+Synthetic Genomics Inc,1
+James D Watson,1
+Helen Wallace,1
+Brad Swonetz,1
+Hamilton O Smith,1
+Ian Malcolm,1
+Celera Genomics,1
+Jim Flatt,1
+Drew Endy,1
+human genome project,1
+GeneWatch,1
+Clyde A Hutchison III,1
+SGI,1
+SGI office,1
+Gerardo Toledo,1
+hazel skin,1
+Mary Genome,1
+”’          Smith,1
+New York Times  Synthetic Genomics,1
+Robert Gates,1
+Saxby Chambliss,1
+Johnny Isakson,1
+WBZ,1
+Jack Gillum,1
+Hilda Solis,1
+Steve Peoples,1
+Wisconsin Energy Conservation Corp,2
+WCPO-TV,1
+Labor Department grant,1
+APS,1
+SRP,1
+David Wallace,1
+Arizona Public Service Co,1
+Tom Cooper,1
+Jim Wilde,1
+Janeen Rohovit,1
+Kerry Starr,1
+Patricia Stanphill,1
+Purcell Jojoba International,1
+Purcell jojoba farm,1
+SRP power plant,1
+John Bazemore/AP,1
+Brian Stauffer,1
+Melinda Gates Foundation,1
+Urbana-Champaign,1
+Thomas Malthus,1
+Ort,1
+RuBisCO,1
+Heike Sederoff,1
+Don Ort,1
+Christine Foyer,1
+Haley Ahlers,1
+Organization for Economic Cooperation and Development,1
+United States Environmental Protection Agency,1
+Edward Wong,1
+Health Effects Institute,1
+Christopher Pyne,1
+BBC News,1
+Murray,1
+Barnaby Joyce Photo,1
+Oliver Wyman,1
+Drax,2
+University of Oxford,1
+SSE,1
+Enel,1
+Andy Koss,1
+Francesco Starace,1
+Tom Jamieson,1
+Drax power station,1
+James Basden,1
+Martin Pibworth,1
+Biofuelwatch,1
+New York Times                                                                 DRAX,1
+Goddard Institute for Space Studies,3
+John Muir,2
+Chad Hanson,2
+federal Housing and Urban Development,1
+journal of Forest Ecology,1
+smoking and tobacco,2
+British Medical Journal,1
+Simon Chapman,1
+Pacific Fishery Management Council,1
+Jeff Phillips,1
+Anna Weinstein,1
+Oregon Coast National Wildlife Refuge Complex,1
+Oregon State University Hatfield Marine Science Center,1
+Robert Suryan,1
+Eric,1
+Tom Coburn,1
+grant,2
+engineering directorate of NSF,1
+Engineering directorate,1
+TAMU Research Foundation,1
+New York City Police Department,1
+Martinetti,1
+Oren Levy,1
+Warwick farm,1
+Ronen Levy,1
+Bruce Ludovicy,1
+Green Angel CBD,1
+Hudson Valley Biomass Processors,1
+tax credits,1
+Morrisville State College,1
+Phil Hodges,1
+Mark Justh,1
+Dan Dolgin,1
+Luke Gianforte,1
+stocks and bonds,1
+Barclays,1
+Enel Green Power,1
+Barclays Capital,1
+Clean Energy,1
+European stock exchanges,1
+Matt Horton,1
+Mary Solecki,1
+David Wheeler,1
+hydro development,1
+Wheeler examined International Energy Agency,1
+Porto,1
+Santa Teresa,1
+Sugarloaf,1
+Jackson Hole,1
+Yasuyoshi,1
+Paul Landowski,1
+Dina Mishev,1
+Dom Pedro II,1
+Christophe Simon/AFP/Getty,1
+Mata Atlântica,1
+Nossa Senhora de Copacabana,1
+Belmond Copacabana Palace,1
+Rua Jardim Botânico,1
+Mama Ruisa,1
+Vista Chinesa,1
+Rua Cosme Velho,1
+Atlantic Forest ecosystem,1
+Barrio da Tijuca lagoons,1
+Casa da Feijoada,1
+da Pracinha,1
+Prainha Beach,1
+Pedra da Tartaruga,1
+Rua Santa Cristina,1
+Rua Prudente de Moraes,1
+Le Blé,1
+Rua Xavier Silveira,1
+Boulangerie Guerin,1
+Dominique Guerin,1
+University of Tasmania,1
+David Bowman,1
+University of Tasmania scientist,1
+Niels Andela,1
+Siva,1
+Sophia Foster-Dimino,1
+Rennie Sparks,1
+Heartland Institute,1
+Charles G Koch,1
+Eli Miller,1
+Rob Nichols,1
+John R Kasich,1
+American Council on Renewable Energy,1
+Ohio House of Representatives,1
+David H,1
+Energy and Policy Institute,1
+United States Energy Information Administration,1
+Gabe Elsner,1
+Todd Foley,1
+Michael Speerschneider,1
+Credit             Laura J Gardner/The Journal Gazette,1
+Oxfam,2
+International Finance Corporation,1
+bet,1
+African Development Bank,1
+Gamal Abdel Nasser,1
+Sierra Leone,1
+Sinopec,1
+Sani Abacha,1
+Oakland Institute,1
+Addax,1
+Addax Petroleum,1
+Philipp Brothers,1
+Addax Bioenergy,1
+Jean Claude Gandur,1
+German Investment Corporation,1
+social development group,1
+Addax & Oryx Group,1
+Duncan Pruett,1
+Johnson,2
+University of South Carolina,1
+COLUMBIA,1
+The University of South Carolina,1
+Ed Walton,1
+Timothy Searchinger,1
+University of Groningen,1
+European Environmental Agency,1
+new power plant policy,1
+André Faaij,1
+Paul Bunyan,1
+Jim Anderson,1
+HINCKLEY,1
+Courtland Nelson,1
+Dave Epperly,1
+Karl Sieve,1
+Hélène Bienvenu,1
+Barbara Balogh,1
+Kristof Pajer,1
+Aron Ignacz,1
+Gusztav Egly,1
+Eniko Bakonyi,1
+Lajos Ignacz,1
+Jonathan J Cooper,1
+Pandora,1
+George Kimbrell,1
+Frank Morton,1
+Tomas Endicott,1
+Kathy Hadley,1
+Russ Karow,1
+Willamette Biomass Processors Inc,1
+Michael Moore,2
+Population Research Institute,2
+Steven W Mosher,2
+University of Chicago,1
+MacArthur Foundation,1
+JPMorgan Chase,1
+Delta,1
+Butler,1
+JPMorgan,1
+Derrick Henry,1
+McMillan,1
+Mufson,1
+Western Energy Alliance,1
+Kathleen Sgamma,1
+Chemical,1
+wells,1
+William Perry Pendley,1
+environmental organization,1
+InsiderNJ,1
+Frank Rusco,1
+Catherine Coleman Flowers,1
+Jeff Van Drew,1
+Amy Kennedy,1
+Natalie B Compton,1
+Antero Midstream,1
+Paul Dauenhauer,1
+Naomi Boak,1
+Center for Rural Enterprise and Environmental Justice,1
+Jennifer Bjorhus,1
+state Public Utilities Commission,1
+Sherco,1
+Dave Sparby,1
+CEOof Northern States Power Co,1
+US Air Force,1
+Wright-Patterson Air Force,1
+AIR FORCE,1
+Miami University,1
+Sammie,1
+Civil Air Patrol,1
+Kevin Geiss,1
+Samuel J Heyman,1
+Andy Morataya/US,1
+University of East Anglia,2
+Amory Lovins,1
+James E Hansen,2
+Nathan Myhrvold,1
+Tom Wigley,1
+Kerry Emanuel,1
+Lynda Williams,1
+Columbia University Earth Institute,1
+Kenneth Caldeira,1
+Burt Richter,1
+National Center for Atmospheric Research and the University of Adelaide,1
+Nathan Myhvold,1
+BLS,1
+Bureau of Labor,1
+Hoover Dam,1
+IHS Cera,1
+Hydropower Association,1
+Dickinson,1
+Lance Robinson,1
+Texas Parks and Wildlife Department  coastal fisheries division,1
+coastal fisheries agency,1
+Parkland Memorial Hospital,1
+Andrew D Brosig,1
+Fagen Inc,1
+Nacogdoches County Sheriff’s Department,1
+Nacogdoches Memorial Hospital,1
+Jerry Heilmann,1
+Justin Sullivan,1
+IRVING,1
+Rousselot,1
+Vion,1
+Sonac,1
+Dirk Kloosterboer,1
+Food recycling company Darling International,1
+Vion Ingredients,1
+B Food recycling company Darling International,1
+federal Energy Information Administration,1
+California Public Utilities Commission,1
+Tiffany Hsu,1
+Al Seib/Los,1
+Michael Bloomberg,1
+Mann,1
+CNBC,2
+Herald,1
+Joaquin,2
+Capital Weather Gang,1
+University of NSW,1
+Aldrin,1
+Ben van Beurden,1
+UBC,1
+Ben Affleck,1
+Ryan Maue,1
+Neil Armstrong,1
+Tom Friedman,1
+NREL,1
+Bloomberg Philanthropies,1
+Edwin E,1
+ABC Network,1
+Michael Nagle/Bloomberg,1
+Mattias Klum,1
+SolarCity Corp,1
+Exxon Corp,1
+Florida Institute of Technology,1
+Johan Rockstrom,1
+Photo/Mic Smith,1
+Ben Newell,1
+KMSP,1
+Conan Whitehouse,1
+solar energy research,1
+Neil A Armstrong/NASA,1
+st  century,1
+Jeanni Adame,1
+Royal Dutch Shell     PLC,1
+US National Archives via Wikimedia Commons,1
+ExxonMobil   Corp,1
+Asteroid Impact & Deflection Assessment,1
+Richard Johnson,1
+Ron Long,1
+Arbor Day Foundation,1
+Louisiana Department  of Wildlife and Fisheries,1
+Mike Pompeo,1
+American Chemistry Council,2
+Brian Freeman,1
+Robinson & Cole LLP,1
+Craig Segall,1
+Lorraine Krupa Gershman,1
+Jan Harvey,1
+Elia,1
+Stefan Kapferer,1
+Chris Peeters,1
+Thomas Seythal,1
+SCC,1
+Wall Street,1
+Appalachian Power Co,1
+shields Dominion,1
+Swanson,1
+Colorado Public Utilities Commission,1
+KATE GORDON,1
+Jayne Orenstein,1
+holidays and special occasions,1
+Smith,1
+United,2
+Air France,1
+Kirk,1
+Kate,1
+Chevy,1
+Danny,1
+Joseph McCarthy,1
+Chuck Hagel,1
+Ofcom,1
+Midwest Energy News,1
+Bernstein,1
+La Niña,1
+Burj Khalifa,1
+Des Moines Register,1
+Bill Clark/CQ,1
+Adweek,1
+GDF Suez,1
+Ana,1
+Saul Griffith,1
+Ignacio,1
+CQ Roll Call,1
+Albert Lea,1
+Jimena,1
+KOMO News,1
+Dow Chemicals,1
+Klotzbach,1
+Bret Victor,1
+Paul Ullrich,1
+Scott Sistek,1
+EEN,1
+United Nations-backed Intergovernmental Panel,1
+Mitchell Hescox,1
+NOAA NESDIS,1
+Anej,1
+Soggy El Nino,1
+Roland Hwang,1
+Vince Muniga,1
+ZeaChem,1
+Jim Imbler,1
+Mato Grosso,1
+Vincent Bevins,1
+Avaaz,1
+NASA Earth Observatory,1
+Abigail Swann,1
+Brazilian Institute of Public Opinion and Statistics,1
+INPE,1
+Planet Labs Inc,1
+Oliver Phillips,1
+University of Sao Paulo,1
+Leo Correa,1
+Rising CO,1
+Carlos Nobre,1
+Paul Zinken,1
+Jill Langlois,1
+Doug Morton,1
+Eraldo Peres / Associated Press,1
+Biospheric Sciences Laboratory,1
+Luiz Aragao,1
+southeastern Amazon,1
+Louis,1
+US Treasury,1
+Doug LaMalfa,1
+Tom McClintock,1
+John Buckley,1
+Sierra Pacific Industries,1
+R-Elk Grove,1
+Stanislaus National Forest,1
+Ray Rasker,1
+Malcolm North,1
+state Department of Housing and Community Development,1
+Headwaters Economics,1
+Jason Kuiken,1
+Stanislaus National Forest region,1
+Jim Junette,1
+Scott Tangenberg,1
+hospitals,1
+Haiyan,1
+st century,1
+Harvard TH Chan School of Public Health,1
+the Aspen Institute,1
+Gundersen,1
+World Federation of Public Health,1
+Buddhist Tzu Chi Medical Foundation,1
+Harvard Center for Health,1
+Lancet Climate Change Commission,1
+World Medical Assn,1
+International advisory board of the Lancet,1
+Renzo Guinto,1
+International Commission,1
+Paul Crutzen,1
+Jedediah Purdy,1
+Roy Scranton,1
+Diane Ackerman,1
+Javier Jaén,1
+Phillips,1
+Hutchinson,1
+University of Miami,1
+Mobil,1
+Boston College,1
+Charles Dickens,1
+GW,1
+Dela Pena,1
+Sunoco,1
+Jim Hightower,1
+Texaco,1
+Amoco,1
+Los Alamos National Laboratory,1
+Andrew Farnsworth,1
+Peter Sinclair,1
+El Niño Southern Oscillation,1
+InsideClimate News,1
+Phil Plait,1
+Deke Arndt,1
+Costa Rican Electricity Institute,1
+Dave Anderson,1
+Sam Hill,1
+University of California Santa Barbara,1
+Nati Harnik/AP,1
+Brainerd Dispatch,1
+US Geological,1
+Michael Goggin,1
+Bob Henson,1
+Neb,1
+Brian Haus,1
+Minnesota State Climatology Office,1
+Pastelok,1
+Mark Conner,1
+lake association,1
+Pinus ponderosa,1
+Akio Kon,1
+NOAA CPC,1
+Pinus lambertiana,1
+Craig D Allen,1
+Greg Dotson,1
+Nate McDowell,1
+NOAA SPC,1
+Peter Boulay,1
+Jean Ricard,1
+National Meteorological Research Center,1
+Marlo Lundy,1
+Brainerd Dispatch/ Steve Kohls,1
+Stephen Pyne,1
+Minnesota Legislature,1
+Beaver Creek Transport,1
+Benson power plant,1
+Matt Schuerger,1
+John Gasele,1
+John Tuma,1
+Dan Lipschultz,1
+Rob Wolfington,1
+Amanda Rome,1
+University of Texas,2
+Appalachian Regional Commission,1
+Wildlife Conservation Society,1
+hawks,1
+David Quammen,1
+Peter Daszak,1
+Christian Walzer,1
+George H W Bush,1
+John Kasich,1
+Jeffrey Goldberg,1
+Texas Tech University,1
+Christ,2
+Susan Rice,1
+Gizmodo,2
+Jake Tapper,1
+NAS,1
+Philip Levine,2
+University of Wisconsin,1
+Laurence Fishburne,1
+Dillard University,2
+Nati Harnik,1
+Brent Scowcroft,1
+Keanu Reeves,1
+Baton Rouge,2
+National Academies of Sciences,1
+Katharine Hayhoe,1
+NASA GISS,1
+Atlas Obscura,1
+ruth,2
+Jay Faison,1
+Heidi Cullen,1
+Bracken,2
+Climate Science Center,1
+Larry Atkinson,1
+Tim Wimborne,2
+Beverly Wright,2
+Leslie Fields,2
+European Centre for Medium-Range,1
+Hal Pierce,2
+Tomás Pedro Regalado,1
+Carrie Ann Moss,1
+Laurent Gillieron/EPA,1
+YouTube/NASA Goddard,1
+NOAA ESRL,1
+CIMSS,1
+Kenneth Pinto,1
+Vayntrub,2
+Matt Young/AP/File,1
+Tracy,1
+Rubio,1
+John Bel Edwards,1
+Duran Duran,1
+Whig Party,1
+Julia Olson,1
+Slayton,1
+Jeff Masters,1
+Atmospheric Trust Litigation,1
+Office of Homeland Security,1
+KSLA News,1
+Windom,1
+GOHSEP,1
+Lake Wilson,1
+Gerron Jordan,1
+Andrew J Russell/Library,1
+Aeris Enterprise,1
+Mark Zuckerberg,1
+Instagram,1
+Columbus police,1
+Goodson,1
+Breonna Taylor,1
+United Arab Emirates' Ministry of Health and Prevention,1
+Casey Goodson Jr,1
+Parrington,1
+EVs,1
+conference committee,1
+Minnesota Solar Energy Industries Association,1
+solar gardens,1
+Elijah Cummings,1
+US Chamber of Commerce,1
+Cass Sunstein,1
+Darrell Issa,1
+Kurt Bardella,1
+American Farm Bureau,1
+American Iron and Steel Institute,1
+Lee Fuller,1
+House Office of Information and Regulatory Affairs,1
+Li Keqiang,1
+Carlos Dora,1
+State Council,1
+Sri Mulyani Indrawati,1
+Development Research Center,1
+Amy Qin,1
+Alex Lee/Reuters,1
+National Review,1
+Rich Lowry,1
+Texas Public Policy Foundation,1
+Chuck DeVore,1
+Wal-Mart,1
+Dow Chemical,1
+Yale University,1
+Harvard Business Review,1
+Mattel,1
+USAA,1
+Chris Farrell,1
+Robert Solow,1
+Lee Scott,1
+David Lubin,1
+Dorsey & Whitney LLP,1
+regulatory affairs department,1
+Daniel Esty,1
+John Naisbett,1
+B Andrew Brown,1
+Lowell Rasmusse    n,1
+Radboud University,1
+Jens Meyer,1
+Lynn Dicks,1
+Hans de Kroon,1
+Carolyn Beeler,1
+Peter Williams,1
+INEOS,1
+INEOS Bio,1
+Indian River BioEnergy Center,1
+Mark Niederschulte,1
+Royal College of Art,1
+Rachel Wolff,1
+Thomas Heatherwick      London architect-designer Thomas Heatherwick,1
+Olympic caldron commission,1
+Texas Commission,1
+Lufkin Daily News,1
+Danny Vines,1
+Aspen Power,1
+May     LUFKIN,1
+Lufkin biomass,1
+East Texas biomass plant,1
+University of Georgia,1
+Volvo,1
+Mazda,1
+Bill Ford,1
+Student Government Association,1
+reds,1
+Alan Mulally,1
+Mike Snider,1
+Grady College of Journalism,1
+Lincoln brands,1
+Terry College of Business,1
+Michael A Schwarz,1
+Jaguar and Land Rover brands,1
+Tate Student Center,1
+University Union Student Programming Board,1
+Holly Beale,1
+University of Georgia Ford,1
+SSC,1
+CNI,1
+Richard Noble,1
+Vodafone McLaren  Mercedes,1
+Kellogg,2
+Mills,1
+General Mills,1
+Kellogg Co,1
+WK Kellogg,1
+Diane Holdorf,1
+Irit Tamir,1
+Lehigh University,1
+Zach Boyden-Holmes/The,1
+Bureau of Economic Geology,1
+Scott Tinker,1
+Josh Freed,1
+Phyllis Cuttino,1
+Emily Heaton,1
+Robert C Brown,1
+clean energy initiative,1
+Sonja Francis,1
+Mark Rathbun,1
+state Public Utility Commission,1
+Betsy Engelking,1
+Minnkota,1
+Minnkota Power,1
+Sarah Radosevich,1
+Dale Sollom,1
+Greeley Tribune,1
+Morris Beegle,1
+Ed Lehrburger,1
+Farmers bet,1
+mines and mining,1

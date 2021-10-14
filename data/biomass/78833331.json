@@ -1,1 +1,307 @@
-[{"ap_syndicated":null,"collect_date":"2012-04-15 07:56:39","feeds":null,"guid":"http://www.twincities.com/stpaul/ci_20392917/how-green-is-st-paul?source=rss","language":"en","media_id":52,"media_name":null,"media_url":null,"processed_stories_id":null,"publish_date":"2012-04-15 02:56:16","stories_id":78833331,"story_tags":[{"stories_id":78833331,"tag":"geonames_6252001","tag_set":"mc-geocoder@media.mit.edu","tag_sets_id":1011,"tags_id":8878461},{"stories_id":78833331,"tag":"geonames_5037779","tag_set":"mc-geocoder@media.mit.edu","tag_sets_id":1011,"tags_id":8878534},{"stories_id":78833331,"tag":"readability-lxml-0.3.0.5","tag_set":"extractor_version","tag_sets_id":1354,"tags_id":8929188},{"stories_id":78833331,"tag":"nyt_labeller_v1.0.0","tag_set":"nyt_labels_version","tag_sets_id":1964,"tags_id":9360669},{"stories_id":78833331,"tag":"environment","tag_set":"nyt_labels","tag_sets_id":1963,"tags_id":9360887},{"stories_id":78833331,"tag":"roads and traffic","tag_set":"nyt_labels","tag_sets_id":1963,"tags_id":9360913},{"stories_id":78833331,"tag":"air pollution","tag_set":"nyt_labels","tag_sets_id":1963,"tags_id":9361007},{"stories_id":78833331,"tag":"Ford","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9364086},{"stories_id":78833331,"tag":"St. Paul","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9364499},{"stories_id":78833331,"tag":"Toyota","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9369599},{"stories_id":78833331,"tag":"Honda","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9376615},{"stories_id":78833331,"tag":"St. Paul","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":9385407},{"stories_id":78833331,"tag":"Xcel Energy","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9389498},{"stories_id":78833331,"tag":"Chris Coleman","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":9440145},{"stories_id":78833331,"tag":"Metro Transit","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9483180},{"stories_id":78833331,"tag":"Metropolitan Council","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9488647},{"stories_id":78833331,"tag":"Macalester College","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9557922},{"stories_id":78833331,"tag":"cliff_clavin_v2.4.1","tag_set":"geocoder_version","tag_sets_id":1937,"tags_id":9696677},{"stories_id":78833331,"tag":"St. Paul City Council","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9910673},{"stories_id":78833331,"tag":"St. Paul Planning Commission","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":9910674},{"stories_id":78833331,"tag":"PARKS","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":9951417},{"stories_id":78833331,"tag":"Vauban","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":9986848},{"stories_id":78833331,"tag":"Emily Erickson","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":10087150},{"stories_id":78833331,"tag":"N. Dale St.","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":10567252},{"stories_id":78833331,"tag":"Frederick Melo","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":10636819},{"stories_id":78833331,"tag":"Metro State University","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":10936150},{"stories_id":78833331,"tag":"Anne Hunt","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":11061828},{"stories_id":78833331,"tag":"St. Paul Port Authority","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":11528671},{"stories_id":78833331,"tag":"Harriet Island","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":28293634},{"stories_id":78833331,"tag":"Kathy Lantry","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":28741968},{"stories_id":78833331,"tag":"Ralph Jacobson","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":31294478},{"stories_id":78833331,"tag":"Rhoda Gilman","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":31809839},{"stories_id":78833331,"tag":"Whitney Clark","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":33248257},{"stories_id":78833331,"tag":"Minnesota Solar Energy Industries Association","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":41435774},{"stories_id":78833331,"tag":"electric Ford","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":44188102},{"stories_id":78833331,"tag":"Tony Magnotta","tag_set":"cliff_people","tag_sets_id":2389,"tags_id":47494240},{"stories_id":78833331,"tag":"Innovative Power Systems, Inc.","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":66430768},{"stories_id":78833331,"tag":"Green Party of St. Paul","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":84686625},{"stories_id":78833331,"tag":"Lawson Commons","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":119703866},{"stories_id":78833331,"tag":"St. Paul bragging rights","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":140655103},{"stories_id":78833331,"tag":"ENERGY EFFICIENCY  St. Paul","tag_set":"cliff_organizations","tag_sets_id":2388,"tags_id":140655113}],"title":"How green is St. Paul?","url":"http://www.twincities.com/stpaul/ci_20392917/how-green-is-st-paul?source=rss","word_count":null}]
+[
+    {
+        "ap_syndicated": null,
+        "collect_date": "2012-04-15 07:56:39",
+        "feeds": null,
+        "guid": "http://www.twincities.com/stpaul/ci_20392917/how-green-is-st-paul?source=rss",
+        "language": "en",
+        "media_id": 52,
+        "media_name": null,
+        "media_url": null,
+        "processed_stories_id": null,
+        "publish_date": "2012-04-15 02:56:16",
+        "stories_id": 78833331,
+        "story_tags": [
+            {
+                "stories_id": 78833331,
+                "tag": "geonames_6252001",
+                "tag_set": "mc-geocoder@media.mit.edu",
+                "tag_sets_id": 1011,
+                "tags_id": 8878461
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "geonames_5037779",
+                "tag_set": "mc-geocoder@media.mit.edu",
+                "tag_sets_id": 1011,
+                "tags_id": 8878534
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "readability-lxml-0.3.0.5",
+                "tag_set": "extractor_version",
+                "tag_sets_id": 1354,
+                "tags_id": 8929188
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "nyt_labeller_v1.0.0",
+                "tag_set": "nyt_labels_version",
+                "tag_sets_id": 1964,
+                "tags_id": 9360669
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "environment",
+                "tag_set": "nyt_labels",
+                "tag_sets_id": 1963,
+                "tags_id": 9360887
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "roads and traffic",
+                "tag_set": "nyt_labels",
+                "tag_sets_id": 1963,
+                "tags_id": 9360913
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "air pollution",
+                "tag_set": "nyt_labels",
+                "tag_sets_id": 1963,
+                "tags_id": 9361007
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Ford",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9364086
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "St. Paul",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9364499
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Toyota",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9369599
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Honda",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9376615
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "St. Paul",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 9385407
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Xcel Energy",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9389498
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Chris Coleman",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 9440145
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Metro Transit",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9483180
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Metropolitan Council",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9488647
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Macalester College",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9557922
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "cliff_clavin_v2.4.1",
+                "tag_set": "geocoder_version",
+                "tag_sets_id": 1937,
+                "tags_id": 9696677
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "St. Paul City Council",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9910673
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "St. Paul Planning Commission",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 9910674
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "PARKS",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 9951417
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Vauban",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 9986848
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Emily Erickson",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 10087150
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "N. Dale St.",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 10567252
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Frederick Melo",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 10636819
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Metro State University",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 10936150
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Anne Hunt",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 11061828
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "St. Paul Port Authority",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 11528671
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Harriet Island",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 28293634
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Kathy Lantry",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 28741968
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Ralph Jacobson",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 31294478
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Rhoda Gilman",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 31809839
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Whitney Clark",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 33248257
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Minnesota Solar Energy Industries Association",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 41435774
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "electric Ford",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 44188102
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Tony Magnotta",
+                "tag_set": "cliff_people",
+                "tag_sets_id": 2389,
+                "tags_id": 47494240
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Innovative Power Systems, Inc.",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 66430768
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Green Party of St. Paul",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 84686625
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "Lawson Commons",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 119703866
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "St. Paul bragging rights",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 140655103
+            },
+            {
+                "stories_id": 78833331,
+                "tag": "ENERGY EFFICIENCY  St. Paul",
+                "tag_set": "cliff_organizations",
+                "tag_sets_id": 2388,
+                "tags_id": 140655113
+            }
+        ],
+        "title": "How green is St. Paul?",
+        "url": "http://www.twincities.com/stpaul/ci_20392917/how-green-is-st-paul?source=rss",
+        "word_count": null
+    }
+]

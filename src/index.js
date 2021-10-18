@@ -6,7 +6,7 @@ import './assets/main.css'
 // Libraries
 
 import { json, xml, image, extent, scaleLinear } from 'd3'
-import { Application, BitmapFont, Texture, Sprite, Point } from 'pixi.js'
+import { Application, BitmapFont, Texture } from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
 
 // Assets
@@ -20,7 +20,6 @@ import nodes from './draw/nodes.js'
 
 import fps from './interface/fps.js'
 import search from './interface/search'
-import stats from './interface/stats'
 
 import fontXML from './assets/Lato.fnt'
 import fontPNG from './assets/Lato.png'

@@ -35,7 +35,7 @@ module.exports = {
       },
       {
         type: 'javascript/auto',
-        test: /\.(json|png|fnt)$/,
+        test: /\.(csv|json|png|fnt)$/,
         use: [{
           loader: 'file-loader',
           options: {

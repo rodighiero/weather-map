@@ -5,7 +5,7 @@ import './assets/main.css'
 
 // Libraries
 
-import { json, xml, image, extent, scaleLinear } from 'd3'
+import { csv, json, xml, image, extent, scaleLinear } from 'd3'
 import { Application, BitmapFont, Texture } from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
 
@@ -18,7 +18,6 @@ import keywords_close from './draw/keywords_close.js'
 import keywords_distant from './draw/keywords_distant.js'
 import nodes from './draw/nodes.js'
 
-import fps from './interface/fps.js'
 import search from './interface/search'
 
 import fontXML from './assets/Lato.fnt'
@@ -28,7 +27,7 @@ import backgroundImage from './assets/background.png'
 
 import authors from './data/authors.json'
 import clusters from './data/clusters.json'
-import embedding from './data/embedding.json'
+import embedding from './data/embedding.csv'
 import lemmas from './data/lemmas.json'
 import pairs from './data/pairs.json'
 
@@ -43,7 +42,7 @@ window.s = {
 // Start
 
 Promise.all([
-    json(embedding),
+    csv(embedding),
     json(authors),
     json(lemmas),
     json(pairs),
@@ -58,11 +57,16 @@ Promise.all([
 
     // Set data
 
+    
+    console.log(embedding[0])
+    
     let data = embedding.reduce((array, value, i) => {
-        array[i] = [...embedding[i], lemmas[i].length, authors[i]]
+        // array[i] = [...embedding[i], lemmas[i].length, authors[i]]
+        array.push([Number(value.x), Number(value.y)])
         return array
     }, [])
-
+    
+    console.log(data)
 
     // Set app
 
@@ -121,9 +125,9 @@ Promise.all([
     s.viewport.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
         e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
-        e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
-        e.viewport.children.find(child => child.name == 'keywords_close').alpha = zoomIn(scale)
-        e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'nodes').alpha = zoomOut(scale)
+        // e.viewport.children.find(child => child.name == 'keywords_close').alpha = zoomIn(scale)
+        // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
 
 
@@ -135,13 +139,26 @@ Promise.all([
     // Rendering
 
     background(backgroundImage)
-    contours(data)
+    
+    
+    
+    
+    
+    contours(data) // We miss value for elevation (which is the occurrencies)
+
+
+
+
+
+
+
+
+
     nodes(data)
-    keywords_close(pairs)
+    // keywords_close(pairs)
     // keywords_distant()
-    drawClusters(data, clusters)
-    fps()
-    search(data)
+    // drawClusters(data, clusters)
+    // search(data)
 
     s.viewport.fit()
     s.viewport.moveCenter(window.innerWidth / 2, window.innerHeight / 2)

@@ -20,7 +20,7 @@ const color = {
 export default (data) => {
 
     const stage = new Graphics()
-    stage.alpha = 0
+    stage.alpha = 1
     stage.name = 'nodes'
     s.viewport.addChild(stage)
 
@@ -28,36 +28,38 @@ export default (data) => {
 
         // Circle
 
-        // const size = .5
+        const size = 5
 
-        // node.circle = new Graphics()
-        // node.circle.beginFill(color.off, 1)
-        // node.circle.drawCircle(0, 0, size)
-        // node.circle.endFill()
-        // node.circle.position = new Point(node[0], node[1])
-        // node.circle.hitArea = new Circle(0, 0, s.distance)
-        // node.circle.interactive = true
+        node.circle = new Graphics()
+        node.circle.beginFill(color.off, 1)
+        node.circle.drawCircle(0, 0, size)
+        node.circle.endFill()
+        node.circle.position = new Point(node[0], node[1])
+        node.circle.hitArea = new Circle(0, 0, s.distance)
+        node.circle.interactive = true
 
-        // stage.addChild(node.circle)
+        stage.addChild(node.circle)
 
         // Label
 
-        const scale = .2
-        const [nA, nB] = splitInTwo(data[index][3])
+        // const scale = .2
+        // const [nA, nB] = splitInTwo(data[index][3])
 
-        node.text = new BitmapText(
-            `${nA}\n${nB}`,
-            {
-                fontName: 'Lato',
-                fontSize: '9',
-                // fill: color.off,
-                align: 'center',
-            })
+        // node.text = new BitmapText(
+        //     `${nA}\n${nB}`,
+        //     {
+        //         fontName: 'Lato',
+        //         fontSize: '9',
+        //         align: 'center',
+        //     })
 
-        node.text.scale.set(scale)
-        node.text.position.set(node[0] - node.text.width / 2, node[1] - 2.5)
+        // node.text.scale.set(scale)
+        // node.text.position.set(node[0] - node.text.width / 2, node[1] - 2.5)
 
-        stage.addChild(node.text)
+        // stage.addChild(node.text)
+
+
+
 
         // Interactions
 

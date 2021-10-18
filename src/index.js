@@ -28,7 +28,7 @@ import backgroundImage from './assets/background.png'
 import authors from './data/authors.json'
 import clusters from './data/clusters.json'
 import embedding from './data/embedding.csv'
-import lemmas from './data/lemmas.json'
+import weights from './data/weights.csv'
 import pairs from './data/pairs.json'
 
 // Global variables
@@ -44,7 +44,7 @@ window.s = {
 Promise.all([
     csv(embedding),
     json(authors),
-    json(lemmas),
+    csv(weights),
     json(pairs),
     json(clusters),
     xml(fontXML),
@@ -52,21 +52,21 @@ Promise.all([
     image(backgroundImage),
 
 
-]).then(([embedding, authors, lemmas, pairs, clusters, fontXML, fontPNG, backgroundImage]) => {
+]).then(([embedding, authors, weights, pairs, clusters, fontXML, fontPNG, backgroundImage]) => {
 
 
     // Set data
 
     
-    console.log(embedding[0])
+    console.log(weights[0])
     
     let data = embedding.reduce((array, value, i) => {
         // array[i] = [...embedding[i], lemmas[i].length, authors[i]]
-        array.push([Number(value.x), Number(value.y)])
+        array.push([Number(value.x), Number(value.y), Number(weights[i].weight)])
         return array
     }, [])
     
-    console.log(data)
+    // console.log(data)
 
     // Set app
 

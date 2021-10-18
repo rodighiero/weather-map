@@ -28,7 +28,7 @@ export default (data) => {
 
         // Circle
 
-        const size = 5
+        const size = 2
 
         node.circle = new Graphics()
         node.circle.beginFill(color.off, 1)

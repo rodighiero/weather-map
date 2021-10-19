@@ -25,7 +25,7 @@ import fontPNG from './assets/Lato.png'
 
 import backgroundImage from './assets/background.png'
 
-import authors from './data/authors.json'
+import names from './data/names.csv'
 import clusters from './data/clusters.json'
 import embedding from './data/embedding.csv'
 import weights from './data/weights.csv'
@@ -43,7 +43,7 @@ window.s = {
 
 Promise.all([
     csv(embedding),
-    json(authors),
+    csv(names),
     csv(weights),
     json(pairs),
     json(clusters),
@@ -52,21 +52,21 @@ Promise.all([
     image(backgroundImage),
 
 
-]).then(([embedding, authors, weights, pairs, clusters, fontXML, fontPNG, backgroundImage]) => {
+]).then(([embedding, names, weights, pairs, clusters, fontXML, fontPNG, backgroundImage]) => {
 
 
     // Set data
 
     
-    console.log(weights[0])
+    console.log(names[0])
     
     let data = embedding.reduce((array, value, i) => {
         // array[i] = [...embedding[i], lemmas[i].length, authors[i]]
-        array.push([Number(value.x), Number(value.y), Number(weights[i].weight)])
+        array.push([Number(value.x), Number(value.y), Number(weights[i].weight), names[i].name])
         return array
     }, [])
     
-    // console.log(data)
+    console.log(data[1])
 
     // Set app
 
@@ -125,7 +125,8 @@ Promise.all([
     s.viewport.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
         e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
-        e.viewport.children.find(child => child.name == 'nodes').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
+        e.viewport.children.find(child => child.name == 'keywords_distant').alpha = zoomOut(scale)
         // e.viewport.children.find(child => child.name == 'keywords_close').alpha = zoomIn(scale)
         // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
@@ -156,7 +157,7 @@ Promise.all([
 
     nodes(data)
     // keywords_close(pairs)
-    // keywords_distant()
+    keywords_distant(data)
     // drawClusters(data, clusters)
     // search(data)
 

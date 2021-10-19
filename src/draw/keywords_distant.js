@@ -3,9 +3,9 @@ import { max } from 'd3'
 
 let index = []
 
-export default () => {
+export default data => {
 
-    console.log()
+    console.log(data)
 
 
     const stage = new Graphics()
@@ -13,23 +13,26 @@ export default () => {
     stage.interactiveChildren = false
     s.viewport.addChild(stage)
 
-    const maxValue = max(s.triplets.map(t => t.tfidf[0][1]))
+    // const maxValue = max(s.triplets.map(t => t.tfidf[0][1]))
 
-    // Make visible the first one
-    let visibleTokens = []
+    // // Make visible the first one
+    // let visibleTokens = []
 
-    s.triplets
-        // .filter(t => t.tfidf[0][1] < maxValue * .3)
-        .forEach(triplet => {
+    data
+        .filter(el => el[3].charAt(0) === el[3].charAt(0).toLowerCase())
+        .forEach(el => {
 
-            // console.log(triplet)
+            //         // console.log(triplet)
 
-            const token = triplet.tfidf.slice(0, 1)
-            const x = triplet.position[0]
-            const y = triplet.position[1]
+            //         const token = triplet.tfidf.slice(0, 1)
+            const x = el[0]
+            const y = el[1]
+            const name = el[3]
+
+            console.log(el[3])
 
             const text = new BitmapText(
-                token[0][0],
+                el[3],
                 {
                     fontName: 'Lato',
                     fontSize: '64',
@@ -37,52 +40,52 @@ export default () => {
                     align: 'center',
                 })
 
-            const value = token[0][1]
-            const base = 100
-            const magnitude = .003
-            text.scale.set((value + base) * magnitude)
+            // const value = token[0][1]
+            //         const base = 100
+            //         const magnitude = .003
+            //         text.scale.set((value + base) * magnitude)
 
-            text.position.set(x - text.width / 2, y - text.height / 2)
+            //         text.position.set(x - text.width / 2, y - text.height / 2)
 
-            // Check overlapping
+            //         // Check overlapping
 
-            let overlapping = false
+            //         let overlapping = false
 
-            for (var i = 0; i < index.length; i++) {
+            //         for (var i = 0; i < index.length; i++) {
 
-                const l1 = index[i]
-                const l2 = text
-                const margin = 5 // Important to correct shorter height
+            //             const l1 = index[i]
+            //             const l2 = text
+            //             const margin = 5 // Important to correct shorter height
 
-                if (!(l2.x > l1.x + l1.width + margin
-                    || l2.x + l2.width + margin < l1.x
-                    || l2.y > l1.y + l1.height + margin
-                    || l2.y + l2.height + margin < l1.y)) {
-                    overlapping = true
-                    break
-                }
+            //             if (!(l2.x > l1.x + l1.width + margin
+            //                 || l2.x + l2.width + margin < l1.x
+            //                 || l2.y > l1.y + l1.height + margin
+            //                 || l2.y + l2.height + margin < l1.y)) {
+            //                 overlapping = true
+            //                 break
+            //             }
 
-            }
+            //         }
 
-            if (!overlapping) {
+            //         if (!overlapping) {
 
-                // if (visibleTokens.includes(token[0][0]))
-                //     return
-                // else
-                //     visibleTokens.push(token[0][0])
+            //             // if (visibleTokens.includes(token[0][0]))
+            //             //     return
+            //             // else
+            //             //     visibleTokens.push(token[0][0])
 
-                stage.addChild(text)
-                index.push(text)
+            //             stage.addChild(text)
+            //             index.push(text)
 
-                // draw rectangle to check overlapping
+            //             // draw rectangle to check overlapping
 
-                // const graphics = new PIXI.Graphics();
-                // graphics.lineStyle(2, 0xFF00FF, 1)
-                // graphics.beginFill(0x650A5A, 0.25)
-                // graphics.drawRoundedRect(link.txt.x, link.txt.y, link.txt.width, link.txt.height, 5)
-                // graphics.endFill()
-                // stage.addChild(graphics)
-            }
+            //             // const graphics = new PIXI.Graphics();
+            //             // graphics.lineStyle(2, 0xFF00FF, 1)
+            //             // graphics.beginFill(0x650A5A, 0.25)
+            //             // graphics.drawRoundedRect(link.txt.x, link.txt.y, link.txt.width, link.txt.height, 5)
+            //             // graphics.endFill()
+            //             // stage.addChild(graphics)
+            //         }
 
         })
 

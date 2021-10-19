@@ -42,16 +42,15 @@ export default (data) => {
 
         // Label
 
-        if (data[index][3].charAt(0) === data[index][3].charAt(0).toUpperCase()) {
+        if (data[index][3].charAt(0) === data[index][3].charAt(0).toLowerCase()) {
             const scale = .2
             const [nA, nB] = splitInTwo(data[index][3])
 
             node.text = new BitmapText(
-                // `${nA}\n${nB}`,
-                String(data[index][3]),
+                `${nA}\n${nB}`,
                 {
                     fontName: 'Lato',
-                    fontSize: 9,
+                    fontSize: '9',
                     align: 'center',
                 })
 

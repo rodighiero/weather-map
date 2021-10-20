@@ -57,11 +57,7 @@ Promise.all([
 
     // Set data
 
-    
-    console.log(names[0])
-    
     let data = embedding.reduce((array, value, i) => {
-        // array[i] = [...embedding[i], lemmas[i].length, authors[i]]
         array.push([Number(value.x), Number(value.y), Number(weights[i].weight), names[i].name])
         return array
     }, [])
@@ -125,7 +121,7 @@ Promise.all([
     s.viewport.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
         e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
-        e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
+        // e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         e.viewport.children.find(child => child.name == 'keywords_distant').alpha = zoomOut(scale)
         // e.viewport.children.find(child => child.name == 'keywords_close').alpha = zoomIn(scale)
         // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)

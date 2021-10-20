@@ -1,14 +1,14 @@
 import { Graphics } from 'pixi.js'
 import { contourDensity, extent } from 'd3'
 
-const color = 0xFFFFFF
-const contourWidth = 1
+const color = 0x000000
+const width = .4
 const cellSize = 1
-const bandwidth = 40
-const thresholds = 10
+const bandwidth = 20
+const thresholds = 12
 
 export default data => {
-    
+
     const stage = new Graphics()
     stage.interactiveChildren = false
     stage.name = 'contours'
@@ -18,32 +18,28 @@ export default data => {
     const density = contourDensity()
         .x(d => d[0])
         .y(d => d[1])
-        .weight(d => d[2])
+        .weight(d => {
+            // console.log(d[2])
+            return d[2]})
         .size([window.innerWidth, window.innerHeight])
         .cellSize(cellSize)
         .bandwidth(bandwidth)
         .thresholds(thresholds)
-        (data)
+        (data.filter(el => el[3].charAt(0) === el[3].charAt(0).toUpperCase())) // Keep nodes
 
-    const step = contourWidth / density.length
-    let count = 1
+    stage.lineStyle(width, color)
 
-    for (let i = density.length - 1; i >= 0; i--) {
-
-        const width = contourWidth - step * count
-        stage.lineStyle(width, color)
-        count = count + 1
-
-        density[i].coordinates.forEach(array => {
+    density.forEach(layer => {
+        layer.coordinates.forEach(array => {
             array.forEach(array => {
                 array.forEach(([x, y], i) => {
                     if (i == 0) stage.moveTo(x, y)
                     stage.lineTo(x, y)
                 })
             })
-            stage.closePath()
         })
+    })
 
-    }
+    stage.closePath()
 
 }

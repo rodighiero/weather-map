@@ -1,5 +1,5 @@
 import { BitmapText, Graphics } from 'pixi.js'
-import { descending } from 'd3'
+import { descending, mean } from 'd3'
 
 export default data => {
 
@@ -10,8 +10,12 @@ export default data => {
 
     let harvest = [] // Collector for visible keywords
 
+    const color = 0xFFFFFF
+    const limit = mean(data.map(d => d[2])) / 2 // Limit for filering smaller keywords
+
     data
-        .filter(el => el[3].charAt(0) === el[3].charAt(0).toLowerCase()) // Keep just the keywords
+        .filter(el => el[3].charAt(0) === el[3].charAt(0).toLowerCase()) // Keep keywords
+        .filter(el => el[2] > limit) // Keep most relevant keywords
         .sort((a, b) => descending(a[2], b[2])) // Order by weight
         .forEach(el => {
 
@@ -25,7 +29,7 @@ export default data => {
                 {
                     fontName: 'Lato',
                     fontSize: '64',
-                    fill: 0xFEDD00,
+                    tint: color,
                     align: 'center',
                 })
 

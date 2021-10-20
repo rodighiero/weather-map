@@ -31,15 +31,10 @@ import embedding from './data/embedding.csv'
 import weights from './data/weights.csv'
 import pairs from './data/pairs.json'
 
-// Global variables
+window.s = {} // Global variables
 
-window.s = {
-    // distance: 30,
-    // nodes,
-    // tokens: []
-}
 
-// Start
+// Load
 
 Promise.all([
     csv(embedding),
@@ -136,24 +131,10 @@ Promise.all([
     // Rendering
 
     background(backgroundImage)
-    
-    
-    
-    
-    
-    contours(data) // We miss value for elevation (which is the occurrencies)
-
-
-
-
-
-
-
-
-
-    nodes(data)
     // keywords_close(pairs)
+    nodes(data)
     keywords_distant(data)
+    contours(data)
     // drawClusters(data, clusters)
     // search(data)
 

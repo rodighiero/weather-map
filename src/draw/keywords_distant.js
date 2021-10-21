@@ -10,12 +10,12 @@ export default data => {
 
     let harvest = [] // Collector for visible keywords
 
-    const color = 0xFFFFFF
+    const color = 0x000000
     const limit = mean(data.map(d => d[2])) / 2 // Limit for filering smaller keywords
 
     data
         .filter(el => el[3].charAt(0) === el[3].charAt(0).toLowerCase()) // Keep keywords
-        .filter(el => el[2] > limit) // Keep most relevant keywords
+        // .filter(el => el[2] > limit) // Keep most relevant keywords
         .sort((a, b) => descending(a[2], b[2])) // Order by weight
         .forEach(el => {
 

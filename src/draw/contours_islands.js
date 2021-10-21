@@ -4,7 +4,7 @@ import { contourDensity, extent } from 'd3'
 const color = 0xffe6b6 // Red
 const width = .6
 const cellSize = 1
-const bandwidth = 20
+const bandwidth = 30
 const thresholds = 12
 
 export default data => {
@@ -19,7 +19,7 @@ export default data => {
         .x(d => d[0])
         .y(d => d[1])
         // .weight(d => 1) // All the same values
-        .weight(d => 2) // Occurrences
+        .weight(d => d[2] * 100) // Occurrences
         .size([window.innerWidth, window.innerHeight])
         .cellSize(cellSize)
         .bandwidth(bandwidth)

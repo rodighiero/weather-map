@@ -1,8 +1,9 @@
 import { Graphics } from 'pixi.js'
 import { contourDensity, extent } from 'd3'
 
-const color = 0x0000FF // Blue
-const width = .6
+// const color = 0x0000FF // Blue
+const color = 0x000000 // Black
+const width = .5
 const cellSize = 1
 const bandwidth = 20
 const thresholds = 12

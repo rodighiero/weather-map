@@ -34,7 +34,7 @@ export default (data) => {
 
             // Circle
 
-            const radiusByWeight = (1 + radius) * node[2] / 10
+            const radiusByWeight = (2 + radius) * node[2] / 20
             
             node.circle = new Graphics()
             node.circle.beginFill(color.off, 1)

@@ -10,7 +10,8 @@ export default data => {
 
     let harvest = [] // Collector for visible keywords
 
-    const color = 0x000000
+    const color = 0xFFFFFF // White
+    // const color = 0x000000 // Black
     const limit = mean(data.map(d => d[2])) / 2 // Limit for filering smaller keywords
 
     data

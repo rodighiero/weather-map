@@ -1,7 +1,13 @@
 import { Graphics } from 'pixi.js'
-import { contourDensity, extent } from 'd3'
+import { contourDensity, reverse } from 'd3'
 
-const color = 0xffe6b6 // Red
+let color
+// color = 0xccc6a3 // Beige
+// color = 0x000000 // Black
+// color = 0xFFF69B // Butter
+color = 0x95bce5 // Lighter Blue
+// color = 0x8ab6e6 // Background Blue
+
 const width = .6
 const cellSize = 1
 const bandwidth = 30
@@ -27,21 +33,22 @@ export default data => {
         (data.filter(el => el[3].charAt(0) === el[3].charAt(0).toUpperCase())) // Keep nodes
 
     stage.beginFill(color, 1)
-    // stage.lineStyle(width, color)
+    stage.lineStyle(width, 0x5c9ee5)
 
-    density.forEach(layer => {
-        layer.coordinates.forEach(array => {
-            array.forEach(array => {
-                array.forEach(([x, y], i) => {
-                    if (i == 0) stage.moveTo(x, y)
+    density.reverse() // reverse is to hide inner contours
+        .forEach(layer => {
+        console.log(layer)
+        layer.coordinates.forEach((array, index) => {
+            array[0].forEach(([x, y], i) => {
+                    if (i == 0)
+                        stage.moveTo(x, y)
                     stage.lineTo(x, y)
                 })
-            })
         })
     })
 
+    stage.closePath()
     stage.endFill()
 
-    // stage.closePath()
 
 }

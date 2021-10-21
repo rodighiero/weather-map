@@ -13,7 +13,9 @@ import { Viewport } from 'pixi-viewport'
 
 import background from './draw/background'
 import drawClusters from './draw/clusters.js'
-import contours from './draw/contours.js'
+import contours_islands from './draw/contours_islands.js'
+import contours_negative from './draw/contours_negative.js'
+import contours_positive from './draw/contours_positive.js'
 import keywords_close from './draw/keywords_close.js'
 import keywords_distant from './draw/keywords_distant.js'
 import nodes from './draw/nodes.js'
@@ -29,6 +31,7 @@ import names from './data/names.csv'
 import clusters from './data/clusters.json'
 import embedding from './data/embedding.csv'
 import weights from './data/weights.csv'
+import regressions from './data/regressions.csv'
 import pairs from './data/pairs.json'
 
 window.s = {} // Global variables
@@ -40,6 +43,7 @@ Promise.all([
     csv(embedding),
     csv(names),
     csv(weights),
+    csv(regressions),
     json(pairs),
     json(clusters),
     xml(fontXML),
@@ -47,13 +51,13 @@ Promise.all([
     image(backgroundImage),
 
 
-]).then(([embedding, names, weights, pairs, clusters, fontXML, fontPNG, backgroundImage]) => {
+]).then(([embedding, names, weights, regressions, pairs, clusters, fontXML, fontPNG, backgroundImage]) => {
 
 
     // Set data
 
     let data = embedding.reduce((array, value, i) => {
-        array.push([Number(value.x), Number(value.y), Number(weights[i].weight), names[i].name])
+        array.push([Number(value.x), Number(value.y), Number(weights[i].weight), names[i].name, regressions[i].regression])
         return array
     }, [])
     
@@ -115,7 +119,8 @@ Promise.all([
 
     s.viewport.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
-        e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'contours_positive').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'contours_negative').alpha = zoomOut(scale)
         // e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         e.viewport.children.find(child => child.name == 'keywords_distant').alpha = zoomOut(scale)
         // e.viewport.children.find(child => child.name == 'keywords_close').alpha = zoomIn(scale)
@@ -131,10 +136,13 @@ Promise.all([
     // Rendering
 
     background(backgroundImage)
+    contours_islands(data)
     // keywords_close(pairs)
     nodes(data)
+    contours_negative(data)
+    contours_positive(data)
+    
     keywords_distant(data)
-    contours(data)
     // drawClusters(data, clusters)
     // search(data)
 

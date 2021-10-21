@@ -1,8 +1,8 @@
 import { Graphics } from 'pixi.js'
 import { contourDensity, extent } from 'd3'
 
-const color = 0x000000
-const width = .4
+const color = 0x0000FF // Blue
+const width = .6
 const cellSize = 1
 const bandwidth = 20
 const thresholds = 12
@@ -11,16 +11,16 @@ export default data => {
 
     const stage = new Graphics()
     stage.interactiveChildren = false
-    stage.name = 'contours'
+    stage.name = 'contours_negative'
     stage.alpha = 1
     s.viewport.addChild(stage)
 
     const density = contourDensity()
         .x(d => d[0])
         .y(d => d[1])
-        .weight(d => {
-            // console.log(d[2])
-            return d[2]})
+        // .weight(d => d[2]) // Occurrence
+        // .weight(d => d[4]) // Positive regression
+        .weight(d => -d[4]) // negative regression
         .size([window.innerWidth, window.innerHeight])
         .cellSize(cellSize)
         .bandwidth(bandwidth)

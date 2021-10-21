@@ -32,8 +32,6 @@ export default (data) => {
         .sort((a, b) => descending(a[2], b[2])) // Order by weight
         .forEach((node, index) => {
 
-            console.log(node[3].charAt(0), node[3].charAt(0).toUpperCase(), node[3])
-
             // Circle
 
             const radiusByWeight = radius * node[2]

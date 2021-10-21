@@ -15,7 +15,7 @@
 }
 
 body, html {
-	color: #c7d1c2;
+	color: #000000;
 	overflow: hidden;
 	margin: 0;
 }
@@ -28,7 +28,7 @@ canvas {
 }
 
 a {
-	color: #c7d1c2;
+	color: #000000;
 }
 
 /******************************************************************************
@@ -36,7 +36,7 @@ a {
 ******************************************************************************/
 
 #focus, #title, #search, #warning, #award {
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgba(255, 255, 255, .2);
 	position: absolute;
 	border: none;
 	padding: 10px;
@@ -45,15 +45,6 @@ a {
 #focus {
 	left: 0;
 	top: 10;
-}
-
-#award {
-	left: 0;
-	bottom: 10;
-}
-
-#award img {
-	width: 134px;
 }
 
 #title {
@@ -126,7 +117,7 @@ p {
 }
 
 .inverted {
-	background-color: #c7d1c2;
-	color: black;
+	background-color: black;
+	color: white;
 	white-space: nowrap;
 }

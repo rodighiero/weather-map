@@ -25,8 +25,6 @@ export default (data) => {
     stage.name = 'nodes'
     s.viewport.addChild(stage)
 
-    const radius = .2
-
     data
         .filter(el => el[3].charAt(0) == el[3].charAt(0).toUpperCase()) // Keep nodes
         .sort((a, b) => descending(a[2], b[2])) // Order by weight
@@ -41,7 +39,7 @@ export default (data) => {
 
             // Circle
 
-            const radiusByWeight = (2 + radius) * node[2] / 20
+            const radiusByWeight = (20 + node.occurrence) / 30
 
             node.circle = new Graphics()
             node.circle.beginFill(color.off, 1)

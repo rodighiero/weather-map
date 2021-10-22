@@ -5,7 +5,7 @@ const color = 0xFF0000 // Red
 const width = .5
 const cellSize = 1
 const bandwidth = 20
-const thresholds = 12
+const thresholds = 10
 
 export default data => {
 

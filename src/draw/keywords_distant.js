@@ -34,8 +34,8 @@ export default data => {
                     align: 'center',
                 })
 
-            const baseWeight = 100
-            const magnitude = .0015
+            const baseWeight = 200
+            const magnitude = .0005
 
             bitmap.scale.set((baseWeight + weight) * magnitude)
             bitmap.position.set(x - bitmap.width / 2, y - bitmap.height / 2)

@@ -33,10 +33,11 @@ export default (data) => {
         .forEach((node, index) => {
 
             node.index = index
-            node.name = node[3]
             node.occurrence = node[2]
-            node.frequency = node[5]
+            node.name = node[3]
             node.regression = node[4]
+            node.frequency = node[5]
+            node.urls = node[6]
 
             // Circle
 

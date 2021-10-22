@@ -30,6 +30,7 @@ import frequencies from './data/frequencies.json'
 import names from './data/names.csv'
 import occurrences from './data/occurrences.csv'
 import regressions from './data/regressions.csv'
+import urls from './data/urls.json'
 
 
 // Load
@@ -40,12 +41,13 @@ Promise.all([
     csv(occurrences),
     csv(regressions),
     json(frequencies),
+    json(urls),
     xml(fontXML),
     image(fontPNG),
     image(backgroundImage),
 
 
-]).then(([embedding, names, occurrences, regressions, frequencies, fontXML, fontPNG, backgroundImage]) => {
+]).then(([embedding, names, occurrences, regressions, frequencies, urls, fontXML, fontPNG, backgroundImage]) => {
 
 
     // Set global variable
@@ -56,7 +58,7 @@ Promise.all([
     // Set data
 
     let data = embedding.reduce((array, value, i) => {
-        array.push([Number(value.x), Number(value.y), Number(occurrences[i].occurrence), names[i].name, regressions[i].regression, frequencies[i]])
+        array.push([Number(value.x), Number(value.y), Number(occurrences[i].occurrence), names[i].name, regressions[i].regression, frequencies[i], urls[i]])
         return array
     }, [])
 
@@ -70,6 +72,7 @@ Promise.all([
     sample.name = data[random][3]
     sample.regression = data[random][4]
     sample.frequency = String(data[random][5])
+    sample.urls = String(data[random][6])
 
     console.log('Sample element')
     console.table(sample)

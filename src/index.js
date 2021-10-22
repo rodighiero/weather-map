@@ -52,7 +52,9 @@ Promise.all([
 
     // Set global variable
 
-    window.s = {}
+    window.s = {
+        regressionTollerance: 2
+    }
 
 
     // Set data

@@ -37,7 +37,6 @@ export default data => {
 
     density.reverse() // reverse is to hide inner contours
         .forEach(layer => {
-        console.log(layer)
         layer.coordinates.forEach((array, index) => {
             array[0].forEach(([x, y], i) => {
                     if (i == 0)

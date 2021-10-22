@@ -32,29 +32,32 @@ export default (data) => {
         .sort((a, b) => descending(a[2], b[2])) // Order by weight
         .forEach((node, index) => {
 
+            node.index = index
+            node.name = node[3]
+            node.occurrence = node[2]
+            node.frequency = node[5]
+            node.regression = node[4]
+
             // Circle
 
             const radiusByWeight = (2 + radius) * node[2] / 20
-            
+
             node.circle = new Graphics()
             node.circle.beginFill(color.off, 1)
             node.circle.lineStyle(.1, 0x333333, 1);
             node.circle.drawCircle(0, 0, radiusByWeight)
             node.circle.endFill()
             node.circle.position = new Point(node[0], node[1])
-            node.circle.hitArea = new Circle(0, 0, s.distance)
-            node.circle.interactive = true
 
             stage.addChild(node.circle)
 
             // Label
 
             const scale = .2
-            const [nA, nB] = splitInTwo(node[3])
+            const [nA, nB] = splitInTwo(node.name)
 
             node.text = new BitmapText(
                 `${nA}\n${nB}`,
-                // String(node[3]),
                 {
                     fontName: 'Lato',
                     fontSize: 9,
@@ -68,35 +71,34 @@ export default (data) => {
             stage.addChild(node.text)
 
 
-
-
-
             // Interactions
 
-            // node.circle.buttonMode = true
+            node.circle.hitArea = new Circle(0, 0, radiusByWeight)
+            node.circle.interactive = true
+            node.circle.buttonMode = true
 
-            // node.circle.click = mouseData => {
+            node.circle.click = mouseData => {
 
-            //     // On click
+                // On click
 
-            //     click(node)
+                click(node)
 
-            //     // Switch off nodes
+                //     // Switch off nodes
 
-            //     s.nodes.forEach(node => {
-            //         node.circle.tint = 0xFFFFFF
-            //         node.text.tint = 0xFFFFFF
-            //         node.text.fill = 0xcFFFFFF
-            //     })
+                //     s.nodes.forEach(node => {
+                //         node.circle.tint = 0xFFFFFF
+                //         node.text.tint = 0xFFFFFF
+                //         node.text.fill = 0xcFFFFFF
+                //     })
 
-            //     // Switch on nodes
+                //     // Switch on nodes
 
-            //     s.nodes.filter(peer => node.peers.includes(peer.id))
-            //         .forEach(node => {
-            //             node.circle.tint = color.on
-            //             node.text.tint = color.on
-            //         })
-            // }
+                //     s.nodes.filter(peer => node.peers.includes(peer.id))
+                //         .forEach(node => {
+                //             node.circle.tint = color.on
+                //             node.text.tint = color.on
+                //         })
+            }
 
 
         })

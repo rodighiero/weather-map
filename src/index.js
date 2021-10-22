@@ -25,9 +25,10 @@ import fontPNG from './assets/Lato.png'
 
 import backgroundImage from './assets/background.png'
 
-import names from './data/names.csv'
 import embedding from './data/embedding.csv'
-import weights from './data/weights.csv'
+import frequencies from './data/frequencies.json'
+import names from './data/names.csv'
+import occurrences from './data/occurrences.csv'
 import regressions from './data/regressions.csv'
 
 
@@ -36,14 +37,15 @@ import regressions from './data/regressions.csv'
 Promise.all([
     csv(embedding),
     csv(names),
-    csv(weights),
+    csv(occurrences),
     csv(regressions),
+    json(frequencies),
     xml(fontXML),
     image(fontPNG),
     image(backgroundImage),
 
 
-]).then(([embedding, names, weights, regressions, fontXML, fontPNG, backgroundImage]) => {
+]).then(([embedding, names, occurrences, regressions, frequencies, fontXML, fontPNG, backgroundImage]) => {
 
 
     // Set global variable
@@ -54,11 +56,25 @@ Promise.all([
     // Set data
 
     let data = embedding.reduce((array, value, i) => {
-        array.push([Number(value.x), Number(value.y), Number(weights[i].weight), names[i].name, regressions[i].regression])
+        array.push([Number(value.x), Number(value.y), Number(occurrences[i].occurrence), names[i].name, regressions[i].regression, frequencies[i]])
         return array
     }, [])
-    
-    console.log(data[1])
+
+    // Data Test
+
+    const sample = {}
+    const random = Math.floor(Math.random() * data.length)
+    sample.x = data[random][0]
+    sample.y = data[random][1]
+    sample.occurrence = data[random][2]
+    sample.name = data[random][3]
+    sample.regression = data[random][4]
+    sample.frequency = String(data[random][5])
+
+    console.log('Sample element')
+    console.table(sample)
+
+    console.log(frequencies)
 
     // Set app
 

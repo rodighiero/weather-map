@@ -1,5 +1,5 @@
 {
-  "name": "cartography-of-spt2021",
+  "name": "weather-map",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve",
@@ -10,20 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodighiero/SPT2021.git"
+    "url": "git+https://github.com/rodighiero/weather-map.git"
   },
   "author": "Dario Rodighiero",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
-    "babel-loader": "^8.2.2",
+    "babel-loader": "^8.2.3",
     "css-loader": "^6.4.0",
     "csv-parser": "^3.0.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.4.0",
-    "mini-css-extract-plugin": "^2.4.2",
-    "webpack": "^5.58.2",
+    "mini-css-extract-plugin": "^2.4.3",
+    "webpack": "^5.59.1",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.3.1"
   },
@@ -31,7 +31,6 @@
     "@tarekraafat/autocomplete.js": "10.2.6",
     "css-reset-and-normalize": "^2.3.5",
     "d3": "^7.1.1",
-    "fps": "0.0.3",
     "pixi-viewport": "^4.33.0",
     "pixi.js": "^6.1.3"
   }

@@ -16,6 +16,7 @@ import contours_islands from './draw/contours_islands.js'
 import contours_negative from './draw/contours_negative.js'
 import contours_positive from './draw/contours_positive.js'
 import keywords_distant from './draw/keywords_distant.js'
+import cluster_contour from './draw/cluster_contour.js'
 import nodes from './draw/nodes.js'
 
 import search from './interface/search'
@@ -25,6 +26,7 @@ import fontPNG from './assets/Lato.png'
 
 import backgroundImage from './assets/background.png'
 
+import clusters from './data/clusters.csv'
 import embedding from './data/embedding.csv'
 import frequencies from './data/frequencies.json'
 import names from './data/names.csv'
@@ -42,25 +44,24 @@ Promise.all([
     csv(regressions),
     json(frequencies),
     json(urls),
+    csv(clusters),
     xml(fontXML),
     image(fontPNG),
     image(backgroundImage),
 
 
-]).then(([embedding, names, occurrences, regressions, frequencies, urls, fontXML, fontPNG, backgroundImage]) => {
+]).then(([embedding, names, occurrences, regressions, frequencies, urls, clusters, fontXML, fontPNG, backgroundImage]) => {
 
 
     // Set global variable
 
-    window.s = {
-        regressionTollerance: 2
-    }
+    window.s = {}
 
 
     // Set data
 
     let data = embedding.reduce((array, value, i) => {
-        array.push([Number(value.x), Number(value.y), Number(occurrences[i].occurrence), names[i].name, regressions[i].regression, frequencies[i], urls[i]])
+        array.push([Number(value.x), Number(value.y), Number(occurrences[i].occurrence), names[i].name, regressions[i].regression, frequencies[i], urls[i], clusters[i]])
         return array
     }, [])
 
@@ -75,6 +76,7 @@ Promise.all([
     sample.regression = data[random][4]
     sample.frequency = String(data[random][5])
     sample.urls = String(data[random][6])
+    sample.clusters = String(data[random][7])
 
     console.log('Sample element')
     console.table(sample)
@@ -158,7 +160,7 @@ Promise.all([
     contours_positive(data)
     
     keywords_distant(data)
-    // drawClusters(data, clusters)
+    // cluster_contour(data, clusters)
     // search(data)
 
     s.viewport.fit()

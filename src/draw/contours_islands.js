@@ -1,5 +1,5 @@
 import { Graphics } from 'pixi.js'
-import { contourDensity, reverse } from 'd3'
+import { contourDensity, group, reverse } from 'd3'
 
 let color
 // color = 0xccc6a3 // Beige
@@ -10,8 +10,8 @@ color = 0x95bce5 // Lighter Blue
 
 const width = .6
 const cellSize = 1
-const bandwidth = 30
-const thresholds = 12
+const bandwidth = 15
+const thresholds = 10
 
 export default data => {
 
@@ -21,33 +21,43 @@ export default data => {
     stage.alpha = 1
     s.viewport.addChild(stage)
 
-    const density = contourDensity()
-        .x(d => d[0])
-        .y(d => d[1])
-        // .weight(d => 1) // All the same values
-        .weight(d => d[2] * 100) // Occurrences
-        .size([window.innerWidth, window.innerHeight])
-        .cellSize(cellSize)
-        .bandwidth(bandwidth)
-        .thresholds(thresholds)
-        (data.filter(el => el[3].charAt(0) === el[3].charAt(0).toUpperCase())) // Keep nodes
+    const clusters = group(data, d => d[7].cluster)
+    // console.log(clusters)
 
-    stage.beginFill(color, 1)
-    stage.lineStyle(width, 0x5c9ee5)
+    clusters
+        .forEach(cluster => {
+            if (cluster[0][7].cluster !== 'None') {
 
-    density.reverse() // reverse is to hide inner contours
-        .forEach(layer => {
-        layer.coordinates.forEach((array, index) => {
-            array[0].forEach(([x, y], i) => {
-                    if (i == 0)
-                        stage.moveTo(x, y)
-                    stage.lineTo(x, y)
-                })
+                const density = contourDensity()
+                    .x(d => d[0])
+                    .y(d => d[1])
+                    .weight(1) // All the same values
+                    // .weight(d => d[2] * 100) // Occurrences
+                    .size([window.innerWidth, window.innerHeight])
+                    .cellSize(cellSize)
+                    .bandwidth(bandwidth)
+                    .thresholds(thresholds)
+                    (cluster) // Keep nodes
+
+                stage.beginFill(color, 1)
+                stage.lineStyle(width, 0x5c9ee5)
+
+                density.reverse() // reverse is to hide inner contours
+                    .forEach(layer => {
+                        layer.coordinates.forEach((array, index) => {
+                            array[0].forEach(([x, y], i) => {
+                                if (i == 0)
+                                    stage.moveTo(x, y)
+                                stage.lineTo(x, y)
+                            })
+                        })
+                    })
+
+                stage.closePath()
+                stage.endFill()
+            }
+
         })
-    })
-
-    stage.closePath()
-    stage.endFill()
 
 
 }

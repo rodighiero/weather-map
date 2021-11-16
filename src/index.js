@@ -138,10 +138,11 @@ Promise.all([
 
     s.viewport.on('zoomed', e => {
         const scale = e.viewport.lastViewport.scaleX
-        e.viewport.children.find(child => child.name == 'contours_positive').alpha = zoomOut(scale)
-        e.viewport.children.find(child => child.name == 'contours_negative').alpha = zoomOut(scale)
+        // e.viewport.children.find(child => child.name == 'contours_positive').alpha = zoomOut(scale)
+        // e.viewport.children.find(child => child.name == 'contours_negative').alpha = zoomOut(scale)
+        // e.viewport.children.find(child => child.name == 'keywords_distant').alpha = zoomOut(scale)
+        
         // e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
-        e.viewport.children.find(child => child.name == 'keywords_distant').alpha = zoomOut(scale)
         // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
 
@@ -155,11 +156,12 @@ Promise.all([
 
     background(backgroundImage)
     contours_islands(data)
-    nodes(data)
+    // nodes(data)
     contours_negative(data)
     contours_positive(data)
     
     keywords_distant(data)
+
     // cluster_contour(data, clusters)
     // search(data)
 

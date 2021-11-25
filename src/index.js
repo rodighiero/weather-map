@@ -156,7 +156,7 @@ Promise.all([
 
     background(backgroundImage)
     contours_islands(data)
-    // nodes(data)
+    nodes(data)
     contours_negative(data)
     contours_positive(data)
     

@@ -28,9 +28,9 @@ import backgroundImage from './assets/background.png'
 
 import clusters from './data/clusters.csv'
 import embedding from './data/embedding.csv'
-import frequencies from './data/frequencies.json'
+import years from './data/years.json'
 import names from './data/names.csv'
-import occurrences from './data/occurrences.csv'
+import frequency from './data/frequency.csv'
 import regressions from './data/regressions.csv'
 import urls from './data/urls.json'
 
@@ -40,9 +40,9 @@ import urls from './data/urls.json'
 Promise.all([
     csv(embedding),
     csv(names),
-    csv(occurrences),
+    csv(frequency),
     csv(regressions),
-    json(frequencies),
+    json(years),
     json(urls),
     csv(clusters),
     xml(fontXML),
@@ -50,7 +50,7 @@ Promise.all([
     image(backgroundImage),
 
 
-]).then(([embedding, names, occurrences, regressions, frequencies, urls, clusters, fontXML, fontPNG, backgroundImage]) => {
+]).then(([embedding, names, frequency, regressions, years, urls, clusters, fontXML, fontPNG, backgroundImage]) => {
 
 
     // Set global variable
@@ -61,7 +61,7 @@ Promise.all([
     // Set data
 
     let data = embedding.reduce((array, value, i) => {
-        array.push([Number(value.x), Number(value.y), Number(occurrences[i].occurrence), names[i].name, regressions[i].regression, frequencies[i], urls[i], clusters[i]])
+        array.push([Number(value.x), Number(value.y), Number(frequency[i].frequency), names[i].name, regressions[i].regression, frequency[i], urls[i], clusters[i]])
         return array
     }, [])
 
@@ -71,7 +71,7 @@ Promise.all([
     const random = Math.floor(Math.random() * data.length)
     sample.x = data[random][0]
     sample.y = data[random][1]
-    sample.occurrence = data[random][2]
+    sample.frequency = data[random][2]
     sample.name = data[random][3]
     sample.regression = data[random][4]
     sample.frequency = String(data[random][5])
@@ -81,7 +81,7 @@ Promise.all([
     console.log('Sample element')
     console.table(sample)
 
-    console.log(frequencies)
+    console.log(frequency)
 
     // Set app
 
@@ -141,7 +141,7 @@ Promise.all([
         // e.viewport.children.find(child => child.name == 'contours_positive').alpha = zoomOut(scale)
         // e.viewport.children.find(child => child.name == 'contours_negative').alpha = zoomOut(scale)
         // e.viewport.children.find(child => child.name == 'keywords_distant').alpha = zoomOut(scale)
-        
+
         // e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
@@ -159,7 +159,7 @@ Promise.all([
     nodes(data)
     contours_negative(data)
     contours_positive(data)
-    
+
     keywords_distant(data)
 
     // cluster_contour(data, clusters)

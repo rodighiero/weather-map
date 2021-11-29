@@ -26,31 +26,19 @@ import fontPNG from './assets/Lato.png'
 
 import backgroundImage from './assets/background.png'
 
-import clusters from './data/clusters.csv'
-import embedding from './data/embedding.csv'
-import years from './data/years.json'
-import names from './data/names.csv'
-import frequency from './data/frequency.csv'
-import regressions from './data/regressions.csv'
-import urls from './data/urls.json'
-
+import entities from './data/entities.csv'
 
 // Load
 
 Promise.all([
-    csv(embedding),
-    csv(names),
-    csv(frequency),
-    csv(regressions),
-    json(years),
-    json(urls),
+    csv(entities),
     csv(clusters),
     xml(fontXML),
     image(fontPNG),
     image(backgroundImage),
 
 
-]).then(([embedding, names, frequency, regressions, years, urls, clusters, fontXML, fontPNG, backgroundImage]) => {
+]).then(([embedding, clusters, fontXML, fontPNG, backgroundImage]) => {
 
 
     // Set global variable

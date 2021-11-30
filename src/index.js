@@ -15,7 +15,7 @@ import background from './draw/background'
 import contours_islands from './draw/contours_islands.js'
 import contours_negative from './draw/contours_negative.js'
 import contours_positive from './draw/contours_positive.js'
-import keywords_distant from './draw/keywords_distant.js'
+import keywords from './draw/keywords.js'
 import cluster_contour from './draw/cluster_contour.js'
 import nodes from './draw/nodes.js'
 
@@ -32,44 +32,16 @@ import entities from './data/entities.csv'
 
 Promise.all([
     csv(entities),
-    csv(clusters),
     xml(fontXML),
     image(fontPNG),
     image(backgroundImage),
 
+]).then(([entities, fontXML, fontPNG, backgroundImage]) => {
 
-]).then(([embedding, clusters, fontXML, fontPNG, backgroundImage]) => {
+    window.s = {} // Set global variable
+    console.table(entities[Math.floor(Math.random() * entities.length)]) // Test
+    BitmapFont.install(fontXML, Texture.from(fontPNG)) // Font loader
 
-
-    // Set global variable
-
-    window.s = {}
-
-
-    // Set data
-
-    let data = embedding.reduce((array, value, i) => {
-        array.push([Number(value.x), Number(value.y), Number(frequency[i].frequency), names[i].name, regressions[i].regression, frequency[i], urls[i], clusters[i]])
-        return array
-    }, [])
-
-    // Data Test
-
-    const sample = {}
-    const random = Math.floor(Math.random() * data.length)
-    sample.x = data[random][0]
-    sample.y = data[random][1]
-    sample.frequency = data[random][2]
-    sample.name = data[random][3]
-    sample.regression = data[random][4]
-    sample.frequency = String(data[random][5])
-    sample.urls = String(data[random][6])
-    sample.clusters = String(data[random][7])
-
-    console.log('Sample element')
-    console.table(sample)
-
-    console.log(frequency)
 
     // Set app
 
@@ -101,22 +73,24 @@ Promise.all([
     s.app.stage.addChild(s.viewport)
 
 
-    // Set dimensions
+    // Set dimensions (it seems to work, but it might be improved or completely removed)
 
-    const extX = extent(data, d => d[0]), extY = extent(data, d => d[1])
+    const extX = extent(entities, e => e['x']), extY = extent(entities, e => e['y'])
+    const largerDimension = window.innerWidth > window.innerHeight ? window.innerWidth : window.innerHeight
+    const margin = 400
 
-    const shorterDimension = window.innerWidth > window.innerHeight ? window.innerHeight : window.innerWidth
-
-    const margin = 100
-
-    const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, shorterDimension - margin])
-    const scaleY = scaleLinear().domain([extY[0], extY[1]]).range([margin, shorterDimension - margin])
+    const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, largerDimension - margin])
+    const scaleY = scaleLinear().domain([extY[0], extY[1]]).range([margin, largerDimension - margin])
 
     const marginTop = window.innerWidth > window.innerHeight ? 0 : (window.innerHeight - window.innerWidth) / 2
     const marginLeft = window.innerWidth < window.innerHeight ? 0 : (window.innerWidth - window.innerHeight) / 2
 
-    data.forEach(d => { d[0] = marginLeft + scaleX(d[0]); d[1] = marginTop + scaleY(d[1]) })
+    entities.forEach(e => {
+        e['x'] = marginLeft + scaleX(e['x'])
+        e['y'] = marginTop + scaleY(e['y'])
+    })
 
+    console.log()
 
 
     // Transparency on zoom
@@ -125,47 +99,48 @@ Promise.all([
     const zoomIn = scaleLinear().domain([6, 1]).range([1, 0]) // Visible when zooming in
 
     s.viewport.on('zoomed', e => {
-        const scale = e.viewport.lastViewport.scaleX
+
+        let scale
+
+        try {
+            scale = e.viewport.lastViewport.scaleX
+        } catch {
+            scale = 1
+        }
+
+        // console.log(scale)
+
         // e.viewport.children.find(child => child.name == 'contours_positive').alpha = zoomOut(scale)
         // e.viewport.children.find(child => child.name == 'contours_negative').alpha = zoomOut(scale)
-        // e.viewport.children.find(child => child.name == 'keywords_distant').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
 
         // e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
 
 
-    // Font loader
-
-    BitmapFont.install(fontXML, Texture.from(fontPNG))
-
-
     // Rendering
 
     background(backgroundImage)
-    contours_islands(data)
-    nodes(data)
-    contours_negative(data)
-    contours_positive(data)
-
-    keywords_distant(data)
-
+    // contours_islands(data)
+    // nodes(data)
+    // contours_negative(data)
+    // contours_positive(data)
+    keywords(entities)
     // cluster_contour(data, clusters)
     // search(data)
 
     s.viewport.fit()
     s.viewport.moveCenter(window.innerWidth / 2, window.innerHeight / 2)
 
-    // Prevent pinch gesture in Chrome
+
 
     window.onresize = () => {
         s.viewport.resize()
-    }
-
-    // Prevent wheel interference
+    } // Prevent pinch gesture in Chrome
 
     window.addEventListener('wheel', e => {
         e.preventDefault()
-    }, { passive: false })
+    }, { passive: false }) // Prevent wheel interference
 
 })

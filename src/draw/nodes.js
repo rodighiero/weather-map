@@ -1,4 +1,4 @@
-import { BitmapText, Circle, Graphics, Point } from 'pixi.js'
+import { BitmapText, Circle, Graphics, Point, utils } from 'pixi.js'
 import { descending } from 'd3'
 
 import { click } from '../interface/click'
@@ -12,92 +12,86 @@ const splitInTwo = string => {
     return [string, '']
 }
 
-const color = {
-    on: 0xFEDD00,
-    off: 0xc000000,
-}
-
-
-export default (data) => {
+export default (entities) => {
 
     const stage = new Graphics()
-    stage.alpha = 1
+    stage.alpha = 0
     stage.name = 'nodes'
     s.viewport.addChild(stage)
 
-    data
-        .filter(el => el[3].charAt(0) == el[3].charAt(0).toUpperCase()) // Keep nodes
-        .sort((a, b) => descending(a[2], b[2])) // Order by weight
-        .forEach((node, index) => {
+    entities
+        .filter(e => e['type'] == 'person' || e['type'] == 'org') // Keep nodes
+        .forEach(e => {
 
-            node.index = index
-            node.occurrence = node[2]
-            node.name = node[3]
-            node.regression = node[4]
-            node.frequency = node[5]
-            node.urls = node[6]
+            // node.index = index
+            // node.occurrence = node[2]
+            // node.name = node[3]
+            // node.regression = node[4]
+            // node.frequency = node[5]
+            // node.urls = node[6]
 
             // Circle
 
-            const radiusByWeight = (20 + node.occurrence) / 30
+            const color = utils.rgb2hex(e['color'])
+            console.log(e['color'], color)
 
-            node.circle = new Graphics()
-            node.circle.beginFill(color.off, 1)
-            node.circle.lineStyle(.1, 0x333333, 1);
-            node.circle.drawCircle(0, 0, radiusByWeight)
-            node.circle.endFill()
-            node.circle.position = new Point(node[0], node[1])
+            const radiusByWeight = (e['frequency_norm'] * 20)
 
-            stage.addChild(node.circle)
+            const circle = new Graphics()
+            circle.beginFill(0xc000000, 1)
+            // circle.lineStyle(.1, 0x333333, 1);
+            circle.drawCircle(0, 0, radiusByWeight)
+            circle.endFill()
+            circle.position = new Point(e['x'], e['y'])
+
+            stage.addChild(circle)
 
             // Label
 
-            const scale = .2
-            const [nA, nB] = splitInTwo(node.name)
+            const [nA, nB] = splitInTwo(e['name'])
 
-            node.text = new BitmapText(
+            const text = new BitmapText(
                 `${nA}\n${nB}`,
                 {
                     fontName: 'Lato',
-                    fontSize: 9,
+                    fontSize: 3,
                     align: 'center',
                     tint: 0x333333
                 })
 
-            node.text.scale.set(scale)
-            node.text.position.set(node[0] - node.text.width / 2, node[1] + radiusByWeight)
+            text.position.set(e['x'] - text.width / 2, e['y'] + radiusByWeight)
 
-            stage.addChild(node.text)
+            stage.addChild(text)
 
 
             // Interactions
 
-            node.circle.hitArea = new Circle(0, 0, radiusByWeight)
-            node.circle.interactive = true
-            node.circle.buttonMode = true
+            // node.circle.hitArea = new Circle(0, 0, radiusByWeight)
+            // node.circle.interactive = true
+            // node.circle.buttonMode = true
 
-            node.circle.click = mouseData => {
+            // node.circle.click = mouseData => {
 
-                // On click
+            //     // On click
 
-                click(node)
+            //     click(node)
 
-                //     // Switch off nodes
+            //     //     // Switch off nodes
 
-                //     s.nodes.forEach(node => {
-                //         node.circle.tint = 0xFFFFFF
-                //         node.text.tint = 0xFFFFFF
-                //         node.text.fill = 0xcFFFFFF
-                //     })
+            //     //     s.nodes.forEach(node => {
+            //     //         node.circle.tint = 0xFFFFFF
+            //     //         node.text.tint = 0xFFFFFF
+            //     //         node.text.fill = 0xcFFFFFF
+            //     //     })
 
-                //     // Switch on nodes
+            //     //     // Switch on nodes
 
-                //     s.nodes.filter(peer => node.peers.includes(peer.id))
-                //         .forEach(node => {
-                //             node.circle.tint = color.on
-                //             node.text.tint = color.on
-                //         })
-            }
+            //     //     s.nodes.filter(peer => node.peers.includes(peer.id))
+            //     //         .forEach(node => {
+            //     //             node.circle.tint = color.on
+            //     //             node.text.tint = color.on
+            //     //         })
+            // }
 
 
         })

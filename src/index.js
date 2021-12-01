@@ -12,11 +12,11 @@ import { Viewport } from 'pixi-viewport'
 // Assets
 
 import background from './draw/background'
-import contours_islands from './draw/contours_islands.js'
+import clusters from './draw/clusters.js'
 import contours_negative from './draw/contours_negative.js'
 import contours_positive from './draw/contours_positive.js'
 import keywords from './draw/keywords.js'
-import cluster_contour from './draw/cluster_contour.js'
+import cluster_contour from './draw/clusters.js'
 import nodes from './draw/nodes.js'
 
 import search from './interface/search'
@@ -114,7 +114,7 @@ Promise.all([
         // e.viewport.children.find(child => child.name == 'contours_negative').alpha = zoomOut(scale)
         e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
 
-        e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
+        // e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
 
@@ -122,7 +122,7 @@ Promise.all([
     // Rendering
 
     background(backgroundImage)
-    // contours_islands(data)
+    clusters(entities)
     nodes(entities)
     // contours_negative(data)
     // contours_positive(data)

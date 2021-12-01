@@ -52,14 +52,12 @@ export default entities => {
                 stage.addChild(bitmap)
                 harvest.push(bitmap)
 
-                // Overlapping check
-
-                const rectangle = new Graphics();
-                rectangle.lineStyle(.5, 0xFFFFFF, .6)
-                rectangle.beginFill(0xFFFFFF, 0.1)
-                rectangle.drawRoundedRect(bitmap.x, bitmap.y, bitmap.width, bitmap.height, 1)
-                rectangle.endFill()
-                stage.addChild(rectangle)
+                // const rectangle = new Graphics(); // Draw contour to verify
+                // rectangle.lineStyle(.5, 0xFFFFFF, .6)
+                // rectangle.beginFill(0xFFFFFF, 0.1)
+                // rectangle.drawRoundedRect(bitmap.x, bitmap.y, bitmap.width, bitmap.height, 1)
+                // rectangle.endFill()
+                // stage.addChild(rectangle)
 
             }
 

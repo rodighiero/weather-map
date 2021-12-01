@@ -15,7 +15,7 @@ const splitInTwo = string => {
 export default (entities) => {
 
     const stage = new Graphics()
-    stage.alpha = 0
+    // stage.alpha = 0
     stage.name = 'nodes'
     s.viewport.addChild(stage)
 
@@ -28,7 +28,7 @@ export default (entities) => {
 
             console.log()
 
-            const radiusByWeight = (e['frequency_norm'] * 50)
+            const radiusByWeight = (e['frequency_norm'] * 100)
 
             const circle = new Graphics()
             circle.beginFill('0x' + e['color'].substring(1), 1)

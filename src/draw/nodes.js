@@ -23,22 +23,15 @@ export default (entities) => {
         .filter(e => e['type'] == 'person' || e['type'] == 'org') // Keep nodes
         .forEach(e => {
 
-            // node.index = index
-            // node.occurrence = node[2]
-            // node.name = node[3]
-            // node.regression = node[4]
-            // node.frequency = node[5]
-            // node.urls = node[6]
 
             // Circle
 
-            const color = utils.rgb2hex(e['color'])
-            console.log(e['color'], color)
+            console.log()
 
-            const radiusByWeight = (e['frequency_norm'] * 20)
+            const radiusByWeight = (e['frequency_norm'] * 50)
 
             const circle = new Graphics()
-            circle.beginFill(0xc000000, 1)
+            circle.beginFill('0x' + e['color'].substring(1), 1)
             // circle.lineStyle(.1, 0x333333, 1);
             circle.drawCircle(0, 0, radiusByWeight)
             circle.endFill()
@@ -46,6 +39,7 @@ export default (entities) => {
 
             stage.addChild(circle)
 
+            
             // Label
 
             const [nA, nB] = splitInTwo(e['name'])

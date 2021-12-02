@@ -13,6 +13,7 @@ import { Viewport } from 'pixi-viewport'
 
 import background from './draw/background'
 import clusters from './draw/clusters.js'
+import contours from './draw/contours.js'
 import contours_negative from './draw/contours_negative.js'
 import contours_positive from './draw/contours_positive.js'
 import keywords from './draw/keywords.js'
@@ -59,8 +60,10 @@ Promise.all([
     // Set viewport
 
     s.viewport = new Viewport({
-        screenWidth: window.innerWidth,
-        screenHeight: window.innerHeight,
+        // screenWidth: window.innerWidth,
+        // screenHeight: window.innerHeight,
+        worldWidth: window.innerWidth,
+        worldHeight: window.innerHeight,
         interaction: s.app.renderer.plugins.interaction
     }).drag().pinch().wheel().decelerate()
         .clampZoom({
@@ -76,11 +79,11 @@ Promise.all([
     // Set dimensions (it seems to work, but it might be improved or completely removed)
 
     const extX = extent(entities, e => e['x']), extY = extent(entities, e => e['y'])
-    const largerDimension = window.innerWidth > window.innerHeight ? window.innerWidth : window.innerHeight
-    const margin = 400
+    const smallerDimension = window.innerWidth < window.innerHeight ? window.innerWidth : window.innerHeight
+    const margin = 100
 
-    const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, largerDimension - margin])
-    const scaleY = scaleLinear().domain([extY[0], extY[1]]).range([margin, largerDimension - margin])
+    const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, smallerDimension - margin])
+    const scaleY = scaleLinear().domain([extY[0], extY[1]]).range([margin, smallerDimension - margin])
 
     const marginTop = window.innerWidth > window.innerHeight ? 0 : (window.innerHeight - window.innerWidth) / 2
     const marginLeft = window.innerWidth < window.innerHeight ? 0 : (window.innerWidth - window.innerHeight) / 2
@@ -124,6 +127,7 @@ Promise.all([
     background(backgroundImage)
     clusters(entities)
     nodes(entities)
+    contours(entities)
     // contours_negative(data)
     // contours_positive(data)
     keywords(entities)

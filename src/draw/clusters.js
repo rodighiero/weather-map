@@ -19,8 +19,8 @@ export default entities => {
 
     clusters.forEach(cluster => {
 
-        if ((cluster[0]['cluster'] === '-1') || (cluster[0]['cluster'] === '') || (cluster.length <= 2))
-            return
+        // if ((cluster[0]['cluster'] === '-1') || (cluster[0]['cluster'] === '') || (cluster.length <= 2))
+        //     return
 
         // const coordinates = cluster.map(e => [e.x, e.y])
 

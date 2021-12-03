@@ -19,7 +19,7 @@ export default entities => {
                 {
                     fontName: 'Lato',
                     fontSize: parseFloat(e['frequency_norm']) + 1,
-                    tint: 0xFFFFFF,
+                    tint: 0x666666,
                     align: 'center',
                 })
 

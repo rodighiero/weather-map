@@ -2,8 +2,8 @@ import { Graphics } from 'pixi.js'
 import { contourDensity, extent } from 'd3'
 
 // const color = 0x0000FF // Blue
-const color = 0x000000 // Black
-const width = 1
+const color = 0x999999 // Black
+const width = .5
 const cellSize = 5
 const bandwidth = 50 // Detail
 const thresholds = 30
@@ -13,7 +13,7 @@ export default entities => {
     const stage = new Graphics()
     stage.interactiveChildren = false
     stage.name = 'contour'
-    stage.alpha = 1
+    stage.alpha = .5
     s.viewport.addChild(stage)
 
     const density = contourDensity()
@@ -26,8 +26,6 @@ export default entities => {
         .bandwidth(bandwidth)
         .thresholds(thresholds)
         (entities.filter(e => e['type'] == 'person' || e['type'] == 'org'))
-
-    console.log(density)
 
     stage.lineStyle(width, color)
 

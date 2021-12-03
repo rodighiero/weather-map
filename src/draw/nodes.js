@@ -15,12 +15,12 @@ const splitInTwo = string => {
 export default (entities) => {
 
     const stage = new Graphics()
-    // stage.alpha = 0
+    stage.alpha = 1
     stage.name = 'nodes'
     s.viewport.addChild(stage)
 
     entities
-        .filter(e => e['type'] == 'person' || e['type'] == 'org') // Keep nodes
+        .filter(e => e['type'] !== 'subject') // Keep nodes
         .forEach(e => {
 
 

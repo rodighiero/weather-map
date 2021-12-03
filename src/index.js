@@ -39,7 +39,7 @@ Promise.all([
 
 ]).then(([entities, fontXML, fontPNG, backgroundImage]) => {
 
-    window.s = {} // Set global variable
+    window.s = { 'entities': entities } // Set global variable
     console.table(entities[Math.floor(Math.random() * entities.length)]) // Test
     BitmapFont.install(fontXML, Texture.from(fontPNG)) // Font loader
 
@@ -93,8 +93,6 @@ Promise.all([
         e['y'] = marginTop + scaleY(e['y'])
     })
 
-    console.log()
-
 
     // Transparency on zoom
 
@@ -115,7 +113,7 @@ Promise.all([
 
         // e.viewport.children.find(child => child.name == 'contours_positive').alpha = zoomOut(scale)
         // e.viewport.children.find(child => child.name == 'contours_negative').alpha = zoomOut(scale)
-        e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
+        // e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
 
         // e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
@@ -126,11 +124,11 @@ Promise.all([
 
     background(backgroundImage)
     clusters(entities)
+    keywords(entities)
     nodes(entities)
     contours(entities)
     // contours_negative(data)
     // contours_positive(data)
-    keywords(entities)
     // cluster_contour(data, clusters)
     // search(data)
 

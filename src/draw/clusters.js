@@ -1,12 +1,5 @@
 import { Graphics } from 'pixi.js'
-import { contourDensity, group, reverse } from 'd3'
-
-let color
-// color = 0xccc6a3 // Beige
-// color = 0x000000 // Black
-// color = 0xFFF69B // Butter
-color = 0x95bce5 // Lighter Blue
-// color = 0x8ab6e6 // Background Blue
+import { contourDensity, group, reverse, polygonHull, polygonCentroid } from 'd3'
 
 const width = .6
 const cellSize = 1
@@ -22,41 +15,50 @@ export default entities => {
     s.viewport.addChild(stage)
 
     const clusters = group(entities, e => e['cluster'])
-    console.log(clusters)
+    // console.log(clusters)
 
     clusters.forEach(cluster => {
-        if (cluster['cluster'] !== '-1') {
 
-            cluster = cluster.filter(e => e['type'] != 'subject')
+        if ((cluster[0]['cluster'] === '-1') || (cluster[0]['cluster'] === '') || (cluster.length <= 2))
+            return
 
-            const density = contourDensity()
-                .x(e => e['x'])
-                .y(e => e['y'])
-                .weight(1) // All the same values
-                // .weight(d => d[2] * 100) // Occurrences
-                .size([window.innerWidth, window.innerHeight])
-                .cellSize(cellSize)
-                .bandwidth(bandwidth)
-                .thresholds(thresholds)
-                (cluster) // Keep nodes
+        // const coordinates = cluster.map(e => [e.x, e.y])
 
-            stage.beginFill(color, 1)
-            stage.lineStyle(width, 0x5c9ee5)
+        // const polygon = polygonHull(coordinates)
+        // stage.lineStyle(.2, 0xFFFFFF)
+        // stage.beginFill(0x000000, .1)
+        // polygon.forEach((p, i) => (i == 0) ? stage.moveTo(p[0], p[1]) : stage.lineTo(p[0], p[1]))
+        // stage.closePath()
+        // const center = polygonCentroid(polygon)
 
-            density.reverse() // reverse is to hide inner contours
-                .forEach(layer => {
-                    layer.coordinates.forEach((array, index) => {
-                        array[0].forEach(([x, y], i) => {
-                            if (i == 0)
-                                stage.moveTo(x, y)
-                            stage.lineTo(x, y)
-                        })
+        const density = contourDensity()
+            .x(e => e['x'])
+            .y(e => e['y'])
+            .weight(1) // All the same values
+            // .weight(d => d[2] * 100) // Occurrences
+            .size([window.innerWidth, window.innerHeight])
+            .cellSize(cellSize)
+            .bandwidth(bandwidth)
+            .thresholds(thresholds)
+            (cluster) // Keep nodes
+
+        stage.beginFill(0xf8f8f8, 1)
+        stage.lineStyle(width, 0xDDDDDD)
+
+        density.reverse() // reverse is to hide inner contours
+            .forEach(layer => {
+                layer.coordinates.forEach((array, index) => {
+                    array[0].forEach(([x, y], i) => {
+                        if (i == 0)
+                            stage.moveTo(x, y)
+                        stage.lineTo(x, y)
                     })
                 })
+            })
 
-            stage.closePath()
-            stage.endFill()
-        }
+        stage.closePath()
+        stage.endFill()
+
 
     })
 

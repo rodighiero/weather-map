@@ -31,6 +31,7 @@ export default entities => {
         const polygon = polygonHull(coordinates)
         stage.lineStyle(.2, 0xFFFFFF)
         stage.beginFill('0x' + colorHex.substring(1), 1)
+        stage.alpha = .5
         polygon.forEach((p, i) => (i == 0) ? stage.moveTo(p[0], p[1]) : stage.lineTo(p[0], p[1]))
         stage.closePath()
         const center = polygonCentroid(polygon)

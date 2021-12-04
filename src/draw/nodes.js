@@ -6,10 +6,10 @@ import { click } from '../interface/click'
 const splitInTwo = string => {
     const middle = Math.round(string.length / 2)
     for (let i = middle, j = middle; i < string.length || j >= 0; i++, j--) {
-        if (string[i] === ' ') return [string.substring(0, i), string.substring(i + 1)]
-        if (string[j] === ' ') return [string.substring(0, j), string.substring(j + 1)]
+        if (string[i] === ' ') return string.substring(0, i) + '\n' + string.substring(i + 1)
+        if (string[j] === ' ') return string.substring(0, j) + '\n' + string.substring(j + 1)
     }
-    return [string, '']
+    return string
 }
 
 export default (entities) => {
@@ -23,68 +23,76 @@ export default (entities) => {
         .filter(e => e['type'] !== 'subject') // Keep nodes
         .forEach(e => {
 
-
-            // Circle
-
-            console.log()
-
-            const radiusByWeight = (e['frequency_norm'] * 100)
-
-            const circle = new Graphics()
-            circle.beginFill('0x' + e['color'].substring(1), 1)
-            // circle.lineStyle(.1, 0x333333, 1);
-            circle.drawCircle(0, 0, radiusByWeight)
-            circle.endFill()
-            circle.position = new Point(e['x'], e['y'])
-
-            stage.addChild(circle)
-
-            
             // Label
 
-            const [nA, nB] = splitInTwo(e['name'])
-
             const text = new BitmapText(
-                `${nA}\n${nB}`,
+                splitInTwo(e['name']),
                 {
                     fontName: 'Lato',
                     fontSize: 3,
-                    align: 'center',
-                    tint: 0x333333
+                    align: 'left',
+                    tint: '0x000000',
                 })
-
-            text.position.set(e['x'] - text.width / 2, e['y'] + radiusByWeight)
-
+            text.position.set(e['x'], e['y'])
             stage.addChild(text)
+
+
+            // Baseline
+
+            const baseline = new Graphics()
+            baseline.lineStyle(.1, '0x000000', 1);
+            baseline.moveTo(e['x'] - 2, e['y'] + 0)
+            baseline.lineTo(e['x'] - 0 + 20, e['y'] + 0)
+            stage.addChild(baseline)
+
+        
+            // Temperature Line
+            
+            const length = 100 * parseFloat(e['frequency_norm'])
+            const x_span = 1.2
+            const y_span = 1
+            const thickness = .6
+
+            const line = new Graphics()
+            if (e['slope'] > 0) {
+                line.lineStyle(thickness, '0xEE0000', 1);
+                line.moveTo(e['x'] - x_span, e['y'] - y_span)
+                line.lineTo(e['x'] - x_span, e['y'] - y_span - length)
+            } else {
+                line.lineStyle(thickness, '0x2B64DD', 1);
+                line.moveTo(e['x'] - x_span, e['y'] + y_span)
+                line.lineTo(e['x'] - x_span, e['y'] + y_span + length)
+            }
+            stage.addChild(line)
 
 
             // Interactions
 
-            // node.circle.hitArea = new Circle(0, 0, radiusByWeight)
-            // node.circle.interactive = true
-            // node.circle.buttonMode = true
+            // text.hitArea = new Circle(0, 0, 100)
+            // text.interactive = true
+            // text.buttonMode = true
 
-            // node.circle.click = mouseData => {
+            // text.click = mouseData => {
 
             //     // On click
 
-            //     click(node)
+            //     click(mouseData)
 
-            //     //     // Switch off nodes
+                //     // Switch off nodes
 
-            //     //     s.nodes.forEach(node => {
-            //     //         node.circle.tint = 0xFFFFFF
-            //     //         node.text.tint = 0xFFFFFF
-            //     //         node.text.fill = 0xcFFFFFF
-            //     //     })
+                //     s.nodes.forEach(node => {
+                //         node.circle.tint = 0xFFFFFF
+                //         node.text.tint = 0xFFFFFF
+                //         node.text.fill = 0xcFFFFFF
+                //     })
 
-            //     //     // Switch on nodes
+                //     // Switch on nodes
 
-            //     //     s.nodes.filter(peer => node.peers.includes(peer.id))
-            //     //         .forEach(node => {
-            //     //             node.circle.tint = color.on
-            //     //             node.text.tint = color.on
-            //     //         })
+                //     s.nodes.filter(peer => node.peers.includes(peer.id))
+                //         .forEach(node => {
+                //             node.circle.tint = color.on
+                //             node.text.tint = color.on
+                //         })
             // }
 
 

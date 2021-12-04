@@ -123,10 +123,10 @@ Promise.all([
     // Rendering
 
     background(backgroundImage)
+    contours(entities)
     clusters(entities)
     keywords(entities)
     nodes(entities)
-    contours(entities)
     // contours_negative(data)
     // contours_positive(data)
     // cluster_contour(data, clusters)

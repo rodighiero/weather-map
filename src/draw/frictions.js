@@ -1,4 +1,4 @@
-import { Graphics, Loader, Point, Sprite } from 'pixi.js'
+import { Graphics, Loader, Point, Sprite, Container } from 'pixi.js'
 import { extent, polygonHull, polygonCentroid, polygonContains, group } from 'd3'
 
 export default entities => {
@@ -15,7 +15,6 @@ export default entities => {
         clusters.forEach((c2, i2) => {
             if ((i1 >= i2) || (i1 == -1) || (i2 == -1))
                 return
-            // console.log(i1, i2)
 
             const coo1 = c1.map(e => [e.x, e.y])
             const coo2 = c2.map(e => [e.x, e.y])
@@ -48,18 +47,31 @@ export default entities => {
                 circle_2.endFill()
                 circle_2.position = new Point(center_2[0], center_2[1])
                 stage.addChild(circle_2)
+
+                const container = new Container()
+                stage.addChild(container)
+                container.x = (center_1[0] + center_2[0]) / 2
+                container.y = (center_1[1] + center_2[1]) / 2
+
+                // const circle_3 = new Graphics()
+                // circle_3.beginFill('0xFF0000', 1)
+                // circle_3.drawCircle(0, 0, 3)
+                // circle_3.endFill()
+                // container.addChild(circle_3)
+
+                const width = center_2[0] - center_1[0]
+                const heigth = center_2[1] - center_1[1]
+
+                const line = new Graphics()
+                line.lineStyle(2, 0x000000)
+                line.moveTo(+ heigth / 2, -width / 2)
+                line.lineTo(- heigth / 2, width / 2)
+                container.addChild(line)
+
             }
 
         })
     })
-
-
-    //     const polygon = polygonHull(coordinates)
-    //     stage.lineStyle(.2, 0xFFFFFF)
-    //     stage.beginFill(0xFFFFFF, .5)
-    //     polygon.forEach((p, i) => (i == 0) ? stage.moveTo(p[0], p[1]) : stage.lineTo(p[0], p[1]))
-    //     stage.closePath()
-    //     const center = polygonCentroid(polygon)
 
 
 }

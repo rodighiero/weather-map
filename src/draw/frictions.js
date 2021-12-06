@@ -1,5 +1,5 @@
 import { Graphics, Loader, Point, Sprite, Container } from 'pixi.js'
-import { extent, polygonHull, polygonCentroid, polygonContains, group } from 'd3'
+import { extent, polygonHull, polygonCentroid, polygonContains, group, mean } from 'd3'
 
 export default entities => {
 
@@ -34,15 +34,19 @@ export default entities => {
 
             if (overlapping) {
 
+                let m1 = mean(c1.map(d => d.slope))
+                let m2 = mean(c2.map(d => d.slope))
+                console.log(m1, m2)
+
                 const circle_1 = new Graphics()
-                circle_1.beginFill('0x000000', 1)
+                circle_1.beginFill((m1 > 0) ? '0xFF0000' : '0x0000FF', 1)
                 circle_1.drawCircle(0, 0, 5)
                 circle_1.endFill()
                 circle_1.position = new Point(center_1[0], center_1[1])
                 stage.addChild(circle_1)
 
                 const circle_2 = new Graphics()
-                circle_2.beginFill('0x000000', 1)
+                circle_2.beginFill((m2 > 0) ? '0xFF0000' : '0x0000FF', 1)
                 circle_2.drawCircle(0, 0, 5)
                 circle_2.endFill()
                 circle_2.position = new Point(center_2[0], center_2[1])
@@ -67,6 +71,8 @@ export default entities => {
                 line.moveTo(+ heigth / 2, -width / 2)
                 line.lineTo(- heigth / 2, width / 2)
                 container.addChild(line)
+
+                
 
             }
 

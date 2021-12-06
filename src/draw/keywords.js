@@ -18,12 +18,12 @@ export default entities => {
                 e['name'],
                 {
                     fontName: 'Lato',
-                    fontSize: parseFloat(e['frequency_norm']) + 1,
-                    tint: 0x666666,
+                    fontSize: parseFloat(e['frequency_norm']) + .8,
+                    tint: 0x999999,
                     align: 'center',
                 })
 
-            bitmap.scale.set(8)
+            bitmap.scale.set(16)
             bitmap.position.set(e['x'] - bitmap.width / 2, e['y'] - bitmap.height / 2)
 
 
@@ -35,7 +35,7 @@ export default entities => {
 
                 const l1 = harvest[i]
                 const l2 = bitmap
-                const margin = 5 // Important to correct shorter height
+                const margin = 15 // Important to correct shorter height
 
                 if (!(l2.x > l1.x + l1.width + margin
                     || l2.x + l2.width + margin < l1.x

@@ -19,6 +19,7 @@ import contours_positive from './draw/contours_positive.js'
 import keywords from './draw/keywords.js'
 import cluster_contour from './draw/clusters.js'
 import nodes from './draw/nodes.js'
+import frictions from './draw/frictions.js'
 
 import search from './interface/search'
 
@@ -127,6 +128,7 @@ Promise.all([
     keywords(entities)
     clusters(entities)
     nodes(entities)
+    frictions(entities)
     // contours_negative(data)
     // contours_positive(data)
     // cluster_contour(data, clusters)

@@ -5,7 +5,7 @@ const line = '—————————————'
 const block = '<span class="block"></span>'
 
 
-export function click(node) {
+export function click(e) {
 
     console.log('Click')
 
@@ -16,13 +16,10 @@ export function click(node) {
 
     // Heading
 
-    const encoded = encodeURIComponent(node.name)
-
-    focus.append('h2').html('Name: ' + node.name)
-    focus.append('h2').html(`<a href=https://en.wikipedia.org/w/index.php?title=Special:Search&search='${encoded}' target="_blank">Wikipedia search</a>`)
-    focus.append('h3').html('Index: ' + node.index)
-    focus.append('h3').html('Occurrence: ' + node.occurrence)
-    focus.append('p').html('Regression: ' + Number(node.regression).toFixed(2))
+    focus.append('h2').html('Name: ' + e['name'])
+    focus.append('h2').html(`<a href=https://en.wikipedia.org/w/index.php?title=Special:Search&search='${encodeURIComponent(e['name'])}' target="_blank">Wikipedia search</a>`)
+    focus.append('h3').html('Frequency: ' + e['frequency'])
+    focus.append('p').html('Regression: ' + Number(e['regression']).toFixed(2))
 
     https://en.wikipedia.org/w/index.php?title=Special:Search&search=IMB&ns0=1
 

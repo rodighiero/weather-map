@@ -45,9 +45,9 @@ export default (entities) => {
             baseline.lineTo(e['x'] - 0 + 20, e['y'] + 0)
             stage.addChild(baseline)
 
-        
+
             // Temperature Line
-            
+
             const length = 100 * parseFloat(e['frequency_norm'])
             const x_span = 1.2
             const y_span = 1
@@ -68,33 +68,11 @@ export default (entities) => {
 
             // Interactions
 
-            // text.hitArea = new Circle(0, 0, 100)
-            // text.interactive = true
-            // text.buttonMode = true
+            text.hitArea = new Circle(0, 0, 100)
+            text.interactive = true
+            text.buttonMode = true
 
-            // text.click = mouseData => {
-
-            //     // On click
-
-            //     click(mouseData)
-
-                //     // Switch off nodes
-
-                //     s.nodes.forEach(node => {
-                //         node.circle.tint = 0xFFFFFF
-                //         node.text.tint = 0xFFFFFF
-                //         node.text.fill = 0xcFFFFFF
-                //     })
-
-                //     // Switch on nodes
-
-                //     s.nodes.filter(peer => node.peers.includes(peer.id))
-                //         .forEach(node => {
-                //             node.circle.tint = color.on
-                //             node.text.tint = color.on
-                //         })
-            // }
-
+            // text.click = encodeURI => { click(e) } // On click
 
         })
 

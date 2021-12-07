@@ -5,6 +5,14 @@ object-assign
 */
 
 /*!
+ * @pixi/accessibility - v6.2.0
+ * Compiled Mon, 01 Nov 2021 16:52:10 UTC
+ *
+ * @pixi/accessibility is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
  * @pixi/app - v6.2.0
  * Compiled Mon, 01 Nov 2021 16:52:10 UTC
  *
@@ -25,14 +33,6 @@ object-assign
  * Compiled Mon, 01 Nov 2021 16:52:10 UTC
  *
  * @pixi/core is licensed under the MIT License.
- * http://www.opensource.org/licenses/mit-license
- */
-
-/*!
- * @pixi/display - v6.1.3
- * Compiled Mon, 13 Sep 2021 15:29:31 UTC
- *
- * @pixi/display is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
  */
 
@@ -109,22 +109,6 @@ object-assign
  */
 
 /*!
- * @pixi/settings - v6.2.0
- * Compiled Mon, 01 Nov 2021 16:52:10 UTC
- *
- * @pixi/settings is licensed under the MIT License.
- * http://www.opensource.org/licenses/mit-license
- */
-
-/*!
- * @pixi/ticker - v6.1.3
- * Compiled Mon, 13 Sep 2021 15:29:31 UTC
- *
- * @pixi/ticker is licensed under the MIT License.
- * http://www.opensource.org/licenses/mit-license
- */
-
-/*!
  * @pixi/ticker - v6.2.0
  * Compiled Mon, 01 Nov 2021 16:52:10 UTC
  *
@@ -138,16 +122,6 @@ object-assign
  *
  * @pixi/utils is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
- */
-
-/*!
- * pixi-viewport - v4.34.1
- * Compiled Fri, 05 Nov 2021 19:49:11 UTC
- *
- * pixi-viewport is licensed under the MIT License.
- * http://www.opensource.org/licenses/mit-license
- * 
- * Copyright 2019-2020, David Figatner, All Rights Reserved
  */
 
 /*!

@@ -127,14 +127,14 @@ p {
 }
 
 .block {
-	background-color: black;
+	/* background-color: black; */
 	height: 4px;
 	width: 4px;
 	display: inline-block;
 }
 
 .inverted {
-	background-color: black;
+	/* background-color: black; */
 	color: white;
 	white-space: nowrap;
 }

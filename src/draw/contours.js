@@ -1,8 +1,7 @@
 import { Graphics } from 'pixi.js'
 import { contourDensity, extent } from 'd3'
 
-// const color = 0x0000FF // Blue
-const color = 0x999999 // Black
+const color = 0xCCCCCC
 const width = .5
 const cellSize = 5
 const bandwidth = 50 // Detail
@@ -12,8 +11,8 @@ export default entities => {
 
     const stage = new Graphics()
     stage.interactiveChildren = false
-    stage.name = 'contour'
-    stage.alpha = .5
+    stage.name = 'contours'
+    stage.alpha = 1
     s.viewport.addChild(stage)
 
     const density = contourDensity()
@@ -31,12 +30,10 @@ export default entities => {
 
     density.forEach(layer => {
         layer.coordinates.forEach(array => {
-            array.forEach(array => {
-                array.forEach(([x, y], i) => {
+                array[0].forEach(([x, y], i) => {
                     if (i == 0) stage.moveTo(x, y)
                     stage.lineTo(x, y)
                 })
-            })
         })
     })
 

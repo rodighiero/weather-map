@@ -6,7 +6,7 @@ export default entities => {
 
     const stage = new Graphics()
     stage.interactiveChildren = false
-    stage.name = 'frictions'
+    stage.name = 'fronts'
     s.viewport.addChild(stage)
 
     let clusters = group(entities, e => e['cluster'])
@@ -36,7 +36,6 @@ export default entities => {
 
                 let m1 = mean(c1.map(d => d.slope))
                 let m2 = mean(c2.map(d => d.slope))
-                console.log(m1, m2)
 
                 // const circle_1 = new Graphics()
                 // circle_1.beginFill((m1 > 0) ? '0xFF0000' : '0x0000FF', 1)
@@ -66,8 +65,13 @@ export default entities => {
                 const width = center_2[0] - center_1[0]
                 const heigth = center_2[1] - center_1[1]
 
-                const a = [+ heigth - width, -width - heigth]
-                const b = [- heigth - width, width - heigth]
+                
+                const m = 1
+                const n = .5
+                const a = [+ heigth - width * n, -width - heigth * n]
+                const b = [- heigth - width * n, width - heigth * n]
+                const c = [+ heigth * m + width, -width * m + heigth]
+                const d = [- heigth * m + width, width * m + heigth]
 
                 // const line = new Graphics()
                 // line.lineStyle(2, 0x000000)
@@ -75,8 +79,6 @@ export default entities => {
                 // line.lineTo(b[0], b[1])
                 // container.addChild(line)
 
-                const c = [+ heigth * 2 + width, -width * 2 + heigth]
-                const d = [- heigth * 2 + width, width * 2 + heigth]
 
                 // Double back line
                 // const line2 = new Graphics()
@@ -85,13 +87,11 @@ export default entities => {
                 // line2.lineTo(d[0], d[1])
                 // container.addChild(line2)
 
-
                 const bezier = new Graphics()
-                bezier.lineStyle(2, 0x333333)
+                bezier.lineStyle(3, 0x999999)
                 bezier.moveTo(c[0], c[1]);
                 bezier.bezierCurveTo(a[0], a[1], b[0], b[1], d[0], d[1])
                 container.addChild(bezier)
-
 
             }
 

@@ -10,6 +10,8 @@ export default entities => {
 
     let harvest = [] // Collector for visible keywords
 
+    // console.log(entities.length)
+
     entities
         .filter(e => e['type'] === 'subject') // Keep keywords
         .forEach(e => {
@@ -18,7 +20,7 @@ export default entities => {
                 e['name'],
                 {
                     fontName: 'Lato',
-                    fontSize: parseFloat(e['frequency_norm']) + .8,
+                    fontSize: parseFloat(e['frequency_norm']) + .6,
                     tint: 0x999999,
                     align: 'center',
                 })
@@ -35,7 +37,7 @@ export default entities => {
 
                 const l1 = harvest[i]
                 const l2 = bitmap
-                const margin = 15 // Important to correct shorter height
+                const margin = 10 // Important to correct shorter height
 
                 if (!(l2.x > l1.x + l1.width + margin
                     || l2.x + l2.width + margin < l1.x

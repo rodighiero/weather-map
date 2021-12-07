@@ -15,7 +15,7 @@ const splitInTwo = string => {
 export default (entities) => {
 
     const stage = new Graphics()
-    stage.alpha = 1
+    stage.alpha = 0
     stage.name = 'nodes'
     s.viewport.addChild(stage)
 

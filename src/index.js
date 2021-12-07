@@ -14,12 +14,9 @@ import { Viewport } from 'pixi-viewport'
 import background from './draw/background'
 import clusters from './draw/clusters.js'
 import contours from './draw/contours.js'
-import contours_negative from './draw/contours_negative.js'
-import contours_positive from './draw/contours_positive.js'
 import keywords from './draw/keywords.js'
-import cluster_contour from './draw/clusters.js'
 import nodes from './draw/nodes.js'
-import frictions from './draw/frictions.js'
+import fronts from './draw/fronts.js'
 
 import search from './interface/search'
 
@@ -112,11 +109,11 @@ Promise.all([
 
         // console.log(scale)
 
-        // e.viewport.children.find(child => child.name == 'contours_positive').alpha = zoomOut(scale)
-        // e.viewport.children.find(child => child.name == 'contours_negative').alpha = zoomOut(scale)
-        // e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'fronts').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
 
-        // e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
+        e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
         // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
 
@@ -125,13 +122,11 @@ Promise.all([
 
     background(backgroundImage)
     contours(entities)
+    fronts(entities)
     keywords(entities)
     // clusters(entities)
     nodes(entities)
-    frictions(entities)
-    // contours_negative(data)
-    // contours_positive(data)
-    // cluster_contour(data, clusters)
+    
     // search(data)
 
     s.viewport.fit()

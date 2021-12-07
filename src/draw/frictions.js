@@ -38,19 +38,19 @@ export default entities => {
                 let m2 = mean(c2.map(d => d.slope))
                 console.log(m1, m2)
 
-                const circle_1 = new Graphics()
-                circle_1.beginFill((m1 > 0) ? '0xFF0000' : '0x0000FF', 1)
-                circle_1.drawCircle(0, 0, 5)
-                circle_1.endFill()
-                circle_1.position = new Point(center_1[0], center_1[1])
-                stage.addChild(circle_1)
+                // const circle_1 = new Graphics()
+                // circle_1.beginFill((m1 > 0) ? '0xFF0000' : '0x0000FF', 1)
+                // circle_1.drawCircle(0, 0, 5)
+                // circle_1.endFill()
+                // circle_1.position = new Point(center_1[0], center_1[1])
+                // stage.addChild(circle_1)
 
-                const circle_2 = new Graphics()
-                circle_2.beginFill((m2 > 0) ? '0xFF0000' : '0x0000FF', 1)
-                circle_2.drawCircle(0, 0, 5)
-                circle_2.endFill()
-                circle_2.position = new Point(center_2[0], center_2[1])
-                stage.addChild(circle_2)
+                // const circle_2 = new Graphics()
+                // circle_2.beginFill((m2 > 0) ? '0xFF0000' : '0x0000FF', 1)
+                // circle_2.drawCircle(0, 0, 5)
+                // circle_2.endFill()
+                // circle_2.position = new Point(center_2[0], center_2[1])
+                // stage.addChild(circle_2)
 
                 const container = new Container()
                 stage.addChild(container)
@@ -66,13 +66,32 @@ export default entities => {
                 const width = center_2[0] - center_1[0]
                 const heigth = center_2[1] - center_1[1]
 
-                const line = new Graphics()
-                line.lineStyle(2, 0x000000)
-                line.moveTo(+ heigth / 2, -width / 2)
-                line.lineTo(- heigth / 2, width / 2)
-                container.addChild(line)
+                const a = [+ heigth - width, -width - heigth]
+                const b = [- heigth - width, width - heigth]
 
-                
+                // const line = new Graphics()
+                // line.lineStyle(2, 0x000000)
+                // line.moveTo(a[0], a[1])
+                // line.lineTo(b[0], b[1])
+                // container.addChild(line)
+
+                const c = [+ heigth * 2 + width, -width * 2 + heigth]
+                const d = [- heigth * 2 + width, width * 2 + heigth]
+
+                // Double back line
+                // const line2 = new Graphics()
+                // line2.lineStyle(2, 0x000000)
+                // line2.moveTo(c[0], c[1])
+                // line2.lineTo(d[0], d[1])
+                // container.addChild(line2)
+
+
+                const bezier = new Graphics()
+                bezier.lineStyle(2, 0x333333)
+                bezier.moveTo(c[0], c[1]);
+                bezier.bezierCurveTo(a[0], a[1], b[0], b[1], d[0], d[1])
+                container.addChild(bezier)
+
 
             }
 

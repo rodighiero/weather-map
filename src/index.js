@@ -126,7 +126,7 @@ Promise.all([
     background(backgroundImage)
     contours(entities)
     keywords(entities)
-    clusters(entities)
+    // clusters(entities)
     nodes(entities)
     frictions(entities)
     // contours_negative(data)

@@ -42,12 +42,11 @@ Promise.all([
     // Abandoned Parsing
 
     entities.map(e => {
-        e.cluster = parseInt(e.cluster)
         e.frequency = parseInt(e.frequency)
         e.frequency_norm = parseFloat(e.frequency_norm)
         e.slope = parseFloat(e.slope)
-        //     //     e.x = parseInt(e.x)
-        e.titles = e.titles.substring(2).substring(0, e.titles.length - 2).split("', '")
+        e.x = parseInt(e.x)
+        e.y = parseInt(e.y)
         e.urls = e.urls.substring(2).substring(0, e.urls.length - 2).split("', '")
         e.years_JSON = JSON.parse(e.years_JSON)
         return e
@@ -102,19 +101,19 @@ Promise.all([
 
     // Set dimensions (it seems to work, but it might be improved or completely removed)
 
-    const extX = extent(entities, e => e['x']), extY = extent(entities, e => e['y'])
+    const extX = extent(entities, e => e.x), extY = extent(entities, e => e.y)
     const smallerDimension = window.innerWidth < window.innerHeight ? window.innerWidth : window.innerHeight
     const margin = 150
 
-    const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, smallerDimension - margin])
+    const scaleX = (scaleLinear().domain([extX[0], extX[1]]).range([margin, smallerDimension - margin]))
     const scaleY = scaleLinear().domain([extY[0], extY[1]]).range([margin, smallerDimension - margin])
 
     const marginTop = window.innerWidth > window.innerHeight ? 0 : (window.innerHeight - window.innerWidth) / 2
     const marginLeft = window.innerWidth < window.innerHeight ? 0 : (window.innerWidth - window.innerHeight) / 2
 
     entities.forEach(e => {
-        e['x'] = marginLeft + scaleX(e['x'])
-        e['y'] = marginTop + scaleY(e['y'])
+        e.x = marginLeft + parseInt(scaleX(e.x))
+        e.y = marginTop + parseInt(scaleY(e.y))
     })
 
 

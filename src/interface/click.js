@@ -41,18 +41,10 @@ export function click(e) {
     focus.append('h3').html('URLs: ' + e.urls.length + ' (max ten random)')
     focus.append('p').html(line)
 
-    // const links = e.map(index = > [index.urls])
-
-    const links = e.urls.reduce((array, url, index, a) => {
-        if (typeof(e.titles[index]) != "undefined" && url)
-		    array.push([e.titles[index], url])
-        return array
-    }, [])
-
-    links
+    e.urls
         .sort(() => Math.random() - Math.random()).slice(0, 10) // Get 20 random URLs
-        .forEach( link => {
-            focus.append('p').html(`<a href='${link[1]}' target="_blank">${link[1]} </a>`)
+        .forEach( url => {
+            focus.append('p').html(`<a href='${url}' target="_blank">${url} </a>`)
         })
 
 }

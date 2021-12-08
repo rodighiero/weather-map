@@ -15,10 +15,10 @@ export default entities => {
     s.viewport.addChild(stage)
 
     const density = contourDensity()
-        .x(e => e['x'])
-        .y(e => e['y'])
+        .x(e => e.x)
+        .y(e => e.y)
         // .weight(e => e['frequency'])
-        .weight(e => Math. abs(e['slope']))
+        .weight(e => Math.abs(e['slope']))
         .size([window.innerWidth, window.innerHeight])
         .cellSize(cellSize)
         .bandwidth(bandwidth)
@@ -29,10 +29,10 @@ export default entities => {
 
     density.forEach(layer => {
         layer.coordinates.forEach(array => {
-                array[0].forEach(([x, y], i) => {
-                    if (i == 0) stage.moveTo(x, y)
-                    stage.lineTo(x, y)
-                })
+            array[0].forEach(([x, y], i) => {
+                if (i == 0) stage.moveTo(x, y)
+                stage.lineTo(x, y)
+            })
         })
     })
 

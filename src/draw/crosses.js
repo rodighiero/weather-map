@@ -28,13 +28,13 @@ export default (entities) => {
             const length = 3
             
             const line_1 = new Graphics()
-            line_1.lineStyle(.5, 0x999999)
+            line_1.lineStyle(.5, s.gray)
             line_1.moveTo(e.x, e.y - length)
             line_1.lineTo(e.x, e.y + length)
             stage.addChild(line_1)
 
             const line_2 = new Graphics()
-            line_2.lineStyle(.5, 0x999999)
+            line_2.lineStyle(.5, s.gray)
             line_2.moveTo(e.x - length, e.y)
             line_2.lineTo(e.x + length, e.y)
             stage.addChild(line_2)

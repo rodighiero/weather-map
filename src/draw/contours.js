@@ -1,7 +1,6 @@
 import { Graphics } from 'pixi.js'
 import { contourDensity, extent } from 'd3'
 
-const color = 0xCCCCCC
 const width = .5
 const cellSize = 1
 const bandwidth = 50 // Detail
@@ -26,7 +25,7 @@ export default entities => {
         .thresholds(thresholds)
         (entities.filter(e => e['type'] == 'person' || e['type'] == 'org'))
 
-    stage.lineStyle(width, color)
+    stage.lineStyle(width, s.contours)
 
     density.forEach(layer => {
         layer.coordinates.forEach(array => {

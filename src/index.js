@@ -41,16 +41,17 @@ Promise.all([
 
     // Abandoned Parsing
 
-    // entities.forEach(e => {
-    //     e.cluster = parseInt(e.cluster)
-    //     e.frequency = parseInt(e.frequency)
-    //     e.frequency_norm = parseFloat(e.frequency_norm)
-    //     e.slope = parseFloat(e.slope)
-    //     e.x = parseInt(e.x)
-    //     e.y = parseInt(e.y)
-    //     // e.urls = JSON.parse(e.urls)
-    //     return e
-    // })
+    entities.map(e => {
+        e.cluster = parseInt(e.cluster)
+        e.frequency = parseInt(e.frequency)
+        e.frequency_norm = parseFloat(e.frequency_norm)
+        e.slope = parseFloat(e.slope)
+        //     //     e.x = parseInt(e.x)
+        e.titles = e.titles.substring(2).substring(0, e.titles.length - 2).split("', '")
+        e.urls = e.urls.substring(2).substring(0, e.urls.length - 2).split("', '")
+        e.years_JSON = JSON.parse(e.years_JSON)
+        return e
+    })
 
 
     // Set variables
@@ -60,8 +61,10 @@ Promise.all([
         'texts': [], // Collector for keyword overlapping
         'blue': 0x385DA6,
         'red': 0xA6242F,
+        'gray': 0x999999,
+        'contours': 0xCCCCCC,
     }
-    console.table(entities[Math.floor(Math.random() * entities.length)]) // Test
+    console.log(entities[Math.floor(Math.random() * entities.length)]) // Test
     BitmapFont.install(fontXML, Texture.from(fontPNG)) // Font loader
 
 

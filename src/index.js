@@ -78,7 +78,7 @@ Promise.all([
 
     const extX = extent(entities, e => e['x']), extY = extent(entities, e => e['y'])
     const smallerDimension = window.innerWidth < window.innerHeight ? window.innerWidth : window.innerHeight
-    const margin = 100
+    const margin = 150
 
     const scaleX = scaleLinear().domain([extX[0], extX[1]]).range([margin, smallerDimension - margin])
     const scaleY = scaleLinear().domain([extY[0], extY[1]]).range([margin, smallerDimension - margin])
@@ -94,27 +94,20 @@ Promise.all([
 
     // Transparency on zoom
 
+    let scale
     const zoomOut = scaleLinear().domain([6, 1]).range([0, 1]) // Visible when zooming out
     const zoomIn = scaleLinear().domain([6, 1]).range([1, 0]) // Visible when zooming in
 
     s.viewport.on('zoomed', e => {
 
-        let scale
-
-        try {
-            scale = e.viewport.lastViewport.scaleX
-        } catch {
-            scale = 1
-        }
-
-        // console.log(scale)
+        try { scale = e.viewport.lastViewport.scaleX } catch { scale = 1 }
 
         e.viewport.children.find(child => child.name == 'fronts').alpha = zoomOut(scale)
-        e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
         e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
 
         e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
-        // e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
     })
 
 
@@ -124,7 +117,7 @@ Promise.all([
     contours(entities)
     fronts(entities)
     keywords(entities)
-    // clusters(entities)
+    clusters(entities)
     nodes(entities)
     
     // search(data)

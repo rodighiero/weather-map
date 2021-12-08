@@ -57,7 +57,9 @@ Promise.all([
 
     window.s = {
         'entities': entities,
-        'texts': [] // Collector for keyword overlapping
+        'texts': [], // Collector for keyword overlapping
+        'blue': 0x385DA6,
+        'red': 0xA6242F,
     }
     console.table(entities[Math.floor(Math.random() * entities.length)]) // Test
     BitmapFont.install(fontXML, Texture.from(fontPNG)) // Font loader

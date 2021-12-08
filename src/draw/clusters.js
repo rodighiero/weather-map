@@ -43,7 +43,7 @@ export default entities => {
                     fontName: 'Lato',
                     fontSize: 20,
                     align: 'center',
-                    tint: 0x999999,
+                    tint: (slope > 0) ? s.red : s.blue,
                 })
 
             bitmap.position.set(center[0] - bitmap.textWidth / 2, center[1] - bitmap.textHeight / 2)

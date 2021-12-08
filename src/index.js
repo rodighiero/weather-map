@@ -38,9 +38,9 @@ Promise.all([
 
 ]).then(([entities, fontXML, fontPNG, backgroundImage]) => {
 
-    
+
     // Abandoned Parsing
-    
+
     // entities.forEach(e => {
     //     e.cluster = parseInt(e.cluster)
     //     e.frequency = parseInt(e.frequency)
@@ -52,10 +52,13 @@ Promise.all([
     //     return e
     // })
 
-    
-    // Main variables
 
-    window.s = { 'entities': entities } // Set global variable
+    // Set variables
+
+    window.s = {
+        'entities': entities,
+        'texts': [] // Collector for keyword overlapping
+    }
     console.table(entities[Math.floor(Math.random() * entities.length)]) // Test
     BitmapFont.install(fontXML, Texture.from(fontPNG)) // Font loader
 
@@ -134,12 +137,12 @@ Promise.all([
 
     background(backgroundImage)
     contours(entities)
-    fronts(entities)
-    keywords(entities)
     clusters(entities)
+    keywords(entities)
     nodes(entities)
     crosses(entities)
-    
+    fronts(entities)
+
     // search(data)
 
     s.viewport.fit()

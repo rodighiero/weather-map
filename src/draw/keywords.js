@@ -1,5 +1,5 @@
 import { BitmapText, Graphics } from 'pixi.js'
-import { descending, mean } from 'd3'
+import { group, mean, polygonCentroid, polygonHull } from 'd3'
 
 export default entities => {
 
@@ -8,33 +8,31 @@ export default entities => {
     stage.interactiveChildren = false
     s.viewport.addChild(stage)
 
-    let harvest = [] // Collector for visible keywords
-
-    // console.log(entities.length)
-
     entities
         .filter(e => e['type'] === 'subject') // Keep keywords
         .forEach(e => {
 
+            const scale = 10
+            const normalization = 1
+
             const bitmap = new BitmapText(
-                e['name'],
-                {
-                    fontName: 'Lato',
-                    fontSize: (parseFloat(e['frequency_norm']) + .6) * 16, // Normalization ([0:1] + x) + scale
-                    tint: 0x999999,
-                    align: 'center',
-                })
+                e['name'], {
+                fontName: 'Lato',
+                fontSize: (parseFloat(e['frequency_norm']) + 1) * 10, // Normalization ([0:1] + x) + scale
+                tint: 0x999999,
+                align: 'center',
+            })
 
             bitmap.position.set(e['x'] - bitmap.textWidth / 2, e['y'] - bitmap.textHeight / 2)
 
 
             let overlapping = false // Check overlapping
 
-            for (var i = 0; i < harvest.length; i++) {
+            for (var i = 0; i < s.texts.length; i++) {
 
-                const l1 = harvest[i]
+                const l1 = s.texts[i]
                 const l2 = bitmap
-                const margin = 15 // Avoid close keywords
+                const margin = 10 // Avoid close keywords
 
                 if (!(l2.x > l1.x + l1.width + margin
                     || l2.x + l2.width + margin < l1.x
@@ -46,16 +44,17 @@ export default entities => {
 
             }
 
-            if (!overlapping) {  // Draw contour to verify
+            if (!overlapping) {
 
+                const background = new Graphics();
+                // background.lineStyle(.5, 0x00FF00, .6) // Draw contour to verify
+                background.beginFill(0xFFFFFF, 1)
+                background.drawRoundedRect(bitmap.x, bitmap.y + 1.5, bitmap.textWidth, bitmap.textHeight, 1)
+
+                stage.addChild(background)
                 stage.addChild(bitmap)
-                harvest.push(bitmap)
 
-                // const rect_2 = new Graphics();
-                // rect_2.lineStyle(.5, 0x00FF00, .6)
-                // rect_2.drawRoundedRect(bitmap.x, bitmap.y, bitmap.textWidth, bitmap.textHeight, 1)
-                // rect_2.endFill()
-                // stage.addChild(rect_2)
+                s.texts.push(bitmap)
 
             }
 

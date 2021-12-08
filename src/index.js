@@ -38,6 +38,23 @@ Promise.all([
 
 ]).then(([entities, fontXML, fontPNG, backgroundImage]) => {
 
+    
+    // Abandoned Parsing
+    
+    // entities.forEach(e => {
+    //     e.cluster = parseInt(e.cluster)
+    //     e.frequency = parseInt(e.frequency)
+    //     e.frequency_norm = parseFloat(e.frequency_norm)
+    //     e.slope = parseFloat(e.slope)
+    //     e.x = parseInt(e.x)
+    //     e.y = parseInt(e.y)
+    //     // e.urls = JSON.parse(e.urls)
+    //     return e
+    // })
+
+    
+    // Main variables
+
     window.s = { 'entities': entities } // Set global variable
     console.table(entities[Math.floor(Math.random() * entities.length)]) // Test
     BitmapFont.install(fontXML, Texture.from(fontPNG)) // Font loader

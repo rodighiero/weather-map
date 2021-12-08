@@ -5,7 +5,7 @@ import './assets/main.css'
 
 // Libraries
 
-import { csv, json, xml, image, extent, scaleLinear } from 'd3'
+import { csv, xml, image, extent, min, scaleLinear } from 'd3'
 import { Application, BitmapFont, Texture } from 'pixi.js'
 import { Viewport } from 'pixi-viewport'
 
@@ -39,14 +39,28 @@ Promise.all([
 ]).then(([entities, fontXML, fontPNG, backgroundImage]) => {
 
 
-    // Abandoned Parsing
+    // Set dimensions
+
+    const ext_X = extent(entities, e => parseInt(e.x))
+    const ext_Y = extent(entities, e => parseInt(e.y))
+    const margin = 150
+    const smallerDimension = min([window.innerWidth, window.innerHeight])
+
+    const scale_X = scaleLinear().domain(ext_X).range([margin, smallerDimension - margin])
+    const scale_Y = scaleLinear().domain(ext_Y).range([margin, smallerDimension - margin])
+
+    const marginTop = window.innerWidth > window.innerHeight ? 0 : (window.innerHeight - window.innerWidth) / 2
+    const marginLeft = window.innerWidth < window.innerHeight ? 0 : (window.innerWidth - window.innerHeight) / 2
+
+
+    // Parsing
 
     entities.map(e => {
         e.frequency = parseInt(e.frequency)
         e.frequency_norm = parseFloat(e.frequency_norm)
         e.slope = parseFloat(e.slope)
-        e.x = parseInt(e.x)
-        e.y = parseInt(e.y)
+        e.x = marginLeft + parseInt(scale_X(e.x))
+        e.y = marginTop + parseInt(scale_Y(e.y))
         e.urls = e.urls.substring(2).substring(0, e.urls.length - 2).split("', '")
         e.years_JSON = JSON.parse(e.years_JSON)
         return e
@@ -63,7 +77,7 @@ Promise.all([
         'gray': 0x999999,
         'contours': 0xCCCCCC,
     }
-    console.log(entities[Math.floor(Math.random() * entities.length)]) // Test
+    console.table(entities[Math.floor(Math.random() * entities.length)]) // Test
     BitmapFont.install(fontXML, Texture.from(fontPNG)) // Font loader
 
 
@@ -83,8 +97,6 @@ Promise.all([
     // Set viewport
 
     s.viewport = new Viewport({
-        // screenWidth: window.innerWidth,
-        // screenHeight: window.innerHeight,
         worldWidth: window.innerWidth,
         worldHeight: window.innerHeight,
         interaction: s.app.renderer.plugins.interaction
@@ -97,24 +109,6 @@ Promise.all([
         .clamp({ direction: 'all' })
 
     s.app.stage.addChild(s.viewport)
-
-
-    // Set dimensions (it seems to work, but it might be improved or completely removed)
-
-    const extX = extent(entities, e => e.x), extY = extent(entities, e => e.y)
-    const smallerDimension = window.innerWidth < window.innerHeight ? window.innerWidth : window.innerHeight
-    const margin = 150
-
-    const scaleX = (scaleLinear().domain([extX[0], extX[1]]).range([margin, smallerDimension - margin]))
-    const scaleY = scaleLinear().domain([extY[0], extY[1]]).range([margin, smallerDimension - margin])
-
-    const marginTop = window.innerWidth > window.innerHeight ? 0 : (window.innerHeight - window.innerWidth) / 2
-    const marginLeft = window.innerWidth < window.innerHeight ? 0 : (window.innerWidth - window.innerHeight) / 2
-
-    entities.forEach(e => {
-        e.x = marginLeft + parseInt(scaleX(e.x))
-        e.y = marginTop + parseInt(scaleY(e.y))
-    })
 
 
     // Transparency on zoom
@@ -146,13 +140,10 @@ Promise.all([
     nodes(entities)
     crosses(entities)
     fronts(entities)
-
     // search(data)
 
-    s.viewport.fit()
-    s.viewport.moveCenter(window.innerWidth / 2, window.innerHeight / 2)
 
-
+    // Viewport exceptions
 
     window.onresize = () => {
         s.viewport.resize()

@@ -20,24 +20,21 @@ export default entities => {
                 e['name'],
                 {
                     fontName: 'Lato',
-                    fontSize: parseFloat(e['frequency_norm']) + .6,
+                    fontSize: (parseFloat(e['frequency_norm']) + .6) * 16, // Normalization ([0:1] + x) + scale
                     tint: 0x999999,
                     align: 'center',
                 })
 
-            bitmap.scale.set(16)
-            bitmap.position.set(e['x'] - bitmap.width / 2, e['y'] - bitmap.height / 2)
+            bitmap.position.set(e['x'] - bitmap.textWidth / 2, e['y'] - bitmap.textHeight / 2)
 
 
-            // Check overlapping
-
-            let overlapping = false
+            let overlapping = false // Check overlapping
 
             for (var i = 0; i < harvest.length; i++) {
 
                 const l1 = harvest[i]
                 const l2 = bitmap
-                const margin = 10 // Important to correct shorter height
+                const margin = 15 // Avoid close keywords
 
                 if (!(l2.x > l1.x + l1.width + margin
                     || l2.x + l2.width + margin < l1.x
@@ -49,17 +46,16 @@ export default entities => {
 
             }
 
-            if (!overlapping) {
+            if (!overlapping) {  // Draw contour to verify
 
                 stage.addChild(bitmap)
                 harvest.push(bitmap)
 
-                // const rectangle = new Graphics(); // Draw contour to verify
-                // rectangle.lineStyle(.5, 0xFFFFFF, .6)
-                // rectangle.beginFill(0xFFFFFF, 0.1)
-                // rectangle.drawRoundedRect(bitmap.x, bitmap.y, bitmap.width, bitmap.height, 1)
-                // rectangle.endFill()
-                // stage.addChild(rectangle)
+                // const rect_2 = new Graphics();
+                // rect_2.lineStyle(.5, 0x00FF00, .6)
+                // rect_2.drawRoundedRect(bitmap.x, bitmap.y, bitmap.textWidth, bitmap.textHeight, 1)
+                // rect_2.endFill()
+                // stage.addChild(rect_2)
 
             }
 

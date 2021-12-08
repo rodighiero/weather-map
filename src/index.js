@@ -16,6 +16,7 @@ import clusters from './draw/clusters.js'
 import contours from './draw/contours.js'
 import keywords from './draw/keywords.js'
 import nodes from './draw/nodes.js'
+import crosses from './draw/crosses.js'
 import fronts from './draw/fronts.js'
 
 import search from './interface/search'
@@ -106,6 +107,7 @@ Promise.all([
         e.viewport.children.find(child => child.name == 'clusters').alpha = zoomOut(scale)
         e.viewport.children.find(child => child.name == 'contours').alpha = zoomOut(scale)
         e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
+        e.viewport.children.find(child => child.name == 'crosses').alpha = zoomOut(scale)
 
         e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
     })
@@ -119,6 +121,7 @@ Promise.all([
     keywords(entities)
     clusters(entities)
     nodes(entities)
+    crosses(entities)
     
     // search(data)
 

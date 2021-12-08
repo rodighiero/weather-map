@@ -30,14 +30,15 @@ canvas {
 
 a {
 	color: #000000;
+	text-decoration: underline;
 }
 
 /******************************************************************************
 	 * Containers		
 ******************************************************************************/
 
-#focus, #title, #search, #warning, #award {
-	background-color: rgba(255, 255, 255, .2);
+#focus, #title, #search, #legenda, #award {
+	background-color: rgba(255, 255, 255, .8);
 	position: fixed;
 	border: none;
 	padding: 10px;
@@ -60,10 +61,6 @@ a {
 	text-overflow: ellipsis;
 }
 
-#focus a {
-	text-decoration: none;
-}
-
 #title {
 	right: 0;
 	bottom: 10;
@@ -76,9 +73,10 @@ a {
 	width: 240px;
 }
 
-#warning {
-	left: 0;
+#legenda {
+	right: 0;
 	bottom: 0;
+	text-align: right;
 }
 
 input {
@@ -107,6 +105,7 @@ li {
 h1 {
 	font-size: 100%;
 	margin: 10px 0;
+	line-height: 18px;
 }
 
 h2 {
@@ -134,7 +133,20 @@ p {
 }
 
 .inverted {
-	/* background-color: black; */
+	background-color: black;
 	color: white;
 	white-space: nowrap;
+	padding: 2px 2px;
+}
+
+.red {
+	color: #A6242F;
+}
+
+.blue {
+	color: #385DA6;
+}
+
+.gray {
+	color: #999999;
 }

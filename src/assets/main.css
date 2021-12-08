@@ -128,7 +128,7 @@ p {
 .block {
 	background-color: black;
 	height: 4px;
-	width: 4px;
+	width: 1px;
 	display: inline-block;
 }
 

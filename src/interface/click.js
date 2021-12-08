@@ -17,7 +17,7 @@ export function click(e) {
     focus.append('h2').html('Name: ' + e.name)
     // focus.append('h2').html(`<a href=https://en.wikipedia.org/w/index.php?title=Special:Search&search='${encodeURIComponent(e['name'])}' target="_blank">Wikipedia search</a>`)
     focus.append('h3').html('Frequency: ' + e.frequency)
-    focus.append('p').html('Linea Regression: ' + Number(e.slope).toFixed(2))
+    focus.append('p').html('Linear Regression: ' + Number(e.slope).toFixed(2))
 
     // https://en.wikipedia.org/w/index.php?title=Special:Search&search=IMB&ns0=1
 

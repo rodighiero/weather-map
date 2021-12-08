@@ -123,11 +123,11 @@ h3 {
 p {
 	font-size: 45%;
 	margin: 5px 0;
-	line-height: .9;
+	line-height: 1;
 }
 
 .block {
-	/* background-color: black; */
+	background-color: black;
 	height: 4px;
 	width: 4px;
 	display: inline-block;

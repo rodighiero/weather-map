@@ -8,25 +8,22 @@ const block = '<span class="block"></span>'
 export function click(e) {
 
     select('#focus').remove()
-    // s.tokens = []
 
     const focus = select('body').append('div').attr('id', 'focus')
 
+
     // Heading
 
-    focus.append('h2').html('Name: ' + e.name)
-    // focus.append('h2').html(`<a href=https://en.wikipedia.org/w/index.php?title=Special:Search&search='${encodeURIComponent(e['name'])}' target="_blank">Wikipedia search</a>`)
-    focus.append('h3').html('Frequency: ' + e.frequency)
-    focus.append('p').html('Linear Regression: ' + Number(e.slope).toFixed(2))
+    focus.append('h1').html(e.name)
+    focus.append('h2').html(`<a href= https://en.wikipedia.org/wiki/Special:Search/${encodeURIComponent(e.name)} target="_blank">Open Wikipedia Page</a>`)
+    focus.append('h2').html('Frequency: ' + e.frequency)
+    focus.append('h2').html('Linear Regression: ' + Number(e.slope).toFixed(2))
 
-    // https://en.wikipedia.org/w/index.php?title=Special:Search&search=IMB&ns0=1
 
-    
-
-    // Frequency
+    // Frequency by Year
 
     focus.append('p').html(space)
-    focus.append('h3').html('Years:')
+    focus.append('h2').html('Years:')
     focus.append('p').html(line)
 
     Object.entries(e.years_JSON)
@@ -38,7 +35,7 @@ export function click(e) {
     // URLs
 
     focus.append('p').html(space)
-    focus.append('h3').html('URLs: ' + e.urls.length + ' (max ten random)')
+    focus.append('h2').html('10 Random URLs of ' + e.urls.length)
     focus.append('p').html(line)
 
     e.urls

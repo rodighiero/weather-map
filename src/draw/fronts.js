@@ -100,7 +100,7 @@ export default entities => {
                 // container.addChild(middleLine)
 
                 const bezier = new Graphics()
-                bezier.lineStyle(1, 0x333333)
+                bezier.lineStyle(1.5, s.gray)
                 bezier.moveTo(c[0], c[1]);
                 bezier.bezierCurveTo(a[0], a[1], b[0], b[1], d[0], d[1])
                 container.addChild(bezier)

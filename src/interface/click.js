@@ -35,11 +35,11 @@ export function click(e) {
     // URLs
 
     focus.append('p').html(space)
-    focus.append('h2').html('10 Random URLs of ' + e.urls.length)
+    focus.append('h2').html('20 Random URLs of ' + e.urls.length)
     focus.append('p').html(line)
 
     e.urls
-        .sort(() => Math.random() - Math.random()).slice(0, 10) // Get 20 random URLs
+        .sort(() => Math.random() - Math.random()).slice(0, 20) // Get 20 random URLs
         .forEach( url => {
             focus.append('p').html(`<a href='${url}' target="_blank">${url} </a>`)
         })

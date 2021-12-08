@@ -65,30 +65,42 @@ export default entities => {
                 const width = center_2[0] - center_1[0]
                 const heigth = center_2[1] - center_1[1]
 
-                
-                const m = 1
-                const n = .5
-                const a = [+ heigth - width * n, -width - heigth * n]
-                const b = [- heigth - width * n, width - heigth * n]
-                const c = [+ heigth * m + width, -width * m + heigth]
-                const d = [- heigth * m + width, width * m + heigth]
 
-                // const line = new Graphics()
-                // line.lineStyle(2, 0x000000)
-                // line.moveTo(a[0], a[1])
-                // line.lineTo(b[0], b[1])
-                // container.addChild(line)
+                const width_1 = .3
+                const shift_1 = .07
 
+                const a = [+ heigth * width_1 - width * shift_1, -width * width_1 - heigth * shift_1]
+                const b = [- heigth * width_1 - width * shift_1, width * width_1 - heigth * shift_1]
 
-                // Double back line
-                // const line2 = new Graphics()
-                // line2.lineStyle(2, 0x000000)
-                // line2.moveTo(c[0], c[1])
-                // line2.lineTo(d[0], d[1])
-                // container.addChild(line2)
+                const width_2 = .8
+                const shift_2 = .2
+
+                const c = [+ heigth * width_2 + width * shift_2, -width * width_2 + heigth * shift_2]
+                const d = [- heigth * width_2 + width * shift_2, width * width_2 + heigth * shift_2]
+
+                const e = [+ heigth, -width]
+                const f = [- heigth, width]
+
+                // const internalLine = new Graphics()
+                // internalLine.lineStyle(.5, 0x000000)
+                // internalLine.moveTo(a[0], a[1])
+                // internalLine.lineTo(b[0], b[1])
+                // container.addChild(internalLine)
+
+                // const externalLine = new Graphics()
+                // externalLine.lineStyle(.5, 0x000000)
+                // externalLine.moveTo(c[0], c[1])
+                // externalLine.lineTo(d[0], d[1])
+                // container.addChild(externalLine)
+
+                // const middleLine = new Graphics()
+                // middleLine.lineStyle(.5, 0x000000)
+                // middleLine.moveTo(e[0], e[1])
+                // middleLine.lineTo(f[0], f[1])
+                // container.addChild(middleLine)
 
                 const bezier = new Graphics()
-                bezier.lineStyle(3, 0x999999)
+                bezier.lineStyle(1, 0x333333)
                 bezier.moveTo(c[0], c[1]);
                 bezier.bezierCurveTo(a[0], a[1], b[0], b[1], d[0], d[1])
                 container.addChild(bezier)

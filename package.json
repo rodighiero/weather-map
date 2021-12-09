@@ -32,7 +32,7 @@
     "css-reset-and-normalize": "^2.3.5",
     "culori": "^2.0.3",
     "d3": "^7.2.0",
-    "pixi-viewport": "4.24",
+    "pixi-viewport": "4.34",
     "pixi.js": "^6.2.0"
   }
 }

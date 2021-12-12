@@ -19,6 +19,8 @@ import nodes from './draw/nodes.js'
 import crosses from './draw/crosses.js'
 import fronts from './draw/fronts.js'
 
+import { click } from './interface/click'
+
 import search from './interface/search'
 
 import fontXML from './assets/Lato.fnt'
@@ -77,8 +79,17 @@ Promise.all([
         'gray': 0x999999,
         'contours': 0xCCCCCC,
     }
-    console.log(entities[Math.floor(Math.random() * entities.length)]) // Test
+    
     BitmapFont.install(fontXML, Texture.from(fontPNG)) // Font loader
+    
+
+    // Random element
+    const randomElement = entities[Math.floor(Math.random() * entities.length)]
+    console.log(randomElement) // Test
+    click(randomElement)
+    
+    
+    
 
 
     // Set app

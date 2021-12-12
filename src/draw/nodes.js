@@ -1,5 +1,4 @@
-import { BitmapText, Circle, Graphics, Point, Rectangle, utils } from 'pixi.js'
-import { descending } from 'd3'
+import { BitmapText, Circle, Graphics, Rectangle } from 'pixi.js'
 
 import { click } from '../interface/click'
 

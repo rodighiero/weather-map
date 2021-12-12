@@ -49,47 +49,15 @@ export default entities => {
             bitmap.position.set(center[0] - bitmap.textWidth / 2, center[1] - bitmap.textHeight / 2)
 
 
-            // const background = new Graphics();
-            // // background.lineStyle(.5, 0x00FF00, .6) // Draw contour to verify
-            // background.beginFill(0xFFFFFF, 1)
-            // background.drawRoundedRect(bitmap.x, bitmap.y + 1.5, bitmap.textWidth, bitmap.textHeight, 1)
+            const background = new Graphics();
+            // background.lineStyle(.5, 0x00FF00, .6) // Draw contour to verify
+            background.beginFill(0xFFFFFF, 1)
+            background.drawRoundedRect(bitmap.x, bitmap.y + 1.5, bitmap.textWidth, bitmap.textHeight, 1)
 
-            // stage.addChild(background)
-            // stage.addChild(bitmap)
+            stage.addChild(background)
+            stage.addChild(bitmap)
 
-            // s.bitmaps.push(bitmap)
-
-            let overlapping = false // Check overlapping
-
-            for (var i = 0; i < s.bitmaps.length; i++) {
-
-                const l1 = s.bitmaps[i]
-                const l2 = bitmap
-                const margin = 10 // Avoid close keywords
-
-                if (!(l2.x > l1.x + l1.width + margin
-                    || l2.x + l2.width + margin < l1.x
-                    || l2.y > l1.y + l1.height + margin
-                    || l2.y + l2.height + margin < l1.y)) {
-                    overlapping = true // This is black magic
-                    break
-                }
-
-            }
-
-            if (!overlapping) {
-
-                const background = new Graphics();
-                // background.lineStyle(.5, 0x00FF00, .6) // Draw contour to verify
-                background.beginFill(0xFFFFFF, 1)
-                background.drawRoundedRect(bitmap.x, bitmap.y + 1.5, bitmap.textWidth, bitmap.textHeight, 1)
-
-                stage.addChild(background)
-                stage.addChild(bitmap)
-
-                s.bitmaps.push(bitmap)
-
-            }
+            s.bitmaps.push(bitmap)
 
         })
 

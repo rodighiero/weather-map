@@ -57,7 +57,7 @@ export default entities => {
             stage.addChild(background)
             stage.addChild(bitmap)
 
-            s.texts.push(bitmap)
+            s.bitmaps.push(bitmap)
 
         })
 

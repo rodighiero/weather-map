@@ -5,32 +5,35 @@ export default entities => {
 
     const stage = new Graphics()
     stage.name = 'keywords'
+    stage.alpha = 1
     stage.interactiveChildren = false
     s.viewport.addChild(stage)
 
     entities
         .filter(e => e['type'] === 'subject') // Keep keywords
+        .sort((a, b) => b.frequency_norm - a.frequency_norm)
         .forEach(e => {
 
             const scale = 10
             const normalization = 1
 
             const bitmap = new BitmapText(
-                e['name'], {
-                fontName: 'Lato',
-                fontSize: (parseFloat(e['frequency_norm']) + 1) * 10, // Normalization ([0:1] + x) + scale
-                tint: 0x999999,
-                align: 'center',
-            })
-
-            bitmap.position.set(e['x'] - bitmap.textWidth / 2, e['y'] - bitmap.textHeight / 2)
+                e.name, {
+                    fontName: 'Lato',
+                    fontSize: (parseFloat(e['frequency_norm']) + 1) * 10, // Normalization ([0:1] + x) + scale
+                    align: 'center',
+                    tint: s.gray,
+                })
+            
+            bitmap.position.set(e.x - bitmap.textWidth / 2, e.y - bitmap.textHeight / 2)
+            // stage.addChild(bitmap)
 
 
             let overlapping = false // Check overlapping
 
-            for (var i = 0; i < s.texts.length; i++) {
+            for (var i = 0; i < s.bitmaps.length; i++) {
 
-                const l1 = s.texts[i]
+                const l1 = s.bitmaps[i]
                 const l2 = bitmap
                 const margin = 10 // Avoid close keywords
 
@@ -54,7 +57,7 @@ export default entities => {
                 stage.addChild(background)
                 stage.addChild(bitmap)
 
-                s.texts.push(bitmap)
+                s.bitmaps.push(bitmap)
 
             }
 

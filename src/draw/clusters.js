@@ -15,10 +15,10 @@ export default entities => {
     stage.alpha = 1
     s.viewport.addChild(stage)
 
-    group(entities, e => e['cluster'])
+    group(entities, e => e.cluster)
         .forEach(cluster => {
 
-            if (cluster[0]['cluster'] === '-1')
+            if (cluster[0].cluster === '-1')
                 return // Romove no clustered entities
 
             const slope = mean(cluster.map(e => e.slope))
@@ -49,15 +49,15 @@ export default entities => {
             bitmap.position.set(center[0] - bitmap.textWidth / 2, center[1] - bitmap.textHeight / 2)
 
 
-            const background = new Graphics();
+            // const background = new Graphics()
             // background.lineStyle(.5, 0x00FF00, .6) // Draw contour to verify
-            background.beginFill(0xFFFFFF, 1)
-            background.drawRoundedRect(bitmap.x, bitmap.y + 1.5, bitmap.textWidth, bitmap.textHeight, 1)
-
-            stage.addChild(background)
+            // background.beginFill(0xFFFFFF, 1)
+            // background.drawRoundedRect(bitmap.x, bitmap.y + 1.5, bitmap.textWidth, bitmap.textHeight, 1)
+            // stage.addChild(background)
+            
             stage.addChild(bitmap)
 
-            s.bitmaps.push(bitmap)
+            // s.bitmaps.push(bitmap)
 
         })
 

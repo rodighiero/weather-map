@@ -146,8 +146,8 @@ Promise.all([
 
     background(backgroundImage)
     contours(entities)
-    clusters(entities)
     keywords(entities)
+    clusters(entities)
     nodes(entities)
     crosses(entities)
     fronts(entities)

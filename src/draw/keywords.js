@@ -9,24 +9,22 @@ export default entities => {
     stage.interactiveChildren = false
     s.viewport.addChild(stage)
 
-    entities
-        .filter(e => e['type'] === 'subject') // Keep keywords
-        .sort((a, b) => b.frequency_norm - a.frequency_norm)
-        .forEach(e => {
+    // const mean = mean.entities(e => e.frequency_norm)
 
-            const scale = 10
-            const normalization = 1
+    entities
+        .filter(e => e.type === 'subject') // Keep keywords
+        .sort((a, b) => b.slope - a.slope) // Order by linear regression
+        .forEach(e => {
 
             const bitmap = new BitmapText(
                 e.name, {
-                    fontName: 'Lato',
-                    fontSize: (parseFloat(e['frequency_norm']) + 1) * 10, // Normalization ([0:1] + x) + scale
-                    align: 'center',
-                    tint: s.gray,
-                })
-            
+                fontName: 'Lato',
+                fontSize: (e.frequency_norm + 1) * 10, // Normalization ([0:1] + x) + scale
+                align: 'center',
+                tint: s.gray,
+            })
+
             bitmap.position.set(e.x - bitmap.textWidth / 2, e.y - bitmap.textHeight / 2)
-            // stage.addChild(bitmap)
 
 
             let overlapping = false // Check overlapping

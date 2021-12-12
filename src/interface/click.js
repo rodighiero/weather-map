@@ -15,15 +15,15 @@ export function click(e) {
     // Heading
 
     focus.append('h1').html(e.name)
-    focus.append('h2').html(`<a href= https://en.wikipedia.org/wiki/Special:Search/${encodeURIComponent(e.name)} target="_blank">Open Wikipedia Page</a>`)
+    focus.append('h2').html(`<a href= https://en.wikipedia.org/wiki/Special:Search/${encodeURIComponent(e.name)} target="_blank">Search on Wikipedia</a>`)
     focus.append('h2').html('Frequency: ' + e.frequency)
-    focus.append('h2').html('Linear Regression: ' + Number(e.slope).toFixed(2))
+    focus.append('h2').html('Trend: ' + Number(e.slope).toFixed(2))
 
 
     // Frequency by Year
 
     focus.append('p').html(space)
-    focus.append('h2').html('Years:')
+    focus.append('h2').html('Frequency by Year')
     focus.append('p').html(line)
 
     Object.entries(e.years_JSON)
@@ -35,11 +35,11 @@ export function click(e) {
     // URLs
 
     focus.append('p').html(space)
-    focus.append('h2').html('20 Random URLs of ' + e.urls.length)
+    focus.append('h2').html(`10/${e.urls.length} Random URLs`)
     focus.append('p').html(line)
 
     e.urls
-        .sort(() => Math.random() - Math.random()).slice(0, 20) // Get 20 random URLs
+        .sort(() => Math.random() - Math.random()).slice(0, 10) // Get 10 random URLs
         .forEach( url => {
             focus.append('p').html(`<a href='${url}' target="_blank">${url} </a>`)
         })

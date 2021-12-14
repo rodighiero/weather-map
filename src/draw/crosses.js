@@ -25,7 +25,7 @@ export default (entities) => {
 
             // Cross
 
-            const length = 3
+            const length = 2
             
             const line_1 = new Graphics()
             line_1.lineStyle(.5, s.gray)

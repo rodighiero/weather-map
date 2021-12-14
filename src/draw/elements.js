@@ -15,18 +15,20 @@ export default (entities) => {
 
     const stage = new Graphics()
     stage.alpha = 0
-    stage.name = 'nodes'
+    stage.name = 'elements'
     s.viewport.addChild(stage)
 
     entities
-        .filter(e => e['type'] !== 'subject') // Keep nodes
+        // .filter(e => e['type'] !== 'subject') // Keep nodes
         .forEach(e => {
 
-            const color = e['slope'] > 0 ? s.red : s.blue
+            const isSubject = e['type'] == 'subject'
+
+            const color = isSubject ? s.gray : e['slope'] > 0 ? s.red : s.blue
 
             // Cross
 
-            const length = 3
+            const length = isSubject ? 1 : 2
 
             const line_1 = new Graphics()
             line_1.lineStyle(.5, color)
@@ -48,7 +50,7 @@ export default (entities) => {
                     fontName: 'Lato',
                     fontSize: 2,
                     align: 'left',
-                    tint: '0x000000',
+                    tint: isSubject ? s.gray : '0x000000',
                 })
                 bitmap.position.set(e.x + 1.2, e.y + .6)
             stage.addChild(bitmap)

@@ -14,10 +14,10 @@ import { Viewport } from 'pixi-viewport'
 import background from './draw/background'
 import clusters from './draw/clusters.js'
 import contours from './draw/contours.js'
-import keywords from './draw/keywords.js'
-import nodes from './draw/nodes.js'
 import crosses from './draw/crosses.js'
+import elements from './draw/elements.js'
 import fronts from './draw/fronts.js'
+import keywords from './draw/keywords.js'
 
 import { click } from './interface/click'
 
@@ -138,7 +138,7 @@ Promise.all([
         e.viewport.children.find(child => child.name == 'keywords').alpha = zoomOut(scale)
         e.viewport.children.find(child => child.name == 'crosses').alpha = zoomOut(scale)
 
-        e.viewport.children.find(child => child.name == 'nodes').alpha = zoomIn(scale)
+        e.viewport.children.find(child => child.name == 'elements').alpha = zoomIn(scale)
     })
 
 
@@ -148,7 +148,7 @@ Promise.all([
     contours(entities)
     keywords(entities)
     clusters(entities)
-    nodes(entities)
+    elements(entities)
     crosses(entities)
     fronts(entities)
     // search(data)

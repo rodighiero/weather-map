@@ -13,3 +13,5 @@ The map is intended to be used as a toll for the mapping of controversies, a sci
 The interactive version of the map is available at https://rodighiero.github.io/weather-map/.
 
 With Jean Danielou (CSI, Mines ParisTech)
+
+![Weather Map](https://freight.cargo.site/t/original/i/caa0b84c09092f70107f42c14b70584377214e2901fa117bb296b12f95ab1cb7/Screen-Shot-2021-12-14-at-7.52.18-PM.png)

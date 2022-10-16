@@ -14,4 +14,4 @@ The interactive version of the map is available at https://rodighiero.github.io/
 
 With Jean Danielou (CSI, Mines ParisTech)
 
-![Weather Map](https://freight.cargo.site/t/original/i/caa0b84c09092f70107f42c14b70584377214e2901fa117bb296b12f95ab1cb7/Screen-Shot-2021-12-14-at-7.52.18-PM.png)
+![Weather Map](https://freight.cargo.site/t/original/i/819600c1aa6c627011fab2fa12436d366c514e75e68c2fe7a36edeb1bebb642c/weather-map.png)

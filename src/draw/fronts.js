@@ -66,13 +66,13 @@ export default entities => {
                 const heigth = center_2[1] - center_1[1]
 
 
-                const width_1 = .3
+                const width_1 = .5
                 const shift_1 = .07
 
                 const a = [+ heigth * width_1 - width * shift_1, -width * width_1 - heigth * shift_1]
                 const b = [- heigth * width_1 - width * shift_1, width * width_1 - heigth * shift_1]
 
-                const width_2 = .8
+                const width_2 = .7
                 const shift_2 = .2
 
                 const c = [+ heigth * width_2 + width * shift_2, -width * width_2 + heigth * shift_2]

@@ -4,7 +4,7 @@ import { contourDensity, extent } from 'd3'
 const width = .5
 const cellSize = 1
 const bandwidth = 50 // Detail
-const thresholds = 15
+const thresholds = 12
 
 export default entities => {
 

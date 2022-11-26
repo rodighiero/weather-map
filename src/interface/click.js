@@ -39,8 +39,9 @@ export function click(e) {
     focus.append('p').html(line)
 
     e.urls
-        .sort(() => Math.random() - Math.random()).slice(0, 10) // Get 10 random URLs
-        .forEach( url => {
+        .slice(0, 10) // Get first 10 URLs
+        // .sort(() => Math.random() - Math.random()).slice(0, 10) // Get 10 random URLs
+        .forEach(url => {
             focus.append('p').html(`<a href='${url}' target="_blank">${url} </a>`)
         })
 
